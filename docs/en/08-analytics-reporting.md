@@ -66,7 +66,8 @@ completely different views, scoped to their level of authority.
 | **NOTE** | The Manager dashboard is automatically scoped to the agency linked to their account. A Manager cannot view data from any other agency |
 
 | <img src="../images/en_image32.png"                                                                                       
- style="width:2.01042in;height:3.96565in" />*Figure 8.1 Analytics sidebar entry point and role-based dashboard title*  |
+ style="width:2.01042in;height:3.96565in" />
+ *Figure 8.1 Analytics sidebar entry point and role-based dashboard title*  |
 |----------------------------------------------------------------------------------------------------------------------|
 
 ## 8.2 Period Sector

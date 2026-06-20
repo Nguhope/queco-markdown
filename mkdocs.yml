@@ -1,0 +1,43 @@
+site_name: Queco User Manuals
+site_description: Queco Queue Management System - User Manuals (English & Français)
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - English:
+      - Introduction: en/01-introduction.md
+      - Getting Started: en/02-getting-started.md
+      - Super Admin Setup: en/03-super-admin-setup.md
+      - Counter (Guichet) Management: en/04-counter-management.md
+      - Services & Operations: en/05-services-operations.md
+      - Ticket Management: en/06-ticket-management.md
+      - Screen Diffusion & Display Management: en/07-screen-diffusion.md
+      - Analytics & Reporting: en/08-analytics-reporting.md
+  - Français:
+      - Introduction: fr/01-introduction.md
+      - Prise en main: fr/02-prise-en-main.md
+      - Configuration du Super Admin: fr/03-configuration-super-admin.md
+      - Gestion Des Guichets: fr/04-gestion-guichets.md
+      - Services & Operations: fr/05-services-operations.md
+      - Gestion Des Tickets: fr/06-gestion-tickets.md
+      - Diffusion d'Ecran & Gestion des Affichages: fr/07-diffusion-ecran.md
+      - Analytique & Reports: fr/08-analytique-reports.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list

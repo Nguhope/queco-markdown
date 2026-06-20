@@ -1,0 +1,2147 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../01-introduction/">
+      
+      
+        <link rel="next" href="../03-super-admin-setup/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Getting Started - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fr/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-accessing-the-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Accessing the Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Accessing the Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-what-you-need-before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.1 what you need before you start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-opening-the-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.2 Opening the platform
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-logging-in-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Logging In step by step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Logging In step by step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-login-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.1 Login Form Field Reference:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-login-errors-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Login Errors &amp; Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Login Errors &amp; Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-account-lockout-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.1 Account Lockout Procedure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-resetting-your-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.2 Resetting Your Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-navigating-the-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Navigating the interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 Navigating the interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-interface-layout-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.1 Interface layout Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-left-sidebar-navigation-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.2 Left sidebar Navigation menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-logging-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.3 Logging Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-your-dashboard-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Your Dashboard Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Your Dashboard Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251-super-admin-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1 Super Admin Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252-manager-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.2 Manager Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253-agent-guichetier-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.3 Agent (Guichetier) Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-accessing-the-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Accessing the Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Accessing the Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-what-you-need-before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.1 what you need before you start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-opening-the-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.2 Opening the platform
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-logging-in-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Logging In step by step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Logging In step by step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-login-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.1 Login Form Field Reference:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-login-errors-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Login Errors &amp; Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Login Errors &amp; Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-account-lockout-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.1 Account Lockout Procedure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-resetting-your-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.2 Resetting Your Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-navigating-the-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Navigating the interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 Navigating the interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-interface-layout-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.1 Interface layout Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-left-sidebar-navigation-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.2 Left sidebar Navigation menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-logging-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.3 Logging Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-your-dashboard-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Your Dashboard Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Your Dashboard Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251-super-admin-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1 Super Admin Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252-manager-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.2 Manager Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253-agent-guichetier-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.3 Agent (Guichetier) Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h1>
+<p><em>How to access Queco, log in securely, navigate the interface, and
+understand your personalized dashboard.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>In This Chapter</strong></p>
+<ul>
+<li><p>2.1 Accessing the Platform</p></li>
+<li><p>2.2 Logging In Step by Step</p></li>
+<li><p>2.3 Login Errors &amp; Troubleshooting</p></li>
+<li><p>2.4 Navigating the Interface</p></li>
+<li><p>2.5 Your Dashboard Overview</p></li>
+</ul></th>
+<th><p><strong>After this chapter you will be able to</strong></p>
+<ul>
+<li><p>Open Queco in Your browser</p></li>
+<li><p>Log in with your credentials</p></li>
+<li><p>Recover from a failed login</p></li>
+<li><p>Identify key UI elements</p></li>
+<li><p>Read your role-specific dashboard</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="21-accessing-the-platform">2.1 Accessing the Platform<a class="headerlink" href="#21-accessing-the-platform" title="Permanent link">&para;</a></h2>
+<p>Queco is a web-based application with no installation is required. You
+access it directly from your web browser using the URL provided by your
+organization's administrator.</p>
+<h3 id="211-what-you-need-before-you-start">2.1.1 what you need before you start<a class="headerlink" href="#211-what-you-need-before-you-start" title="Permanent link">&para;</a></h3>
+<p>Before logging in, make sure you have the following:</p>
+<table>
+<thead>
+<tr>
+<th><strong>#</strong></th>
+<th><strong>Prerequisite</strong></th>
+<th><strong>Where to Get It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>Queco platform URL</strong></td>
+<td>Provided by your Super Admin</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>Your username (email address)</strong></td>
+<td>Sent to you by the Super Admin during account creation</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>Your temporary password</strong></td>
+<td>Included in your account setup email</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>A supported web browser</strong></td>
+<td>Chrome 110+, Firefox 110+, Edge 110+, or Safari 16+</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong>Stable internet connection</strong></td>
+<td>Minimum 2 Mbps broadband recommended</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>If you have not received your login credentials, contact your Super Admin or system administrator before proceeding.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="212-opening-the-platform">2.1.2 Opening the platform<a class="headerlink" href="#212-opening-the-platform" title="Permanent link">&para;</a></h3>
+<p><strong>Step1:</strong> Open your web browser</p>
+<blockquote>
+<p><em>Use a supported browser (Chrome, Firefox, Edge, or Safari).</em></p>
+</blockquote>
+<p><strong>Step 2:</strong> Type the Queco URL in the address bar and press Enter</p>
+<blockquote>
+<p><em>Example: https://app.queco.io your organization may use a custom
+subdomain.</em></p>
+</blockquote>
+<p><strong>Step 3</strong> Wait for login page to load.</p>
+<blockquote>
+<p><em>You should see the Queco login screen with fields for username and
+password.</em></p>
+</blockquote>
+<h2 id="22-logging-in-step-by-step">2.2 Logging In step by step<a class="headerlink" href="#22-logging-in-step-by-step" title="Permanent link">&para;</a></h2>
+<p>The login process is straightforward and takes less than 30 seconds.
+Follow these steps every time you need to access Queco.</p>
+<p><strong>Step 1</strong> On the login page, locate the Username field.</p>
+<blockquote>
+<p>Enter your registered email address exactly as provided by the Super
+Admin. Usernames are <strong>not case-sensitive</strong>.</p>
+</blockquote>
+<p><strong>Step 2</strong> Click on the Password field and enter your password.</p>
+<blockquote>
+<p>Passwords are Not case-sensitive. It must start with a capital Letter</p>
+</blockquote>
+<p>| <img src="../images/en_image2.png"                                                                                   <br /> style="width:3.01042in;height:3.98768in" /><em>Figure 2.2: Login form with username and password fields highlighted</em>  |
+|-------------------------------------------------------------------------------------------------------------------|</p>
+<p><strong>Step 3</strong> Click the Login button (or press Enter on your keyboard).</p>
+<blockquote>
+<p>The system will validate your credentials. This typically takes 1-3
+seconds.</p>
+</blockquote>
+<p><strong>Step 4</strong> Upon successful authentication, you will be redirected to
+your Dashboard.</p>
+<blockquote>
+<p>The dashboard displayed is specific to your role <strong>Super Admin,
+Manager, or Agent.</strong> See Section 2.5 for a breakdown of each
+dashboard.</p>
+</blockquote>
+<p>| <img src="../images/en_image3.png"                                                                  <br /> style="width:5.44792in;height:2.85259in" /><em>Figure 2.3 — Successful login redirect to Dashboard</em>  |
+|--------------------------------------------------------------------------------------------------|</p>
+<h3 id="221-login-form-field-reference">2.2.1 Login Form Field Reference:<a class="headerlink" href="#221-login-form-field-reference" title="Permanent link">&para;</a></h3>
+<p>A summary of all fields on the login form:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Username</strong></td>
+<td>Your registered email address (e.g., agent@myagency.com)</td>
+<td><strong>Required</strong></td>
+</tr>
+<tr>
+<td><strong>Password</strong></td>
+<td>Your account password. Hidden by default; click the eye icon to reveal.</td>
+<td><strong>Required</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>WARNING</strong></th>
+<th>Never share your Queco password with colleagues. Each user must have their own account. Shared credentials compromise audit logs and accountability.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-login-errors-troubleshooting">2.3 Login Errors &amp; Troubleshooting<a class="headerlink" href="#23-login-errors-troubleshooting" title="Permanent link">&para;</a></h2>
+<p>If your login attempt is unsuccessful, Queco will display an error
+message on the login page. The table below lists all possible error
+scenarios, their causes, and recommended actions.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Error Message</strong></th>
+<th><strong>Likely Cause</strong></th>
+<th><strong>What To Do</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Invalid username or password.</em></td>
+<td>Incorrect credentials entered.</td>
+<td>Re-enter your email and password carefully. Check Caps Lock. Try copy-pasting your password to rule out typos.</td>
+</tr>
+<tr>
+<td><em>Account locked. Please contact your administrator.</em></td>
+<td>3 consecutive failed login attempts triggered an automatic lockout.</td>
+<td>Contact your Super Admin or Manager to unlock your account. Lockouts reset after 30 minutes.</td>
+</tr>
+<tr>
+<td><em>Account is inactive.</em></td>
+<td>Your account was deactivated by an admin.</td>
+<td>Contact your Super Admin to reactivate your account.</td>
+</tr>
+<tr>
+<td><em>Session expired. Please log in again.</em></td>
+<td>Your previous session timed out after inactivity (default: 30 min).</td>
+<td>Return to the login page and log in again. This is normal behavior.</td>
+</tr>
+<tr>
+<td><em>Unable to connect to server.</em></td>
+<td>Network issue or server maintenance.</td>
+<td>Check your internet connection. If the issue persists, contact your IT support team.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="231-account-lockout-procedure">2.3.1 Account Lockout Procedure<a class="headerlink" href="#231-account-lockout-procedure" title="Permanent link">&para;</a></h3>
+<p>After 5 consecutive failed OTP, the OTP will be expired and you have to
+login again. After a failed OTP and going back to login it won’t be
+possible it will display OTP resend cooldown active</p>
+<p><strong>Step 1</strong>: Wait for 30 seconds</p>
+<blockquote>
+<p><em>The lockout resets automatically after 30 seconds to 1 minutes of
+inactivity.</em></p>
+</blockquote>
+<p><strong>Step 2:</strong> Alternatively, contact your Super Admin or Manager
+immediately.</p>
+<blockquote>
+<p><em>They can unlock your account from the User Management panel without
+waiting for the timer.</em></p>
+</blockquote>
+<p><strong>Step 3:</strong> Once unlocked, return to the login page and try again with
+the correct credentials.</p>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>All lockout events are logged in the platform audit trail and are visible to Super Admins.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="232-resetting-your-password">2.3.2 Resetting Your Password<a class="headerlink" href="#232-resetting-your-password" title="Permanent link">&para;</a></h3>
+<p>All password forgotten are resetted by the Super Admin. So, contact the
+super admin to reset your password</p>
+<h2 id="24-navigating-the-interface">2.4 Navigating the interface<a class="headerlink" href="#24-navigating-the-interface" title="Permanent link">&para;</a></h2>
+<p>After logging in, you will see the Queco interface. The layout is
+consistent across all user roles, though the available menu items and
+content will vary depending on your permission. This is section describe
+the core UI component present on every page.</p>
+<h3 id="241-interface-layout-overview">2.4.1 Interface layout Overview<a class="headerlink" href="#241-interface-layout-overview" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>UI Element</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Top Navigation Bar</strong></td>
+<td>Persistent bar at the top of every page. Contains the Queco logo, the current page title, notification bell, and user profile menu.</td>
+</tr>
+<tr>
+<td><strong>Left Sidebar Menu</strong></td>
+<td>Main navigation panel listing all sections accessible to your role. Collapse on smaller screens.</td>
+</tr>
+<tr>
+<td><strong>Main Content Area</strong></td>
+<td>The central workspace where data, forms, and tables are displayed. This area changes based on the selected menu item.</td>
+</tr>
+<tr>
+<td><strong>Action Buttons</strong></td>
+<td>Context-sensitive buttons (Add, Edit, Delete, Save, Cancel) appear in the top-right of the content area.</td>
+</tr>
+<tr>
+<td><strong>Notification Bell</strong></td>
+<td>Displays real-time alerts such as ticket assignments, system messages, and admin notifications.</td>
+</tr>
+<tr>
+<td><strong>User Profile Menu</strong></td>
+<td>Top-right corner. Access your profile settings,</td>
+</tr>
+</tbody>
+</table>
+<h3 id="242-left-sidebar-navigation-menu">2.4.2 Left sidebar Navigation menu<a class="headerlink" href="#242-left-sidebar-navigation-menu" title="Permanent link">&para;</a></h3>
+<p>The left sidebar is your primary navigation tool. The menu items visible
+to you depend on your role. The table below shows which menu sections
+are available per role.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Menu Section</strong></th>
+<th><strong>Super Admin</strong></th>
+<th><strong>Manager</strong></th>
+<th><strong>Agent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dashboard</strong></td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><strong>Agencies</strong></td>
+<td>✔</td>
+<td>✘</td>
+<td>✘</td>
+</tr>
+<tr>
+<td><strong>Users &amp; Roles</strong></td>
+<td>✔</td>
+<td>Limited</td>
+<td>✘</td>
+</tr>
+<tr>
+<td><strong>Counters (Guichets)</strong></td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+</tr>
+<tr>
+<td><strong>Services &amp; Operations</strong></td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+</tr>
+<tr>
+<td><strong>History Tickets</strong></td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><strong>Analytics</strong></td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+</tr>
+<tr>
+<td><strong>Settings</strong></td>
+<td>✔</td>
+<td>Limited</td>
+<td>✘</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>Menu items shown as 'Limited' indicate read-only or scoped access. For example, a manager can view users in their agency but cannot create users across all agencies.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="243-logging-out">2.4.3 Logging Out<a class="headerlink" href="#243-logging-out" title="Permanent link">&para;</a></h3>
+<p>Always log out of Queco when you are done working, especially on shared
+or public computers.</p>
+<p><strong>Step 1:</strong> As agent in the agent’s dashboard, the logout is situated on
+the top right-hand corner. Just click it and you will be logout and
+directed back to the login page.</p>
+<p>As super admin or chef d’agence, the logout button is at the bottom left
+of the side bar. Just click it and you will be redirected to login page</p>
+<table>
+<thead>
+<tr>
+<th><strong>WARNING</strong></th>
+<th>Sessions automatically expire after 30 minutes of inactivity.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="25-your-dashboard-overview">2.5 Your Dashboard Overview<a class="headerlink" href="#25-your-dashboard-overview" title="Permanent link">&para;</a></h2>
+<p>The Dashboard is the first page you see after logging in. It is
+personalized to your role and provides a real-time snapshot of platform
+activity. The content displayed varies significantly between roles what
+a Super Admin sees differs from what an Agent sees.</p>
+<h3 id="251-super-admin-dashboard">2.5.1 Super Admin Dashboard<a class="headerlink" href="#251-super-admin-dashboard" title="Permanent link">&para;</a></h3>
+<p>The Super Admin dashboard provides a global view of the entire platform.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><img src="../images/en_image4.png"
+style="width:6.5in;height:3.41319in" /></p>
+<p><em>Figure 2.6 Super Admin Dashboard</em></p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 74%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>UI Element</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Top Navigation Bar</strong></td>
+<td>Persistent header displayed at the top of the platform. Contains the
+language switcher (FR/EN), menu toggle button, current page title (“Vue
+d’Ensemble”), date display, notification bell, and logged-in user
+profile information.</td>
+</tr>
+<tr class="even">
+<td><strong>Left Sidebar Menu</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vertical navigation panel located on the left side of the screen.
+Provides access to all major modules such as Vue d’Ensemble, Guichets,
+Analytics, Diffusion, Utilisateurs, Alertes &amp; Notifications, Roles
+&amp; Permissions, Historique, Configuration, and Rapports</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>Collapse on smaller screens.</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Main Content Area</strong></td>
+<td>Central workspace where all dashboard information is displayed,
+including overview cards, statistics, agency status tables, alerts, and
+management tools. The content updates depending on the selected
+module.</td>
+</tr>
+<tr class="even">
+<td><strong>Overview Cards</strong></td>
+<td>Summary statistic cards displayed below the header section. Show key
+platform metrics such as total agencies, users, services, and counters,
+including active and inactive counts.</td>
+</tr>
+<tr class="odd">
+<td><strong>Period filter Buttons</strong></td>
+<td>Context filter buttons (“Today”, “This week”, “This month”,
+“Custom”) allowing users to change the reporting period for displayed
+statistics and data.</td>
+</tr>
+<tr class="even">
+<td><strong>Notification Bell</strong></td>
+<td>Located at the top-right corner. Displays unread notifications and
+system alerts in real time.</td>
+</tr>
+<tr class="odd">
+<td><strong>User Profile Menu</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Located at the top-right corner beside the notification bell.
+Displays the logged-in user’s name, role, and profile avatar, with
+access to account-related actions.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><strong>Agency Status Table</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Real-time monitoring table displaying agencies, their operational
+status, city, region, code, and ticket processing statistics such as
+served, waiting, in progress, and cancelled tickets.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><strong>Action Buttons</strong></td>
+<td>Contextual buttons such as “Manage” displayed within dashboard
+sections, allowing quick access to configuration and management
+actions.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="252-manager-dashboard">2.5.2 Manager Dashboard<a class="headerlink" href="#252-manager-dashboard" title="Permanent link">&para;</a></h3>
+<p>The Manager dashboard is scoped to the agency or agencies the manager
+oversees.</p>
+<table>
+<thead>
+<tr>
+<th><img src="../images/en_image5.png" style="width:6.5in;height:3.34653in" /><em>Figure 2.7 — Manager Dashboard</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Widget / Section</strong></th>
+<th><strong>What It Shows</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Statistics Overview Cards</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Summary cards displayed at the top of the dashboard showing key
+queue metrics including tickets waiting, tickets in progress, customers
+served today, cancelled tickets, and service rate percentage.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><strong>Guichet Status Panel</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operational monitoring section displaying the real-time status of
+each guichet/counter, assigned agent, and availability state. Each card
+indicates whether the guichet is currently available or occupied.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><strong>Queue by Service section</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Displays queue statistics grouped by service category such as
+savings accounts, credit, online deposit, and account balance inquiries,
+including the number of clients currently waiting.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><strong>Logout Button</strong></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Located at the bottom-left of the sidebar. Allows the current user
+to securely disconnect from the platform.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="253-agent-guichetier-dashboard">2.5.3 Agent (Guichetier) Dashboard<a class="headerlink" href="#253-agent-guichetier-dashboard" title="Permanent link">&para;</a></h3>
+<p>The Agent dashboard is focused and minimal it shows exactly what an
+agent needs to start working.</p>
+<table>
+<thead>
+<tr>
+<th><img src="../images/en_image6.png" style="width:6.5in;height:3.09375in" /><em>Figure 2.8: Agent Dashboard</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Widget / Section</strong></th>
+<th><strong>What It Shows</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Agent Header</strong></td>
+<td>Displays the logged-in agent's name (e.g., "Agent: mikassa"), language switcher (FR/EN), notification bell, pause, and logout icons along with the current time</td>
+</tr>
+<tr>
+<td><strong>Current client panel</strong></td>
+<td>The left panel showing the client currently being served. When idle, displays "No active client / Press Call next" as a placeholder.</td>
+</tr>
+<tr>
+<td><strong>Queue Panel</strong></td>
+<td>The right panel showing all waiting tickets for this agent's counter. Displays the queue count (e.g., "Queue 0 Waiting") and the active service tag (e.g., "solde bancaire").</td>
+</tr>
+<tr>
+<td><strong>Search bar</strong></td>
+<td>Located inside the Queue panel — allows the agent to search waiting tickets by ticket number or service name.</td>
+</tr>
+<tr>
+<td><strong>Action Button</strong></td>
+<td>Three buttons at the bottom of the Current Client panel: <strong>Finish</strong> (green), <strong>Cancel</strong> (red/pink), and <strong>Downgrade</strong> (yellow) for resolving the current ticket.</td>
+</tr>
+<tr>
+<td><strong>Call Next button</strong></td>
+<td>A prominent button at the bottom of the Queue panel triggers calling the next waiting ticket to this counter. Greyed out when the queue is empty.</td>
+</tr>
+<tr>
+<td><strong>Empty queue state</strong></td>
+<td>Shown when no clients are waiting displays a checkmark icon with "Empty queue / No clients waiting".</td>
+</tr>
+</tbody>
+</table>
+<p><strong><br />
+</strong></p>
+<p><em>Chapter 3</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

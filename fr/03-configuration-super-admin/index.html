@@ -1,0 +1,2099 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../02-prise-en-main/">
+      
+      
+        <link rel="next" href="../04-gestion-guichets/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Configuration du Super Admin - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configuration-du-super-admin" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuration du Super Admin
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../en/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-presentation-du-super-administrateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Présentation du Super Administrateur
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Présentation du Super Administrateur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-responsabilites-du-super-administrateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1.1 Responsabilités du Super Administrateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-creation-dune-agence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Création d’une Agence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Création d’une Agence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-etape-par-etape-creer-une-nouvelle-agence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2.1 Étape par étape : Créer une nouvelle agence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-reference-des-champs-du-formulaire-dagence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2.2 Référence des champs du formulaire d’agence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-managing-agencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Managing Agencies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Managing Agencies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-action-disponible-sur-la-page-des-agences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1.1 Action disponible sur la page des agences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-creation-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Création des utilisateurs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Création des utilisateurs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-etape-par-etape-creer-un-nouvel-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4.1 Étape par étape : Créer un nouvel utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-reference-du-formulaire-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4.2 Référence du formulaire utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-gestion-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Gestion des utilisateurs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Gestion des utilisateurs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-actions-de-gestion-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5.1 Actions de gestion des utilisateurs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#36-roles-et-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Rôles et permissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.6 Rôles et permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#361-comparaison-des-roles-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.1 Comparaison des rôles par défaut
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#362-personnalisation-des-permissions-des-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.2 Personnalisation des permissions des rôles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#364-attribution-dun-role-a-un-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.4 Attribution d’un rôle à un utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#37-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-presentation-du-super-administrateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Présentation du Super Administrateur
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Présentation du Super Administrateur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-responsabilites-du-super-administrateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1.1 Responsabilités du Super Administrateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-creation-dune-agence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Création d’une Agence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Création d’une Agence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-etape-par-etape-creer-une-nouvelle-agence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2.1 Étape par étape : Créer une nouvelle agence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-reference-des-champs-du-formulaire-dagence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2.2 Référence des champs du formulaire d’agence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-managing-agencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Managing Agencies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Managing Agencies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-action-disponible-sur-la-page-des-agences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1.1 Action disponible sur la page des agences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-creation-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Création des utilisateurs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Création des utilisateurs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-etape-par-etape-creer-un-nouvel-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4.1 Étape par étape : Créer un nouvel utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-reference-du-formulaire-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4.2 Référence du formulaire utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-gestion-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Gestion des utilisateurs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Gestion des utilisateurs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-actions-de-gestion-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5.1 Actions de gestion des utilisateurs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#36-roles-et-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Rôles et permissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.6 Rôles et permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#361-comparaison-des-roles-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.1 Comparaison des rôles par défaut
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#362-personnalisation-des-permissions-des-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.2 Personnalisation des permissions des rôles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#364-attribution-dun-role-a-un-utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6.4 Attribution d’un rôle à un utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#37-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="configuration-du-super-admin">Configuration du Super Admin<a class="headerlink" href="#configuration-du-super-admin" title="Permanent link">&para;</a></h1>
+<p><em>Comment le Super Administrateur configure la plateforme : création des
+agences, gestion des utilisateurs et définition des rôles et
+permissions.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Dans ce chapitre</strong></p>
+<p>• 3.1 Présentation du Super Administrateur<br />
+• 3.2 Création d’une agence<br />
+• 3.3 Gestion des agences<br />
+• 3.4 Création des utilisateurs<br />
+• 3.5 Gestion des utilisateurs<br />
+• 3.6 Rôles et permissions<br />
+• 3.7 Analytique</p></td>
+<td><p><strong>Apres ce chapitre, vous serez en mesure de</strong></p>
+<p>• Configurer une nouvelle agence à partir de zéro<br />
+• Configurer les paramètres d’une agence<br />
+• Créer et gérer des comptes utilisateurs<br />
+• Affecter des utilisateurs à des agences<br />
+• Comprendre le contrôle d’accès basé sur les rôles<br />
+• Personnaliser les permissions par rôle</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="31-presentation-du-super-administrateur">3.1 Présentation du Super Administrateur<a class="headerlink" href="#31-presentation-du-super-administrateur" title="Permanent link">&para;</a></h2>
+<p>Le Super Administrateur est le compte disposant du niveau de privilège
+le plus élevé dans Queco. Généralement, le rôle de Super Administrateur
+peut être attribué à toute personne ; celle-ci disposera alors d’un
+accès complet à la plateforme et pourra effectuer toutes les actions
+disponibles.</p>
+<p>Toute la configuration globale de la plateforme création des agences,
+provisionnement des utilisateurs et définition des règles d’accès est
+réalisée à partir du compte Super Administrateur.</p>
+<p>Lorsque le Super Administrateur se connecte, il accède à un tableau de
+bord centralisé offrant une vue d’ensemble de toute la plateforme :
+toutes les agences, le nombre d’utilisateurs, le nombre d’utilisateurs
+actifs, les guichets actifs et les volumes de tickets en temps réel.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image7.png"
+style="width:6.5in;height:3.43125in" /></p>
+<p><em>Figure 3.1 —</em> Tableau de bord Super Admin avec cartes
+récapitulatives de la plateforme et boutons d'action rapide</p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="311-responsabilites-du-super-administrateur">3.1.1 Responsabilités du Super Administrateur<a class="headerlink" href="#311-responsabilites-du-super-administrateur" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Responsabilité</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Configuration des agences</strong></td>
+<td>Créer et configurer toutes les agences opérant sur la plateforme.</td>
+</tr>
+<tr>
+<td><strong>Provisionnement des utilisateurs</strong></td>
+<td>Créer les comptes utilisateurs et les affecter à l’agence et au rôle appropriés.</td>
+</tr>
+<tr>
+<td><strong>Gestion des rôles</strong></td>
+<td>Définir et personnaliser les rôles (Gestionnaire, Agent) avec des permissions granulaires.</td>
+</tr>
+<tr>
+<td><strong>Catalogue des services</strong></td>
+<td>Créer et maintenir la liste principale des services et des opérations.</td>
+</tr>
+<tr>
+<td><strong>Supervision de la plateforme</strong></td>
+<td>Surveiller l’état général de la plateforme, les volumes de tickets et l’activité des agences.</td>
+</tr>
+<tr>
+<td><strong>Contrôle d’accès</strong></td>
+<td>Activer, désactiver ou supprimer des utilisateurs et des agences en fonction des changements organisationnels.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WARNING</strong></td>
+<td>Les identifiants du Super Administrateur doivent être conservés en toute sécurité. Activez l’authentification à deux facteurs si elle est disponible et ne partagez jamais le compte Super Administrateur avec d’autres membres du personnel.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="32-creation-dune-agence">3.2 Création d’une Agence<a class="headerlink" href="#32-creation-dune-agence" title="Permanent link">&para;</a></h2>
+<p>Les agences sont les principales unités organisationnelles de Queco.
+Chaque utilisateur, guichet et service appartient à une agence. Vous
+devez créer au moins une agence avant de pouvoir ajouter des
+utilisateurs, des guichets, des services et des opérations, ainsi
+qu’affecter un utilisateur à une agence et à un guichet.</p>
+<p>Considérez une agence comme une succursale, un département ou un bureau
+de votre organisation.</p>
+<h3 id="321-etape-par-etape-creer-une-nouvelle-agence">3.2.1 Étape par étape : Créer une nouvelle agence<a class="headerlink" href="#321-etape-par-etape-creer-une-nouvelle-agence" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Étape 1 :</strong> Dans la barre latérale, cliquez sur <strong>Agences</strong>.</p>
+<p><strong>Étape 2 :</strong> Cliquez sur le bouton <strong>Ajouter une agence</strong> située dans
+le coin supérieur droit de la page des agences.</p>
+<p><strong>Étape 3 :</strong> La fenêtre modale <strong>Nouvelle agence</strong> s’ouvre avec le
+formulaire. Remplissez tous les champs obligatoires.</p>
+<p><strong>Étape 4 :</strong> Vérifiez attentivement toutes les informations saisies,
+puis cliquez sur <strong>Enregistrer</strong>.</p>
+<p><em>L’agence est enregistrée avec le statut </em><em>Actif</em><em> par défaut.</em></p>
+<p><strong>Étape 5 :</strong> Pour activer ou désactiver l’agence créée, cliquez
+simplement sur l’icône de statut (icône jaune) sur la carte de
+l’agence.</p>
+<p>Seules les agences <strong>actives</strong> peuvent traiter des tickets et
+apparaître dans les tableaux de bord des utilisateurs.</p>
+<p><strong>Étape 6 :</strong> Confirmez l’activation en vérifiant sa présence dans la
+liste des agences avec un bouton vert.</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image8.png"
+style="width:4.02083in;height:4.15546in" /></p>
+<p><em>Figure 3.2 — Formulaire de création d’une nouvelle agence avec
+tous les champs visibles</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Créez toutes vos agences avant d’ajouter des utilisateurs. Ainsi, vous pourrez affecter chaque utilisateur à son agence correcte lors de la création de son compte, sans avoir à les modifier ultérieurement.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="322-reference-des-champs-du-formulaire-dagence">3.2.2 Référence des champs du formulaire d’agence<a class="headerlink" href="#322-reference-des-champs-du-formulaire-dagence" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Statut</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nom de l’agence</strong></td>
+<td>Nom complet légal ou opérationnel de l’agence (par exemple : « Agence de Mfoundi »). Affiché sur toute la plateforme.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Pays de l’agence</strong></td>
+<td>Pays dans lequel l’agence est située (Cameroun).</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Région</strong></td>
+<td>Région administrative ou province dans laquelle l’agence opère. Doit être sélectionnée avant de pouvoir choisir une ville.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>City</strong></td>
+<td>Ville dans laquelle l’agence est située. Disponible uniquement après la sélection d’une région.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Code de l’agence</strong></td>
+<td>Identifiant court unique de l’agence (par exemple : « YDE-007 »). Utilisé pour les références internes et les intégrations API.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Altitude</strong></td>
+<td>Altitude géographique de la localisation de l’agence. Valeur par défaut : 0.</td>
+<td>Optionnel</td>
+</tr>
+<tr>
+<td><strong>Longitudes</strong></td>
+<td>Coordonnée géographique de la longitude de la localisation de l’agence. Valeur par défaut : 0.</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Le code de l’agence ne peut pas être modifié après le traitement du premier ticket dans cette agence, car il est intégré dans les numéros de tickets. Choisissez-le avec soin lors de la configuration.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-managing-agencies">3.3 Managing Agencies<a class="headerlink" href="#33-managing-agencies" title="Permanent link">&para;</a></h2>
+<p>Après la création des agences, vous pouvez modifier leurs informations,
+changer leur statut ou les supprimer entièrement depuis la page
+<strong>Agences</strong>. Utilisez la barre de recherche située en haut de la liste
+pour trouver rapidement une agence par son nom ou son code.</p>
+<h3 id="311-action-disponible-sur-la-page-des-agences">3.1.1 Action disponible sur la page des agences<a class="headerlink" href="#311-action-disponible-sur-la-page-des-agences" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Comment l’effectuer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Voir les détails</strong></td>
+<td>Cliquez sur la carte de l’agence pour ouvrir son profil complet, incluant les guichets, les utilisateurs et les statistiques des services.</td>
+</tr>
+<tr>
+<td><strong>Modifier</strong></td>
+<td>Cliquez sur l’icône verte en forme de stylo. Le formulaire modal apparaîtra pour permettre les modifications.</td>
+</tr>
+<tr>
+<td><strong>Activer</strong></td>
+<td>Toutes les agences désactivées se trouvent dans la liste des agences désactivées. Allez-y puis activez l’agence en changeant son statut.</td>
+</tr>
+<tr>
+<td><strong>Désactiver</strong></td>
+<td>Cliquez sur l’icône de statut → <strong>Désactiver</strong>. L’agence est suspendue ; aucun nouveau ticket ne peut être créé. Les tickets ouverts existants sont mis en pause.</td>
+</tr>
+<tr>
+<td><strong>Supprimer</strong></td>
+<td>Cliquez sur l’icône rouge. Une fenêtre modale apparaîtra pour confirmer le code de l’agence, puis le bouton de suppression sera activé.</td>
+</tr>
+<tr>
+<td><strong>Voir les statistiques de l’agence</strong></td>
+<td>Cliquez sur l’onglet de l’agence et toutes les statistiques seront affichées.</td>
+</tr>
+<tr>
+<td><strong>Gérer les utilisateurs de l’agence</strong></td>
+<td>Dans une agence, l’utilisateur est affecté à un guichet de cette agence. Ainsi, dans chaque guichet, vous verrez l’agent qui lui est affecté.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WARNING</strong></td>
+<td>La suppression d’une agence entraîne la suppression définitive de tous ses utilisateurs, guichets, services et de l’historique de ses tickets. Cette action est irréversible. Désactivez une agence au lieu de la supprimer, sauf si vous êtes certain que ses données ne sont plus nécessaires.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image9.png"
+style="width:6.5in;height:3.21806in" /></p>
+<p><em>Figure 3.3 — Liste des agences avec les options du menu
+d’actions</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="34-creation-des-utilisateurs">3.4 Création des utilisateurs<a class="headerlink" href="#34-creation-des-utilisateurs" title="Permanent link">&para;</a></h2>
+<p>Chaque personne qui accède à Queco doit disposer d’un compte utilisateur
+unique. Les comptes sont créés par le Super Administrateur puis affectés
+à une agence et à un rôle. L’agent fournit l’adresse e-mail qui sera
+utilisée pour la connexion, sur laquelle il/elle recevra un OTP lors de
+la connexion. Tous les mots de passe sont créés et gérés par le Super
+Administrateur<strong>. L’agent ne peut pas réinitialiser son mot de passe
+pour le moment.</strong></p>
+<h3 id="341-etape-par-etape-creer-un-nouvel-utilisateur">3.4.1 Étape par étape : Créer un nouvel utilisateur<a class="headerlink" href="#341-etape-par-etape-creer-un-nouvel-utilisateur" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Dans la barre latérale gauche, cliquez sur
+<strong>Utilisateurs</strong>.</p>
+<p><strong>Étape 2 :</strong> Cliquez sur le bouton <strong>Nouvel utilisateur</strong> situé dans le
+coin supérieur droit.</p>
+<p><strong>Étape 3 :</strong> Le formulaire <strong>Nouvel utilisateur</strong> s’ouvre. Remplissez
+tous les champs obligatoires puis cliquez sur <strong>Créer et continuer</strong>.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image10.png"
+style="width:3.27083in;height:2.60409in" /></p>
+<p><em>Figure 3.4 — Formulaire de création d’un nouvel
+utilisateur</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>L’adresse e-mail du nouvel utilisateur devient son identifiant de connexion et ne peut pas être modifiée après la création du compte. Vérifiez-la attentivement avant d’enregistrer.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="342-reference-du-formulaire-utilisateur">3.4.2 Référence du formulaire utilisateur<a class="headerlink" href="#342-reference-du-formulaire-utilisateur" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Adresse e-mail</strong></td>
+<td>Champ texte obligatoire pour l’adresse e-mail de l’utilisateur. Un exemple de format est affiché (par ex. : exemple@scb.com</td>
+<td><strong>Required</strong></td>
+</tr>
+<tr>
+<td><strong>Mot de passe</strong></td>
+<td>Champ mot de passe obligatoire avec une icône de visibilité (œil) permettant d’afficher ou de masquer la saisie.</td>
+<td><strong>Required</strong></td>
+</tr>
+<tr>
+<td><strong>Bouton Annuler</strong></td>
+<td>Bouton contour permettant de fermer la fenêtre modale sans enregistrer les données.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Bouton Créer et continuer</strong></td>
+<td>Bouton principal (vert) qui valide les identifiants et passe à l’étape 2 (Profil).</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="35-gestion-des-utilisateurs">3.5 Gestion des utilisateurs<a class="headerlink" href="#35-gestion-des-utilisateurs" title="Permanent link">&para;</a></h2>
+<p>La gestion des utilisateurs couvre l’ensemble du cycle de vie d’un
+compte utilisateur : de sa création à son administration quotidienne,
+jusqu’à sa désactivation ou sa suppression. Toutes les actions de
+gestion des utilisateurs sont effectuées depuis <strong>Utilisateurs &amp; Rôles →
+Utilisateurs</strong>.</p>
+<h3 id="351-actions-de-gestion-des-utilisateurs">3.5.1 Actions de gestion des utilisateurs<a class="headerlink" href="#351-actions-de-gestion-des-utilisateurs" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Comment l’effectuer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modifier le profil</td>
+<td>Cliquez sur le nom de l’utilisateur pour ouvrir son profil, cliquez sur <strong>Modifier</strong>, effectuez les changements puis cliquez sur <strong>Enregistrer</strong>.</td>
+</tr>
+<tr>
+<td>Désactiver</td>
+<td>Ouvrez le profil utilisateur → basculez le <strong>Statut</strong> sur <strong>Inactif</strong>. L’utilisateur est immédiatement déconnecté et ne peut plus se reconnecter.</td>
+</tr>
+<tr>
+<td>Réactiver</td>
+<td>Ouvrez le profil utilisateur → remettez le <strong>Statut</strong> sur <strong>Actif</strong>. L’utilisateur peut se reconnecter immédiatement.</td>
+</tr>
+<tr>
+<td>Changer le rôle</td>
+<td>Ouvrez le profil utilisateur → modifiez le champ <strong>Rôle</strong> → enregistrez. Les nouvelles permissions s’appliqueront lors de la prochaine connexion de l’utilisateur.</td>
+</tr>
+<tr>
+<td>Affecter à une autre agence</td>
+<td>Ouvrez le profil utilisateur → modifiez le champ <strong>Agence</strong> → enregistrez. L’utilisateur perd l’accès à l’agence précédente.</td>
+</tr>
+<tr>
+<td>Supprimer</td>
+<td>Cliquez sur <strong>Supprimer</strong> dans la liste des utilisateurs. L’utilisateur et son journal d’activité sont supprimés définitivement.</td>
+</tr>
+<tr>
+<td>Consulter le journal d’activité</td>
+<td>Ouvrez le profil utilisateur → cliquez sur l’onglet <strong>Activité</strong> pour voir la piste d’audit complète de toutes les actions effectuées par cet utilisateur.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WARNING</strong></td>
+<td>La suppression d’un utilisateur est définitive et le retire de tous les journaux d’audit. Désactivez les comptes au lieu de les supprimer, sauf si vous êtes certain que les données ne sont plus nécessaires à des fins de conformité ou d’audit.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="36-roles-et-permissions">3.6 Rôles et permissions<a class="headerlink" href="#36-roles-et-permissions" title="Permanent link">&para;</a></h2>
+<p>Queco utilise le contrôle d’accès basé sur les rôles (RBAC). Chaque
+utilisateur se voit attribuer exactement un rôle. Le rôle est un
+ensemble nommé de permissions qui contrôle les pages, les actions et les
+données auxquelles l’utilisateur peut accéder. Queco est fourni avec
+trois rôles par défaut : Super Administrateur, Gestionnaire et Agent.</p>
+<h3 id="361-comparaison-des-roles-par-defaut">3.6.1 Comparaison des rôles par défaut<a class="headerlink" href="#361-comparaison-des-roles-par-defaut" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Fonctionnalité / Action</strong></th>
+<th><strong>Super Administrateur</strong></th>
+<th><strong>Gestionnaire</strong></th>
+<th><strong>Agent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Créer / gérer les agences</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Créer / gérer les utilisateurs</strong></td>
+<td><strong>✔</strong></td>
+<td>Limited</td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Attribuer les rôles et permissions</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Créer / gérer les guichets</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Définir les services et opérations</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Activer les services par agence</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Créer des tickets</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+</tr>
+<tr>
+<td><strong>Traiter les tickets au guichet</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+</tr>
+<tr>
+<td><strong>Transférer les tickets</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+</tr>
+<tr>
+<td><strong>Consulter les analyses</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Exporter les rapports</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Voir toutes les agences (global)</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+<tr>
+<td><strong>Gérer les paramètres de la plateforme</strong></td>
+<td><strong>✔</strong></td>
+<td><strong>✘</strong></td>
+<td><strong>✘</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Limité » signifie que le Gestionnaire peut effectuer cette action uniquement au sein de l’agence qui lui est attribuée (par exemple, voir les utilisateurs de sa propre agence, mais pas ceux de toute la plateforme).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="362-personnalisation-des-permissions-des-roles">3.6.2 Personnalisation des permissions des rôles<a class="headerlink" href="#362-personnalisation-des-permissions-des-roles" title="Permanent link">&para;</a></h3>
+<p>Le Super Administrateur peut personnaliser les permissions par défaut
+des rôles Gestionnaire et Agent. Ces personnalisations s’appliquent à
+l’ensemble de la plateforme pour tous les utilisateurs possédant ce
+rôle.</p>
+<p><strong>Étape 1 :</strong> Dans la barre latérale, allez dans <strong>Rôles &amp;
+permissions</strong>, puis <strong>Rôles</strong>.</p>
+<p><strong>Étape 2 :</strong> Cliquez sur le rôle souhaité ou créez un nouveau rôle en
+cliquant sur le bouton <strong>« Nouveau rôle »</strong> situé dans le coin supérieur
+droit, puis attribuez les permissions souhaitées.</p>
+<p><strong>Étape 3 :</strong> Le rôle sera mis en évidence avec sa couleur unique, tout
+comme la section des permissions. Vous pourrez ensuite lui attribuer les
+permissions souhaitées et une barre de pourcentage sera affichée.</p>
+<p><strong>Étape 4 :</strong> Cliquez sur <strong>Attribuer</strong> pour chaque permission que vous
+souhaitez accorder au rôle concerné.</p>
+<p>Les permissions attribuées sont affichées en vert ; celles non
+attribuées en rouge.</p>
+<p><strong>Etape 5</strong> : les modifications sont enregistrées automatiquement</p>
+<p>Le role personnalisé est désormais disponible dans le champ <strong>Rôle</strong>
+lors de la création ou de la modification d’utilisateurs.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image11.png"
+style="width:5.06675in;height:2.69543in" /></p>
+<p><em>Figure 3.6 Panneau des permissions des rôles avec interrupteurs
+de fonctionnalités</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Commencez par le rôle Agent comme base et ajoutez uniquement les permissions supplémentaires nécessaires. Cela respecte le principe du moindre privilège : les utilisateurs ne reçoivent que les accès dont ils ont besoin pour accomplir leur travail.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="364-attribution-dun-role-a-un-utilisateur">3.6.4 Attribution d’un rôle à un utilisateur<a class="headerlink" href="#364-attribution-dun-role-a-un-utilisateur" title="Permanent link">&para;</a></h3>
+<p>Les rôles sont attribués à chaque utilisateur lors de la création du
+compte ou à tout moment via le profil de l’utilisateur. Il n’y a aucune
+limite au nombre d’utilisateurs pouvant partager le même rôle.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>La modification du rôle d’un utilisateur prend effet lors de sa prochaine connexion ou après l’actualisation de la page. Si un utilisateur est connecté au moment où son rôle est modifié, il peut rencontrer un comportement inattendu jusqu’à ce qu’il se déconnecte puis se reconnecte.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="37-resume-du-chapitre">3.7 Résumé du chapitre<a class="headerlink" href="#37-resume-du-chapitre" title="Permanent link">&para;</a></h2>
+<p>Ce chapitre a couvert l’ensemble du processus de configuration du Super
+Administrateur. À présent, vous devriez avoir :</p>
+<ol>
+<li>
+<p>Créé une ou plusieurs agences avec tous les champs de configuration
+    requis.</p>
+</li>
+<li>
+<p>Activé les agences afin qu’elles puissent commencer à accepter des
+    tickets.</p>
+</li>
+<li>
+<p>Créé des comptes utilisateurs pour tous les Gestionnaires et Agents
+    de chaque agence.</p>
+</li>
+<li>
+<p>Affecte chaque utilisateur à l’agence et au rôle appropriés.</p>
+</li>
+<li>
+<p>Vérifié et, si nécessaire personnalisé les permissions des rôles
+    pour votre organisation</p>
+</li>
+</ol>
+<p><em>Chapitre 4</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1921 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../03-super-admin-setup/">
+      
+      
+        <link rel="next" href="../05-services-operations/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Counter (Guichet) Management - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#counter-guichet-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Counter (Guichet) Management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fr/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-what-is-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 What is a counter?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 What is a counter?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-counter-status-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Counter Status Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-creating-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Creating a Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Creating a Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-step-by-step-create-a-new-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1 Step by Step: Create a New Counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-counter-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2 Counter Form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-assign-counters-to-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Assign Counters to Agents
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 Assign Counters to Agents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431-assigning-an-agent-at-counter-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 Assigning an Agent at counter Creation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432-assigning-or-reassigning-an-agent-after-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 Assigning or Reassigning an Agent After Creation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433-unassigning-an-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 Unassigning an Agent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-opening-closing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Opening &amp; Closing a Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Opening &amp; Closing a Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-opening-a-closed-counter-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.1 Opening a Closed Counter (Agent)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-pausing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2 Pausing a Counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443-closing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3 Closing a counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-managing-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Managing Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Managing Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-counter-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 Counter Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-updating-counter-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 Updating Counter services
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-counter-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Counter best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-what-is-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 What is a counter?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 What is a counter?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-counter-status-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Counter Status Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-creating-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Creating a Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Creating a Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-step-by-step-create-a-new-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1 Step by Step: Create a New Counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-counter-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2 Counter Form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-assign-counters-to-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Assign Counters to Agents
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 Assign Counters to Agents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431-assigning-an-agent-at-counter-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 Assigning an Agent at counter Creation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432-assigning-or-reassigning-an-agent-after-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 Assigning or Reassigning an Agent After Creation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433-unassigning-an-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 Unassigning an Agent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-opening-closing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Opening &amp; Closing a Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Opening &amp; Closing a Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-opening-a-closed-counter-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.1 Opening a Closed Counter (Agent)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-pausing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2 Pausing a Counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443-closing-a-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3 Closing a counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-managing-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Managing Counter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Managing Counter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-counter-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 Counter Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-updating-counter-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 Updating Counter services
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-counter-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Counter best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="counter-guichet-management">Counter (Guichet) Management<a class="headerlink" href="#counter-guichet-management" title="Permanent link">&para;</a></h1>
+<p><em>How to create, configure, assign, and operate service counters the
+front-line service points where agents process customer tickets.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>In this chapter</strong></p>
+<ul>
+<li><p>4.1 What is a Counter ?</p></li>
+<li><p>4.2 Creating a Counter</p></li>
+<li><p>4.3 Assigning Counters to Agents</p></li>
+<li><p>4.4 Opening &amp; Closing a Counter</p></li>
+<li><p>4.5 Managing Counters</p></li>
+<li><p>4.6 Counter Best Practices</p></li>
+</ul></td>
+<td><p><strong>After this chapter you will be able to</strong></p>
+<ul>
+<li><p>Understand the counter's role in Queco</p></li>
+<li><p>Create a new counter in an agency</p></li>
+<li><p>Assign an agent to a counter</p></li>
+<li><p>Open and close a counter for daily operations</p></li>
+<li><p>Edit, deactivate, and delete counters</p></li>
+<li><p>Apply best practices for optimal queue flow</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="41-what-is-a-counter">4.1 What is a counter?<a class="headerlink" href="#41-what-is-a-counter" title="Permanent link">&para;</a></h2>
+<p>A counter also referred to as a guichet is a designated service point
+within an agency where customer tickets are received and processed. In a
+physical office, a counter corresponds to a desk or service window. In a
+virtual or hybrid environment, it represents a digital service channel
+assigned to a specific agent.</p>
+<p>Counters are the operational core of Queco. Every ticket that enters the
+system is eventually routed to a counter, where it is called, processed,
+and closed by an assigned agent. Without at least one open counter, no
+tickets can be served.</p>
+<h3 id="411-counter-status-model">4.1.1 Counter Status Model<a class="headerlink" href="#411-counter-status-model" title="Permanent link">&para;</a></h3>
+<p>Every counter in Queco has one of four statuses at any given time.
+Understanding these statuses is essential for both agents managing their
+workstation and managers monitoring queue flow.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Status</strong></th>
+<th><strong>Color Indicator</strong></th>
+<th><strong>What It Means</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Open</strong></td>
+<td>Green</td>
+<td>The counter is active and available. Tickets are being routed to it. The agent is logged in and ready.</td>
+</tr>
+<tr>
+<td><strong>Pause</strong></td>
+<td>Amber</td>
+<td>The counter is temporarily on break (e.g., lunch). No new tickets are routed to it. It can be reopened by the agent.</td>
+</tr>
+<tr>
+<td><strong>Close</strong></td>
+<td>Gray</td>
+<td>The counter is offline. No tickets can be routed to it. Typical at end of shift or when a counter is decommissioned.</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>NB: All counters are open or closed of a particular agency is done by
+the super admin or anyone that has the role of managing a counter</em></strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/en_image12.png"</td>
+</tr>
+<tr>
+<td>style="width:7.21057in;height:1.47986in" /&gt;<em>Figure 4.1 — Counter status grid on Manager Dashboard (color-coded Open / Closed)</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="42-creating-a-counter">4.2 Creating a Counter<a class="headerlink" href="#42-creating-a-counter" title="Permanent link">&para;</a></h2>
+<p>Counters must be created before agents can begin processing tickets.
+Only Super Admins and Manager can create and assign counters to a
+particular user in an agency. Each counter belongs to exactly one agency
+and one user and can handle one or more services.</p>
+<h3 id="421-step-by-step-create-a-new-counter">4.2.1 Step by Step: Create a New Counter<a class="headerlink" href="#421-step-by-step-create-a-new-counter" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1:</strong> From the left side bar click agency</p>
+<blockquote>
+<p><em>The list off list agency active will appear</em></p>
+</blockquote>
+<p><strong>Step 2:</strong> Choose the specific agency u want to create a counter in and
+click on in</p>
+<p><strong>Step 3:</strong> Go to counter management and click the “+Add” green button
+at the top corner in the card</p>
+<p><strong>Step 4:</strong> a pop-up form will appear, fill all the requirement</p>
+<p><strong>Step 5:</strong> In the Services section, select all services this counter is
+authorized to handle.</p>
+<blockquote>
+<p><em>A counter must be linked to at least one service to receive ticket
+routing.</em></p>
+</blockquote>
+<p><strong>Step 6:</strong> Optionally assign an agent in the Assigned User field.</p>
+<p><em>You can also assign the agent later</em></p>
+<p><strong>Step 7:</strong> Click Save.</p>
+<blockquote>
+<p><em>The counter is created in Closed status. It will not receive tickets
+until an admin opens it.</em></p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/en_image13.png"
+style="width:3.81882in;height:4.33699in" /></p>
+<p><em>Figure 4.2 — New Counter creation form with all
+fields</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Name your counters clearly and consistently (e.g., 'Counter A', 'Window 3', 'Desk – Payments'). Agents see their counter name on their dashboard every day — good naming reduces confusion during busy periods.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="422-counter-form-field-reference">4.2.2 Counter Form Field Reference<a class="headerlink" href="#422-counter-form-field-reference" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Counter Name</strong></td>
+<td>Display name shown to agents on their dashboard and on customer display screens.</td>
+<td><strong>Required</strong></td>
+</tr>
+<tr>
+<td><strong>Assigned User</strong></td>
+<td>The agent responsible for this counter. Can be left blank and assigned later.</td>
+<td><strong>Optional</strong></td>
+</tr>
+<tr>
+<td><strong>Services</strong></td>
+<td>One or more services this counter can handle. Only linked services route tickets here.</td>
+<td><strong>Required</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WARNING</strong></td>
+<td>If you create and assign a counter to the wrong agency, you must delete and recreate it in the correct agency.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="43-assign-counters-to-agents">4.3 Assign Counters to Agents<a class="headerlink" href="#43-assign-counters-to-agents" title="Permanent link">&para;</a></h2>
+<p>Each counter should be assigned to one agent. The assigned agent sees
+the counter on their dashboard and is responsible for opening it at the
+start of their shift. An agent can only be assigned to one counter at a
+time.</p>
+<h3 id="431-assigning-an-agent-at-counter-creation">4.3.1 Assigning an Agent at counter Creation<a class="headerlink" href="#431-assigning-an-agent-at-counter-creation" title="Permanent link">&para;</a></h3>
+<p>During the counter creation flow (Section 4.2.1, Step 6), you can select
+an agent from the Assigned User dropdown. Only users with the Agent role
+in the same agency appear in this list</p>
+<h3 id="432-assigning-or-reassigning-an-agent-after-creation">4.3.2 Assigning or Reassigning an Agent After Creation<a class="headerlink" href="#432-assigning-or-reassigning-an-agent-after-creation" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1:</strong> From the sidebar, click agencies and choose the agency you
+created the counter</p>
+<p><strong>Step 2:</strong> Go to counter management and locate the counter created</p>
+<p><strong>Step 3:</strong> On the counter created, click the “green people” button and
+the form will pop up containing a dropdown of user assign to that same
+agency in which the counter was created</p>
+<blockquote>
+<p><em>Only agents in the same agency are shown. If no agents appear, verify
+that agent accounts have been created for this agency (Chapter 3 —
+Section 3.4).</em></p>
+</blockquote>
+<p><strong>Step 4:</strong> Click save</p>
+<blockquote>
+<p><em>The changes take effect on the agent's next login or dashboard
+refresh.</em></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>If a counter has no assigned agent, it remains in Closed status and will not accept tickets. Always ensure every active counter has an assigned agent before the start of a shift.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/en_image14.png"
+style="width:3.89583in;height:2.88717in" /></p>
+<p><em>Figure 4.3 — Counter profile edit view showing the Assigned User
+dropdown</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="433-unassigning-an-agent">4.3.3 Unassigning an Agent<a class="headerlink" href="#433-unassigning-an-agent" title="Permanent link">&para;</a></h3>
+<p>To temporary remove an agent from a counter without deleting a counter</p>
+<p><strong>Step 1:</strong> Go to counter management and locate the counter created and
+click the “red people icon” button</p>
+<p><strong>Step 2:</strong> Click remove. Changes take effect immediately</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Use unassigning rather than deactivation when an agent is temporarily absent (sick leave, vacation). This keeps the counter intact and ready to reassign quickly when the agent returns.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="44-opening-closing-a-counter">4.4 Opening &amp; Closing a Counter<a class="headerlink" href="#44-opening-closing-a-counter" title="Permanent link">&para;</a></h2>
+<p>Opening a counter marks the start of a service session. Tickets begin
+routing to the counter only after it is opened. Closing a counter ends
+the session and stops all new ticket routing. This is a daily workflow
+performed by the assigned agent, though Managers can also perform this
+action remotely. Only the admin that has the role to close or open a
+counter</p>
+<h3 id="441-opening-a-closed-counter-agent">4.4.1 Opening a Closed Counter (Agent)<a class="headerlink" href="#441-opening-a-closed-counter-agent" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1</strong> Log in to Queco with as super admin.</p>
+<p><strong>Step 2</strong> On your Admin Dashboard, locate the Agency widget and locate
+the counter in the particular agency that is closed</p>
+<blockquote>
+<p><em>It displays the counter number and a CLOSED highlight with gray
+color</em></p>
+</blockquote>
+<p><strong>Step 3</strong> Click the green icon appearing like a screen icon to Open
+Counter</p>
+<p><strong>Step 4</strong> A confirmation dialog appears click Open to proceed.</p>
+<blockquote>
+<p><em>The counter status changes to Open (green). Tickets from the queue
+are now routed to your counter.</em></p>
+</blockquote>
+<h3 id="442-pausing-a-counter">4.4.2 Pausing a Counter<a class="headerlink" href="#442-pausing-a-counter" title="Permanent link">&para;</a></h3>
+<p>Use the pause function for short breaks (e.g., lunch etc.)</p>
+<p><strong>Step 1:</strong> login as an agent</p>
+<p><strong>step 2:</strong> At top bar of the counter locate the pause/play button and
+click it. The counter will be pause and the pause timer will
+automatically activate</p>
+<p>And this is good for breaks</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Paused counters are excluded from the average wait time calculation during the pause period. This prevents artificially inflating wait times while no agent is available.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="443-closing-a-counter">4.4.3 Closing a counter<a class="headerlink" href="#443-closing-a-counter" title="Permanent link">&para;</a></h3>
+<p>Managers can open or close any counter in their agency remotely, useful
+when an agent is unexpectedly absent or unresponsive.</p>
+<p>For the following step please see 4.4.1</p>
+<p>Follow the same step and identify the opened account you will love to
+close and click the red screen icon on the counter bar and confirm the
+dialog box</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Closed account, th agent will log in but won’t see their counters and there will be a message addressing them to visit the admin or a message that requires an admin action</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-managing-counter">4.5 Managing Counter<a class="headerlink" href="#45-managing-counter" title="Permanent link">&para;</a></h2>
+<p>All counter management are done by the super admin and admin or whosever
+has the role &amp; permission to. All counters are management in
+correspondence to their specific agency i.e., all counters have a
+particular agency it belongs to. So, managing a counter or taking any
+specific action on a counter, you must locate it agency first before the
+counter agency</p>
+<h3 id="451-counter-management-actions">4.5.1 Counter Management Actions<a class="headerlink" href="#451-counter-management-actions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>How To Perform It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Edit Counter name</strong></td>
+<td>Click the counter name → click Edit → modify fields → click Save.</td>
+</tr>
+<tr>
+<td><strong>Reassign Agent</strong></td>
+<td>Open the counter → Edit → change the Assigned User → Save. See Section 4.3.2.</td>
+</tr>
+<tr>
+<td><strong>Add / Remove Services</strong></td>
+<td>Locate the counter→ click the dropdown on the counter→ click add to add a service allocated to that counter</td>
+</tr>
+<tr>
+<td><strong>Deactivate</strong></td>
+<td>On the counter → click the red screen icon button and confirm the diaglog box. The counter goes Closed and is hidden from agent dashboards. Reactivate the same way.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="452-updating-counter-services">4.5.2 Updating Counter services<a class="headerlink" href="#452-updating-counter-services" title="Permanent link">&para;</a></h3>
+<p>If your agency expands its service offering, you may need to add new
+services to existing counters. Removing a service from a counter stops
+new tickets of that type from routing to it but does not affect tickets
+already in the queue.</p>
+<p><strong>Step 1:</strong> Locate the counter and click the dropdown on the counter</p>
+<blockquote>
+<p><em>The admin will have to assign or allocate a particular service to a
+counter before he/she add it and activate it</em></p>
+</blockquote>
+<p><strong>Step 2:</strong> In the service section activate or deactivate a service
+using the checkbox</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>One counter can handle multiple services which can be assign only by the super admin</td>
+</tr>
+</tbody>
+</table>
+<h2 id="46-counter-best-practices">4.6 Counter best Practices<a class="headerlink" href="#46-counter-best-practices" title="Permanent link">&para;</a></h2>
+<p>Following these practices will help ensure smooth daily operation and
+consistent service qualify across your agencies.</p>
+<p><strong>For Managers</strong></p>
+<ul>
+<li>
+<p>Create at least two counters per active service so that if one agent
+  is absent service can continue without interruption</p>
+</li>
+<li>
+<p>Review the Counter Status Grid on the Manager Dashboard at the start
+  of each day to verify all counters are correctly opened.</p>
+</li>
+<li>
+<p>Monitor counters with high Busy rates this may indicate the need for
+  an additional counter for that service.</p>
+</li>
+<li>
+<p>Set a Max Queue Size on counters to prevent runaway queues during peak
+  hours. When the cap is reached, new tickets are held in a general pool
+  until capacity opens.</p>
+</li>
+</ul>
+<p><strong>For Agents</strong></p>
+<ul>
+<li>
+<p>Always complete the current client In Progress ticket before pausing
+  or logging out your counter.</p>
+</li>
+<li>
+<p>If you notice your queue is growing faster than you can process it,
+  alert your manager through the platform notification or direct message
+  do not simply ignore the queue.</p>
+</li>
+<li>
+<p>Logout first never just close the browser tab. The auto-close delay
+  can cause ticket routing gaps.</p>
+</li>
+</ul>
+<h2 id="47-chapter-summary">4.7 Chapter Summary<a class="headerlink" href="#47-chapter-summary" title="Permanent link">&para;</a></h2>
+<p>This chapter covered the full lifecycle of a counter in Queco, from
+creation to daily operation to long term management. By now you should
+be able to:</p>
+<ol>
+<li>
+<p>Create counters with correct fields values and service assignments.</p>
+</li>
+<li>
+<p>Assign agents to counters and reassign them as staffing changes.</p>
+</li>
+<li>
+<p>Open, pause and close counter following the correct procedure</p>
+</li>
+<li>
+<p>Apply best practice to keep counter running efficiently</p>
+</li>
+</ol>
+<p><em>Chapter 5</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

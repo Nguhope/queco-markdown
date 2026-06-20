@@ -1,0 +1,1710 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../05-services-operations/">
+      
+      
+        <link rel="next" href="../07-diffusion-ecran/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Gestion Des Tickets - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestion-des-tickets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestion Des Tickets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../en/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#61-le-cycle-de-vie-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Le cycle de vie d'un ticket
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-creation-dun-ticket-kiosque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Création d'un ticket (Kiosque)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 Création d&#39;un ticket (Kiosque)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621-etape-par-etape-creer-un-nouveau-ticket-sur-le-kiosque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1 Étape par étape : Créer un nouveau ticket sur le kiosque
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63-appel-du-prochain-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Appel du prochain ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 Appel du prochain ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#631-etape-par-etape-appeler-le-prochain-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.1 Étape par étape : Appeler le prochain ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632-declassement-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.2 Déclassement d'un ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64-traitement-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Traitement d'un ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4 Traitement d&#39;un ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#641-la-vue-du-ticket-actif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4.1 La vue du ticket actif
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#65-cloture-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Clôture d'un ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.5 Clôture d&#39;un ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#651-etape-par-etape-cloturer-un-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5.1 Étape par étape : Clôturer un ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66-historique-des-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Historique des Tickets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.6 Historique des Tickets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#661-acces-a-lhistorique-des-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.1 Accès à l'historique des tickets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#67-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#61-le-cycle-de-vie-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Le cycle de vie d'un ticket
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-creation-dun-ticket-kiosque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Création d'un ticket (Kiosque)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 Création d&#39;un ticket (Kiosque)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621-etape-par-etape-creer-un-nouveau-ticket-sur-le-kiosque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1 Étape par étape : Créer un nouveau ticket sur le kiosque
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63-appel-du-prochain-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Appel du prochain ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 Appel du prochain ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#631-etape-par-etape-appeler-le-prochain-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.1 Étape par étape : Appeler le prochain ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632-declassement-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3.2 Déclassement d'un ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64-traitement-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Traitement d'un ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4 Traitement d&#39;un ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#641-la-vue-du-ticket-actif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4.1 La vue du ticket actif
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#65-cloture-dun-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Clôture d'un ticket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.5 Clôture d&#39;un ticket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#651-etape-par-etape-cloturer-un-ticket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5.1 Étape par étape : Clôturer un ticket
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66-historique-des-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Historique des Tickets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.6 Historique des Tickets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#661-acces-a-lhistorique-des-tickets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6.1 Accès à l'historique des tickets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#67-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestion-des-tickets">Gestion Des Tickets<a class="headerlink" href="#gestion-des-tickets" title="Permanent link">&para;</a></h1>
+<p><em>Le flux de travail quotidien principal : comment créer, appeler,
+traiter, mettre en attente, transférer et clôturer les tickets de
+service du début à la fin.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>Dans ce Chapitre</strong></p>
+<p>• 6.1 Le cycle de vie d’un ticket<br />
+• 6.2 Création d’un ticket<br />
+• 6.3 Appeler le ticket suivant<br />
+• 6.4 Traitement d’un ticket<br />
+• 6.5 Mettre un ticket en attente<br />
+• 6.6 Transférer un ticket<br />
+• 6.7 Clôturer un ticket<br />
+• 6.8 Historique et recherche des tickets</p></th>
+<th><p><strong>Apres ce Chapitre, Vous serez en mesure de</strong></p>
+<blockquote>
+<p>• Comprendre chaque étape du cycle de vie d’un ticket<br />
+• Créer correctement un nouveau ticket de service<br />
+• Appeler le prochain client dans la file d’attente<br />
+• Traiter et mettre à jour un ticket en temps réel<br />
+• Mettre un ticket en attente et le reprendre<br />
+• Transférer un ticket vers un autre guichet ou un autre agent<br />
+• Clôturer un ticket avec des notes de résolution appropriées<br />
+• Rechercher et consulter les tickets historiques</p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="61-le-cycle-de-vie-dun-ticket">6.1 Le cycle de vie d'un ticket<a class="headerlink" href="#61-le-cycle-de-vie-dun-ticket" title="Permanent link">&para;</a></h2>
+<p>Chaque demande de service client dans Queco suit un cycle de vie défini.
+Comprendre chaque étape aide à traiter les tickets correctement et
+permet aux responsables d'identifier les retards ou problèmes dans la
+file d'attente.</p>
+<table>
+<thead>
+<tr>
+<th><strong>#</strong></th>
+<th><strong>Status</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>Créé</td>
+<td>A new ticket has been issued. It has a unique number and is waiting in the agency queue.</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>En attente</td>
+<td>The ticket is in line and waiting to be called by an available agent at the relevant counter.</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Appelé</td>
+<td>An agent has called the ticket number. The customer is being summoned to the counter.</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>En cours</td>
+<td>The agent is actively processing the customer's request at the counter.</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>Annulé</td>
+<td>The ticket was voided before processing (e.g., customer left, duplicate entry).</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td>Déclassé</td>
+<td>The ticket is added back at the end of the queue list</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>Un ticket peut passer entre les statuts En attente, Appelé, En cours, Terminé ou Annulé. Chaque changement de statut est enregistré dans l'historique d'activité du ticket pour une traçabilité complète.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="62-creation-dun-ticket-kiosque">6.2 Création d'un ticket (Kiosque)<a class="headerlink" href="#62-creation-dun-ticket-kiosque" title="Permanent link">&para;</a></h2>
+<p>Les tickets représentent des demandes de service client individuelles.
+Ils peuvent être créés par les Super Administrateurs, les Responsables
+et les Agents. Dans la plupart des déploiements, les agents au bureau
+d'accueil créent les tickets au nom du client à son arrivée.</p>
+<h3 id="621-etape-par-etape-creer-un-nouveau-ticket-sur-le-kiosque">6.2.1 Étape par étape : Créer un nouveau ticket sur le kiosque<a class="headerlink" href="#621-etape-par-etape-creer-un-nouveau-ticket-sur-le-kiosque" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Lorsque le client arrive dans une agence, il rencontrera
+l'agent au bureau qui l'aidera à créer le ticket sur le kiosque.</p>
+<p><em>Les Super Administrateurs voient toutes les agences. Les Responsables
+et Agents ne voient que leur agence assignée.</em></p>
+<p><strong>Étape 2 :</strong> Sélectionnez le service dont le client a besoin.</p>
+<p><em>Seuls les services activés pour cette agence sont affichés. Voir
+Chapitre 5 Section 5.5 si un service est manquant.</em></p>
+<p><strong>Étape 3 :</strong> Sélectionnez l'opération, c'est-à-dire la tâche spécifique
+au sein du service.</p>
+<p><em>Exemple : Sous « Gestion de compte », sélectionnez « Ouvrir un compte
+».</em></p>
+<p><strong>Étape 4 :</strong> Saisissez le numéro de téléphone mobile du client.</p>
+<p><em>Le numéro de téléphone du client est obligatoire.</em></p>
+<p><strong>Étape 5 :</strong> Après que le client a saisi son numéro, cliquez sur «
+Passer ».</p>
+<p><em>Un numéro de ticket unique est généré (ex. : ACC-0042) et le ticket
+rejoint immédiatement la file d'attente.</em></p>
+<p>| <img src="../images/fr_image21.png"                                                                   <br /> style="width:7.08226in;height:2.63542in" /><em>Figure 6.2 — New Ticket creation form with all fields</em>  |
+|----------------------------------------------------------------------------------------------------|</p>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>Si aucun service n'apparaît dans le menu déroulant des services, l'agence n'a pas de services activés. Un Responsable ou Super Administrateur doit d'abord activer les services pour cette agence (Chapitre 5 Section 5.5).</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="63-appel-du-prochain-ticket">6.3 Appel du prochain ticket<a class="headerlink" href="#63-appel-du-prochain-ticket" title="Permanent link">&para;</a></h2>
+<p>Une fois votre guichet ouvert, vous pouvez commencer à appeler les
+tickets de la file d'attente. Le système sert automatiquement les
+tickets. Le ticket le plus ancien est servi en premier (FIFO).</p>
+<h3 id="631-etape-par-etape-appeler-le-prochain-ticket">6.3.1 Étape par étape : Appeler le prochain ticket<a class="headerlink" href="#631-etape-par-etape-appeler-le-prochain-ticket" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Assurez-vous que votre guichet est Ouvert.</p>
+<p>Si votre guichet affiche Fermé ou un message de non-assignation,
+signalez-le à l'administrateur ou au super administrateur.</p>
+<p><strong>Étape 2 :</strong> Lorsqu'un client crée un nouveau ticket sur le kiosque, le
+ticket est automatiquement assigné à la liste d'attente de ce service
+dans cette agence.</p>
+<p>Le numéro du ticket s'affiche automatiquement dans la liste d'attente
+d'un guichet gérant ce service.</p>
+<p><strong>Étape 3 :</strong> Dans la liste d'attente, le statut du ticket est
+EN_ATTENTE et lorsqu'il est appelé en session active, il passe à APPELÉ
+puis EN_COURS, et le chronomètre du guichet démarre immédiatement.</p>
+<p>Le client est censé se présenter à votre guichet lorsqu'il est appelé.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><img src="../images/fr_image22.png"
+style="width:5.23958in;height:2.69648in" /></p>
+<p><em>Figure 6.3 — Tableau de bord de l'agent affichant les boutons
+d'action du ticket actif, la liste d'attente avec les tickets en attente
+et le bouton Appeler le suivant</em></p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h3 id="632-declassement-dun-ticket">6.3.2 Déclassement d'un ticket<a class="headerlink" href="#632-declassement-dun-ticket" title="Permanent link">&para;</a></h3>
+<p>Si un ticket est en cours d'appel et que l'agent a attendu au moins une
+minute sans que le client ne se présente, le ticket est déclassé et
+replacé en fin de liste d'attente pour être rappelé une seconde fois.</p>
+<p><strong>Étape 1 :</strong> Dans la vue du ticket actif, cliquez sur le bouton «
+Déclasser ».</p>
+<p>Le ticket est replacé dans la liste d'attente. Le système remet le
+ticket en file (donnant au client une autre chance) ou l'annule
+automatiquement. Un ticket ne peut être déclassé qu'une seule fois une
+fois rappelé, le bouton de déclassement devient inactif, ne laissant que
+les options « Terminer » ou « Annuler ».</p>
+<h2 id="64-traitement-dun-ticket">6.4 Traitement d'un ticket<a class="headerlink" href="#64-traitement-dun-ticket" title="Permanent link">&para;</a></h2>
+<p>Une fois le ticket en cours, l'agent traite la demande du client. Cela
+peut impliquer l'utilisation d'autres systèmes internes ou l'exécution
+de différentes opérations dans Queco. Le ticket reste en cours jusqu'à
+ce qu'il soit Terminé, Annulé ou Déclassé.</p>
+<h3 id="641-la-vue-du-ticket-actif">6.4.1 La vue du ticket actif<a class="headerlink" href="#641-la-vue-du-ticket-actif" title="Permanent link">&para;</a></h3>
+<p>Lorsqu'un ticket est en cours, l'agent voit le panneau du ticket actif
+sur son tableau de bord. Ce panneau contient toutes les informations
+nécessaires au traitement de la demande.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Élément du panneau</strong></th>
+<th><strong>Ce qu'il affiche</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Numéro du ticket</strong></td>
+<td>Le numéro appelé afficher en évidence (ex. : S162)</td>
+</tr>
+<tr>
+<td><strong>Service &amp; Opération</strong></td>
+<td>Le type de service demandé par le client (ex. : solde de compte)</td>
+</tr>
+<tr>
+<td><strong>Temps écoulé</strong></td>
+<td>Chronomètre en direct indiquant depuis combien de temps le ticket est en cours (ex. : 0m 13s)</td>
+</tr>
+<tr>
+<td><strong>Boutons d'action</strong></td>
+<td>Terminer, Annuler, Déclasser les trois actions clés disponibles pendant le traitement</td>
+</tr>
+<tr>
+<td><strong>Téléphone</strong></td>
+<td>Le numéro de téléphone du client (ex. : 652333666)</td>
+</tr>
+</tbody>
+</table>
+<p>| <img src="../images/fr_image23.png"                                                                                  <br /> style="width:3.96875in;height:3.5193in" /><em>Figure 6.4 — Panneau du ticket actif avec tous les éléments étiquetés</em>  |
+|-------------------------------------------------------------------------------------------------------------------|</p>
+<h2 id="65-cloture-dun-ticket">6.5 Clôture d'un ticket<a class="headerlink" href="#65-cloture-dun-ticket" title="Permanent link">&para;</a></h2>
+<p>Clôturez un ticket une fois que la demande du client a été entièrement
+traitée. La clôture est l'étape finale du cycle de vie du ticket. Elle
+enregistre la résolution, arrête le chronomètre de traitement et rend le
+ticket disponible dans l'archive historique à des fins de rapport et
+d'audit.</p>
+<h3 id="651-etape-par-etape-cloturer-un-ticket">6.5.1 Étape par étape : Clôturer un ticket<a class="headerlink" href="#651-etape-par-etape-cloturer-un-ticket" title="Permanent link">&para;</a></h3>
+<p>Nous pouvons clôturer un ticket depuis la vue active en effectuant 3
+actions :</p>
+<ol>
+<li><strong>Terminer un Ticket</strong></li>
+</ol>
+<p><strong>Étape 1 :</strong> Dans le panneau du ticket actif, cliquez sur le bouton «
+Terminer ». Le ticket se termine instantanément, le chronomètre s'arrête
+et l'action est enregistrée dans la section historique.</p>
+<ol>
+<li><strong>Déclasser un ticket</strong></li>
+</ol>
+<p><strong>Étape 1 :</strong> Dans le panneau du ticket actif, cliquez sur le bouton «
+Terminer ». Le ticket se termine instantanément, le chronomètre s'arrête
+et l'action est enregistrée dans la section historique.</p>
+<ol>
+<li><strong>Annuler un ticket</strong></li>
+</ol>
+<p><strong>Étape 1 :</strong> Cliquez sur le bouton jaune « Annuler ».</p>
+<p><strong>Étape 2 :</strong> La boîte de dialogue d'annulation apparaît à l'écran.</p>
+<p><strong>Étape 3 :</strong> Cliquez sur « Confirmer » pour annuler définitivement le
+ticket, qui sera également enregistré dans la section historique.</p>
+<p><em>Un ticket annulé n'a jamais été entièrement traité. Il est annulé avant
+ou pendant le processus.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Scenario</strong></th>
+<th><strong>Action Corrective</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Le client est parti avant d'être appelé.</strong></td>
+<td>Utilisez le bouton <strong>Annuler</strong> au niveau du guichet.</td>
+</tr>
+<tr>
+<td><strong>Le client a changé d'avis en cours de traitement.</strong></td>
+<td>Annulez le ticket ayant le statut <strong>En cours de traitement</strong> (<em>In Progress</em>).</td>
+</tr>
+<tr>
+<td><strong>Un mauvais service a été sélectionné lors de la création du ticket.</strong></td>
+<td>Annulez le ticket puis créez-en un nouveau avec le service correct.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>WARNING</strong></th>
+<th>L'annulation est définitive et ne peut pas être annulée. Les tickets annulés sont exclus de la plupart des rapports d'analyse. Utilisez l'option « Annuler » uniquement lorsque cela est approprié ; ne l'utilisez pas pour éviter d'enregistrer un résultat « Non résolu ».</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="66-historique-des-tickets">6.6 Historique des Tickets<a class="headerlink" href="#66-historique-des-tickets" title="Permanent link">&para;</a></h2>
+<p>Tous les tickets Terminés et Annulés sont archivés dans l'Historique des
+tickets. Les Responsables et Super Administrateurs y ont un accès
+complet. Les agents peuvent rechercher les tickets de l'historique de
+leur propre guichet pour la journée. Après une journée et au-delà,
+l'historique des tickets est effacé pour une nouvelle journée.</p>
+<h3 id="661-acces-a-lhistorique-des-tickets">6.6.1 Accès à l'historique des tickets<a class="headerlink" href="#661-acces-a-lhistorique-des-tickets" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Dans le guichet, cliquez sur la flèche dans la barre
+supérieure et l'interface basculera vers la section où se trouve
+l'historique.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><img src="../images/fr_image24.png"
+style="width:5.78125in;height:2.71274in" /></p>
+<p><em>Figure 6.8 — Page de l'historique des tickets avec barre de
+recherche et panneau de filtres</em></p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="67-resume-du-chapitre">6.7 Résumé du chapitre<a class="headerlink" href="#67-resume-du-chapitre" title="Permanent link">&para;</a></h2>
+<p>Ce chapitre a couvert l'ensemble du flux de gestion des tickets, de la
+création à travers chaque étape de traitement jusqu'à la clôture finale
+et la consultation de l'historique. À présent, vous devriez être en
+mesure de :</p>
+<ol>
+<li>
+<p>Décrire chaque étape du cycle de vie d'un ticket et la signification
+    de chaque statut.</p>
+</li>
+<li>
+<p>Créer un ticket avec les paramètres corrects de service, d'opération
+    et de priorité.</p>
+</li>
+<li>
+<p>Appeler le prochain ticket de la file d'attente et commencer à le
+    traiter.</p>
+</li>
+<li>
+<p>Clôturer un ticket avec le statut de résolution approprie.</p>
+</li>
+<li>
+<p>Rechercher et filtrer l’historique des tickets</p>
+</li>
+</ol>
+<p><em>Chapitre 7</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

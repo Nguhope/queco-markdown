@@ -1,0 +1,2433 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../07-screen-diffusion/">
+      
+      
+        <link rel="next" href="../../fr/01-introduction/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Analytics & Reporting - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analytics-reporting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Analytics & Reporting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fr/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#81-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811-role-based-analytics-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1.1 Role-Based Analytics Access
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-period-sector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Period Sector
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-super-admin-analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Super Admin Analytics Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.3 Super Admin Analytics Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#831-summary-kpi-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3.1 Summary KPI Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#832-network-performance-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3.2 Network Performance Panel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#84-agency-ranking-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Agency Ranking Deep Dive
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.4 Agency Ranking Deep Dive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#841-ranking-sort-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.1 Ranking Sort Logic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#842-medal-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.2 Medal System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#843-reading-an-agency-row" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.3 Reading an Agency Row
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#85-manager-analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5 Manager Analytics Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.5 Manager Analytics Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#851-card-1-median-wait-time-circular-gauge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.1 Card 1: Median Wait Time (Circular Gauge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#852-card-2-median-processing-time-circular-gauge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.2 Card 2: Median Processing Time (Circular Gauge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#853-card-3-counter-top-flop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.3 Card 3: Counter Top / Flop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#854-agency-performance-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.4 Agency Performance Panel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#86-chart-client-flow-service-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6 Chart: Client Flow &amp; Service Breakdown
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.6 Chart: Client Flow &amp; Service Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#861-client-flow-bar-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6.1 Client Flow Bar Chart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#862-service-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6.2 Service Breakdown
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#87-kpi-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.7 KPI Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.7 KPI Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#871-time-display-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.7.1 Time Display Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#88-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.8 Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#81-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811-role-based-analytics-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1.1 Role-Based Analytics Access
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-period-sector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Period Sector
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-super-admin-analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Super Admin Analytics Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.3 Super Admin Analytics Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#831-summary-kpi-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3.1 Summary KPI Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#832-network-performance-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3.2 Network Performance Panel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#84-agency-ranking-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Agency Ranking Deep Dive
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.4 Agency Ranking Deep Dive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#841-ranking-sort-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.1 Ranking Sort Logic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#842-medal-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.2 Medal System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#843-reading-an-agency-row" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4.3 Reading an Agency Row
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#85-manager-analytics-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5 Manager Analytics Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.5 Manager Analytics Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#851-card-1-median-wait-time-circular-gauge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.1 Card 1: Median Wait Time (Circular Gauge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#852-card-2-median-processing-time-circular-gauge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.2 Card 2: Median Processing Time (Circular Gauge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#853-card-3-counter-top-flop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.3 Card 3: Counter Top / Flop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#854-agency-performance-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5.4 Agency Performance Panel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#86-chart-client-flow-service-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6 Chart: Client Flow &amp; Service Breakdown
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.6 Chart: Client Flow &amp; Service Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#861-client-flow-bar-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6.1 Client Flow Bar Chart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#862-service-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.6.2 Service Breakdown
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#87-kpi-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.7 KPI Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.7 KPI Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#871-time-display-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.7.1 Time Display Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#88-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.8 Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="analytics-reporting">Analytics &amp; Reporting<a class="headerlink" href="#analytics-reporting" title="Permanent link">&para;</a></h1>
+<p><em>How to read and interpret the Queco analytics dashboards understanding
+KPI cards, performance metrics, agency rankings, client flow charts, and
+service breakdowns for both Super Admins and Managers.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>In this chapter</strong></p>
+<p>8.1 Overview</p>
+<p>8.2 Period Selector</p>
+<p>8.3 Super Admin Analytics</p>
+<p>8.4 Agency Ranking Deep Dive</p>
+<p>8.5 Manager Analytics</p>
+<p>8.6 Charts Client Flow &amp; Service Breakdown</p>
+<p>8.7 KPI Reference</p>
+<p>8.8 Chapter Summary</p></th>
+<th><p><strong>After this chapter you will be able to</strong></p>
+<ul>
+<li><p>Understand the difference between Super Admin and Manager
+analytics views</p></li>
+<li><p>Use the Period Selector to filter all dashboard widgets by time
+range</p></li>
+<li><p>Read and interpret all KPI summary cards and network performance
+cards</p></li>
+<li><p>Understand the Agency Ranking table and medal system</p></li>
+<li><p>Navigate the Manager dashboard including gauges and Counter
+Top/Flop widget</p></li>
+<li><p>Read the Client Flow bar chart and Service Breakdown
+chart</p></li>
+<li><p>Look up the definition of any metric in the KPI Reference
+table</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="81-overview">8.1 Overview<a class="headerlink" href="#81-overview" title="Permanent link">&para;</a></h2>
+<p>The Analytics module gives platform stakeholders real-time and
+historical visibility into how the agency network is performing. It
+answers three core questions: How many customers did we serve? How fast
+did we serve them? Which agencies and counters are performing best?</p>
+<p>Analytics is accessible from the left sidebar. The dashboard displayed
+depends entirely on your role the Super Admin and the Manager see
+completely different views, scoped to their level of authority.</p>
+<h3 id="811-role-based-analytics-access">8.1.1 Role-Based Analytics Access<a class="headerlink" href="#811-role-based-analytics-access" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th><strong>Scope</strong></th>
+<th><strong>What They See</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Super Admin</strong></td>
+<td>Entire platform all agencies</td>
+<td>Network-wide KPIs, agency ranking with medals, cross-agency ticket volumes, client flow chart, service breakdown across all agencies.</td>
+</tr>
+<tr>
+<td><strong>Manager</strong></td>
+<td>Their assigned agency only</td>
+<td>Wait &amp; processing time gauges, counter Top/Flop, 5 agency-scoped performance cards, hourly client flow, service breakdown for their agency.</td>
+</tr>
+<tr>
+<td><strong>Agent</strong></td>
+<td>No access</td>
+<td>The Analytics module is not available to agents. Agents see only their own session summary when closing a counter.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>The Manager dashboard is automatically scoped to the agency linked to their account. A Manager cannot view data from any other agency</td>
+</tr>
+</tbody>
+</table>
+<p>| <img src="../images/en_image32.png"                                                                                     <br /> style="width:2.01042in;height:3.96565in" /><em>Figure 8.1 Analytics sidebar entry point and role-based dashboard title</em>  |
+|----------------------------------------------------------------------------------------------------------------------|</p>
+<h2 id="82-period-sector">8.2 Period Sector<a class="headerlink" href="#82-period-sector" title="Permanent link">&para;</a></h2>
+<p>At the top of every analytics dashboard for both Super Admins and
+Managers is the Period Selector. This time filter controls the date
+range used to calculate every widget, card, chart, and table on the page
+simultaneously. Changing the period updates all data at once; there is
+no need to refresh individual widgets.</p>
+<p>| <img src="../images/en_image33.png"                                                                 <br /> style="width:6.06335in;height:1.06265in" /><em>Figure 8.2 Period Selector with all options visible</em>  |
+|--------------------------------------------------------------------------------------------------|</p>
+<table>
+<thead>
+<tr>
+<th><strong>Period Option</strong></th>
+<th><strong>What it Covers</strong></th>
+<th><strong>Typical Use</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Today</strong></td>
+<td>From midnight of the current day to the current moment</td>
+<td>Real-time operational monitoring how is today going?</td>
+</tr>
+<tr>
+<td><strong>This Week</strong></td>
+<td>Monday 00:00 to the current moment (current calendar week)</td>
+<td>Weekly performance check are we on track this week?</td>
+</tr>
+<tr>
+<td><strong>This Month</strong></td>
+<td>First day of the current month to the current moment</td>
+<td>Monthly KPI review how is the month shaping up?</td>
+</tr>
+<tr>
+<td><strong>This Year</strong></td>
+<td>January 1st of the current year to the current moment</td>
+<td>Annual performance overview and year-to-date totals</td>
+</tr>
+<tr>
+<td><strong>Custom range</strong></td>
+<td>Any start date and end date selected by the user</td>
+<td>Targeted investigation compare a specific campaign period, holiday season, or incident window</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>Use Today for live operational decisions. Use This Month for team performance reviews. Use Custom Range for management reports covering a specific period.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>The period filter applies to ticket creation timestamps. A ticket created on Monday is counted in 'This Week' even if it was closed on Tuesday.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="83-super-admin-analytics-dashboard">8.3 Super Admin Analytics Dashboard<a class="headerlink" href="#83-super-admin-analytics-dashboard" title="Permanent link">&para;</a></h2>
+<p>The super admin dashboard provides a bird’s-eye view of the entire
+platform. It aggregates data across all the agencies, giving a complete
+picture of network health, volumes and performance at any moment.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><img src="../images/en_image34.png"
+style="width:6.5in;height:3.47986in" /></p>
+<p><em>Figure 8.3 Super Admin Analytics Dashboard (full
+view)</em></p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h3 id="831-summary-kpi-cards">8.3.1 Summary KPI Cards<a class="headerlink" href="#831-summary-kpi-cards" title="Permanent link">&para;</a></h3>
+<p>For summary cards appear at the very top each showing a network-wide
+metric for the selected period</p>
+<table>
+<thead>
+<tr>
+<th><strong>Card</strong></th>
+<th><strong>What It Shows</strong></th>
+<th><strong>Sub-text Displayed</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Tickets</strong></td>
+<td>All tickets created across all agencies in the selected period.</td>
+<td>Selected period label (e.g., 'Today')</td>
+</tr>
+<tr>
+<td><strong>Served</strong></td>
+<td>Tickets with status FINISHED across all agencies.</td>
+<td>Service Rate % = Served ÷ Total × 100</td>
+</tr>
+<tr>
+<td><strong>Waiting</strong></td>
+<td>Tickets in WAITING or IN_PROGRESS status across all agencies.</td>
+<td>In Progress count shown separately</td>
+</tr>
+<tr>
+<td><strong>Cancelled</strong></td>
+<td>Tickets with status CANCELLED across all agencies.</td>
+<td>Active agencies · Inactive agencies count</td>
+</tr>
+</tbody>
+</table>
+<h3 id="832-network-performance-panel">8.3.2 Network Performance Panel<a class="headerlink" href="#832-network-performance-panel" title="Permanent link">&para;</a></h3>
+<p>Below the summary cards sits the network performance panel 6 detailed
+performance cards showing deeper breakdown across the entire network</p>
+<table>
+<thead>
+<tr>
+<th><strong>Performance Card</strong></th>
+<th><strong>What It Measures</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Tickets</strong></td>
+<td>Cumulative ticket count for the period — the top-line volume metric.</td>
+</tr>
+<tr>
+<td><strong>Tickets Served</strong></td>
+<td>Tickets that reached FINISHED status. Primary measure of throughput.</td>
+</tr>
+<tr>
+<td><strong>Tickets Waiting</strong></td>
+<td>Tickets in WAITING status queued but not yet called.</td>
+</tr>
+<tr>
+<td><strong>Tickets In Progress</strong></td>
+<td>Tickets currently being processed by an agent (IN_PROGRESS).</td>
+</tr>
+<tr>
+<td><strong>Tickets Cancelled</strong></td>
+<td>Tickets voided before or during processing.</td>
+</tr>
+<tr>
+<td><strong>Active Agencies</strong></td>
+<td>Number of agencies with is_active = true. Gives volume figures context.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><img src="../images/en_image35.png" style="width:6.5in;height:0.88958in" /><em>Figure 8.4 — Network Performance panel with 6 PerfCards</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>Monitor Waiting and In Progress together. High Waiting + Low In Progress = counters may be closed or understaffed. Both high = agency at peak capacity — consider opening additional counters.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="84-agency-ranking-deep-dive">8.4 Agency Ranking Deep Dive<a class="headerlink" href="#84-agency-ranking-deep-dive" title="Permanent link">&para;</a></h2>
+<p>The Agency Ranking is the most powerful section of the super Admin
+dashboard. It shows every agency ranked by performance, giving an
+immediate view of which agencies are thriving and which need attention</p>
+<table>
+<thead>
+<tr>
+<th><img src="../images/en_image36.png" style="width:6.5in;height:3.12083in" /><em>Figure 8.5 Agency Ranking with medal indicators, progress bars, and per-agency breakdowns</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="841-ranking-sort-logic">8.4.1 Ranking Sort Logic<a class="headerlink" href="#841-ranking-sort-logic" title="Permanent link">&para;</a></h3>
+<p>Agencies are sorted using the following priority rules:</p>
+<ol>
+<li>
+<p>Active agencies always appear before Inactive agencies regardless of
+    ticket volume.</p>
+</li>
+<li>
+<p>Within Active agencies: sorted by Tickets Served (descending)
+    highest volume first.</p>
+</li>
+<li>
+<p>Same Tickets Served count: sorted alphabetically by agency name
+    (A→Z).</p>
+</li>
+<li>
+<p>Inactive agencies follow the same sub-rules among themselves at the
+    bottom.</p>
+</li>
+</ol>
+<h3 id="842-medal-system">8.4.2 Medal System<a class="headerlink" href="#842-medal-system" title="Permanent link">&para;</a></h3>
+<p>The top 3 agencies receive a medal an immediately recognizable visual
+distinction for the top performers.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Position</strong></th>
+<th><strong>Medal</strong></th>
+<th><strong>Visual Style</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1st</strong></td>
+<td>Gold (🥇)</td>
+<td>Yellow background (#FFF3CD), gold dot (#F9A825). Warm gold row highlight.</td>
+</tr>
+<tr>
+<td><strong>2nd</strong></td>
+<td>Silver (🥈)</td>
+<td>Light grey background (#F4F4F4), silver dot (#AAB4C0). Silver row highlight.</td>
+</tr>
+<tr>
+<td><strong>3rd</strong></td>
+<td>Bronze (🥉)</td>
+<td>Warm orange background (#FDF0E8), bronze dot (#CD7F32). Bronze row highlight.</td>
+</tr>
+<tr>
+<td><strong>4th+</strong></td>
+<td>Numbered</td>
+<td>Standard alternating white/light blue rows. Position number shown instead of medal icon.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="843-reading-an-agency-row">8.4.3 Reading an Agency Row<a class="headerlink" href="#843-reading-an-agency-row" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>What It Means</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wifi / WifiOff icon</strong></td>
+<td>Green Wifi = agency is_active: true (operational). Grey WifiOff = is_active: false (suspended).</td>
+</tr>
+<tr>
+<td><strong>Agency Name &amp; Code</strong></td>
+<td>Display name above; unique agency code (e.g., AGC-001) in monospace font below.</td>
+</tr>
+<tr>
+<td><strong>Progress Bar</strong></td>
+<td>Proportional fill: this agency's Served count ÷ the top-ranked agency's Served count × 100. Bar at 100% = the highest-volume agency.</td>
+</tr>
+<tr>
+<td><strong>Served</strong></td>
+<td>Tickets with FINISHED status for this agency in the selected period.</td>
+</tr>
+<tr>
+<td><strong>In Progress</strong></td>
+<td>Tickets currently being processed (IN_PROGRESS). Indicates live activity.</td>
+</tr>
+<tr>
+<td><strong>Waiting</strong></td>
+<td>Tickets in queue not yet called (WAITING). High values may signal capacity issues.</td>
+</tr>
+<tr>
+<td><strong>Cancelled</strong></td>
+<td>Tickets voided. Persistently high values may indicate process or staffing problems.</td>
+</tr>
+<tr>
+<td><strong>Service Rate %</strong></td>
+<td>Formula: Served ÷ (Served + Waiting + In Progress + Cancelled) × 100. Rounded to nearest integer. The primary quality metric per agency.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>Service Rate % uses total tickets (all statuses) as the denominator. An agency with 80 served and 20 waiting has a rate of 80% the 20 waiting tickets count against the rate even though they may still be resolved.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>A high Service Rate with a high Cancelled count is a red flag. It may mean agents are cancelling difficult tickets to inflate the rate. Always review Cancelled and Served together.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="85-manager-analytics-dashboard">8.5 Manager Analytics Dashboard<a class="headerlink" href="#85-manager-analytics-dashboard" title="Permanent link">&para;</a></h2>
+<p>The Manager dashboard focuses on operational quality time-based KPIs
+that measure customer experience and counter efficiency within the
+Manager's assigned agency. Unlike the Super Admin view, it prioritises
+depth over breadth.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../images/en_image37.png" style="width:6.5in;height:3.38264in" /><em>Figure 8.6 — Manager Analytics Dashboard (full view)</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="851-card-1-median-wait-time-circular-gauge">8.5.1 Card 1: Median Wait Time (Circular Gauge)<a class="headerlink" href="#851-card-1-median-wait-time-circular-gauge" title="Permanent link">&para;</a></h3>
+<p>A circular gauge showing the median time (in minutes) customers waited
+before their ticket was called.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gauge centre value</strong></td>
+<td>Median wait time in minutes — the middle value when all wait times are sorted. Half of customers waited less; half waited more.</td>
+</tr>
+<tr>
+<td><strong>Gauge arc colour</strong></td>
+<td>Amber (#F59E0B). Arc fills proportionally relative to the maximum of: median, average, or 60 minutes — whichever is highest.</td>
+</tr>
+<tr>
+<td><strong>Sub-text below gauge</strong></td>
+<td>Shows Average Wait Time: 'Average: X min'. The average can be inflated by outliers; the median is more representative of the typical customer experience.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="852-card-2-median-processing-time-circular-gauge">8.5.2 Card 2: Median Processing Time (Circular Gauge)<a class="headerlink" href="#852-card-2-median-processing-time-circular-gauge" title="Permanent link">&para;</a></h3>
+<p>A circular gauge showing the median time (in minutes) agents spent
+processing a single ticket from In Progress to Closed.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gauge centre value</strong></td>
+<td>Median processing time in minutes — how long the middle ticket took to resolve.</td>
+</tr>
+<tr>
+<td><strong>Gauge arc colour</strong></td>
+<td>Purple (#8B5CF6). Arc fills relative to max of: median, average, or 30 minutes.</td>
+</tr>
+<tr>
+<td><strong>Sub-text below gauge</strong></td>
+<td>Shows Average Processing Time for comparison. Compare average vs median to detect outliers pulling the average up.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Median vs Average: If 9 customers wait 5 minutes and 1 waits 60 minutes, the average is 10.5 min but the median is 5 min. The median tells the true story of the typical customer experience. Both are shown so managers can detect and investigate outlier situations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="853-card-3-counter-top-flop">8.5.3 Card 3: Counter Top / Flop<a class="headerlink" href="#853-card-3-counter-top-flop" title="Permanent link">&para;</a></h3>
+<p>Compares the best and the worst performing counters by tickets served in
+the selected period the key agent performance indication for managers.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Top counter (left)</strong></td>
+<td>Counter with the highest FINISHED ticket count. Agent name shown with a green upward arrow (↑) and their ticket count.</td>
+</tr>
+<tr>
+<td><strong>Flop counter (right)</strong></td>
+<td>Counter with the lowest FINISHED ticket count. Agent name shown with a red downward arrow (↓) and their count.</td>
+</tr>
+<tr>
+<td><strong>Progress bar</strong></td>
+<td>Ratio bar: Top tickets ÷ (Top + Flop tickets). Fully green left = extreme imbalance. Centred = similar performance.</td>
+</tr>
+<tr>
+<td><strong>Agent identification</strong></td>
+<td>Name resolved in this order: Agent first name from profile → Counter name → Email prefix → Counter ID (first 6 characters).</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>The Flop counter is not automatically a problem. It may handle complex VIP operations, opened late, or serves fewer but longer tickets. Always investigate context before acting on Top/Flop data alone.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="854-agency-performance-panel">8.5.4 Agency Performance Panel<a class="headerlink" href="#854-agency-performance-panel" title="Permanent link">&para;</a></h3>
+<p>Below the 3 summary cards, the Manager sees 5 Performance Cards
+identical in structure to the Super Admin's Network panel, but scoped
+exclusively to their agency.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Performance Card</strong></th>
+<th><strong>What It Measures (Agency Scope)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Tickets</strong></td>
+<td>All tickets created for this agency in the selected period.</td>
+</tr>
+<tr>
+<td><strong>Tickets Served</strong></td>
+<td>Tickets with FINISHED status for this agency.</td>
+</tr>
+<tr>
+<td><strong>Tickets Waiting</strong></td>
+<td>Tickets in WAITING status for this agency.</td>
+</tr>
+<tr>
+<td><strong>Tickets In Progress</strong></td>
+<td>Tickets currently IN_PROGRESS for this agency.</td>
+</tr>
+<tr>
+<td><strong>Tickets Cancelled</strong></td>
+<td>Tickets with CANCELLED status for this agency.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="86-chart-client-flow-service-breakdown">8.6 Chart: Client Flow &amp; Service Breakdown<a class="headerlink" href="#86-chart-client-flow-service-breakdown" title="Permanent link">&para;</a></h2>
+<p>Both dashboards include two charts at the bottom of the page the Client
+Flow bar chart and the Service Breakdown. These provide the visual
+context behind the KPI numbers.</p>
+<h3 id="861-client-flow-bar-chart">8.6.1 Client Flow Bar Chart<a class="headerlink" href="#861-client-flow-bar-chart" title="Permanent link">&para;</a></h3>
+<p>Shows ticket volume over time how many tickets were created during each
+time interval within the selected period. The primary tool for
+identifying peak hours, slow periods, and daily patterns.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th><strong>Chart Scope</strong></th>
+<th><strong>Time Granularity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Super Admin</strong></td>
+<td>All agencies combined network total</td>
+<td>Hourly for Today/Week, daily for Month/Year</td>
+</tr>
+<tr>
+<td><strong>Manager</strong></td>
+<td>Their agency only</td>
+<td>Hourly for Today, daily for longer periods</td>
+</tr>
+</tbody>
+</table>
+<p>How to read the bar chart:</p>
+<ul>
+<li>
+<p>Each bar = one time interval (hour or day depending on period
+  selected).</p>
+</li>
+<li>
+<p>Bar height = number of tickets created in that interval.</p>
+</li>
+<li>
+<p>Taller bars = peak demand useful for staffing decisions.</p>
+</li>
+<li>
+<p>Flat or empty periods = low demand good windows for breaks or counter
+  closures.</p>
+</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>[ SCREENSHOT PLACEHOLDER ]</strong></p>
+<p><em>Figure 8.8 — Client Flow Bar Chart (Manager view — hourly
+breakdown for Today)</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Check the flow chart on Monday morning to identify your busiest hours. Staff counters proactively before the peak — not after the queue has already built.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="862-service-breakdown">8.6.2 Service Breakdown<a class="headerlink" href="#862-service-breakdown" title="Permanent link">&para;</a></h3>
+<p>Shows the distribution of ticket volume by service type for the selected
+period. Answers the question: which of our services is generating the
+most demand?</p>
+<p>How to read the service breakdown:</p>
+<ul>
+<li>
+<p>Each segment represents one service (e.g., Account Management, Loan
+  Services).</p>
+</li>
+<li>
+<p>Segment size is proportional to that service's share of total tickets
+  as a percentage.</p>
+</li>
+<li>
+<p>Dominant services indicate where to focus staffing and counter
+  resources.</p>
+</li>
+<li>
+<p>Services with very low volume may be candidates for review are they
+  still needed? Are agents aware they exist?</p>
+</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>[ SCREENSHOT PLACEHOLDER ]</strong></p>
+<p><em>Figure 8.9 — Service Breakdown showing proportional distribution
+across service types</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>The service breakdown counts all ticket statuses — not just Served. This gives a true picture of demand, including tickets that are cancelled or still waiting.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="87-kpi-reference">8.7 KPI Reference<a class="headerlink" href="#87-kpi-reference" title="Permanent link">&para;</a></h2>
+<p>This master table defines every metric in the Queco Analytics module
+what it means, how it is calculated, and which role can see it.</p>
+<table>
+<thead>
+<tr>
+<th><strong>KPI Name</strong></th>
+<th><strong>Unit</strong></th>
+<th><strong>Definition &amp; Formula</strong></th>
+<th><strong>Who Sees It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Tickets</strong></td>
+<td>Count</td>
+<td>All tickets created in the period — all statuses included.</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Tickets Served</strong></td>
+<td>Count</td>
+<td>status = FINISHED.</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Tickets Waiting</strong></td>
+<td>Count</td>
+<td>status = WAITING (queued, not yet called).</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Tickets In Progress</strong></td>
+<td>Count</td>
+<td>status = IN_PROGRESS (agent actively processing).</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Tickets Cancelled</strong></td>
+<td>Count</td>
+<td>status = CANCELLED.</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Service Rate %</strong></td>
+<td>%</td>
+<td>Served ÷ (Served + Waiting + In Progress + Cancelled) × 100. Rounded to nearest integer.</td>
+<td><strong>Both</strong></td>
+</tr>
+<tr>
+<td><strong>Active Agencies</strong></td>
+<td>Count</td>
+<td>Agencies where is_active = true.</td>
+<td><strong>Super Admin</strong></td>
+</tr>
+<tr>
+<td><strong>Inactive Agencies</strong></td>
+<td>Count</td>
+<td>Total agencies − Active agencies.</td>
+<td><strong>Super Admin</strong></td>
+</tr>
+<tr>
+<td><strong>Agency Progress Bar</strong></td>
+<td>%</td>
+<td>Agency Served ÷ Max Served (highest-ranked agency) × 100. Relative comparison — not an absolute metric.</td>
+<td><strong>Super Admin</strong></td>
+</tr>
+<tr>
+<td><strong>Median Wait Time</strong></td>
+<td>Minutes</td>
+<td>50th percentile of wait_minutes across all tickets in the period. More representative than average for skewed distributions.</td>
+<td><strong>Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Average Wait Time</strong></td>
+<td>Minutes</td>
+<td>Sum of wait_minutes ÷ ticket count. Can be inflated by outlier long waits.</td>
+<td><strong>Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Median Processing Time</strong></td>
+<td>Minutes</td>
+<td>50th percentile of processing_minutes. How long the middle ticket took from In Progress to Closed.</td>
+<td><strong>Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Average Processing Time</strong></td>
+<td>Minutes</td>
+<td>Sum of processing_minutes ÷ ticket count.</td>
+<td><strong>Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Top Counter</strong></td>
+<td>Count</td>
+<td>Counter with the highest FINISHED ticket count in the period. Identified by agent first name → counter name → email prefix → ID prefix.</td>
+<td><strong>Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Flop Counter</strong></td>
+<td>Count</td>
+<td>Counter with the lowest FINISHED ticket count in the period.</td>
+<td><strong>Manager</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="871-time-display-format">8.7.1 Time Display Format<a class="headerlink" href="#871-time-display-format" title="Permanent link">&para;</a></h3>
+<p>Wait and processing times are formatted as follows throughout the
+platform:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Raw Value</strong></th>
+<th><strong>Displayed As</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Less than 1 minute</strong></td>
+<td>'X sec’ — e.g., '45 sec'</td>
+</tr>
+<tr>
+<td><strong>1 to 59 minutes</strong></td>
+<td>'X min' — e.g., '12 min'</td>
+</tr>
+<tr>
+<td><strong>60 minutes or more</strong></td>
+<td>'Xh Ymin' — e.g., '1h 30min' or '2h'</td>
+</tr>
+<tr>
+<td><strong>Zero or null</strong></td>
+<td>'0 min'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="88-chapter-summary">8.8 Chapter Summary<a class="headerlink" href="#88-chapter-summary" title="Permanent link">&para;</a></h2>
+<p>This chapter covered the complete Analytics &amp; Reporting module from
+role-based access through every KPI definition. By now you should be
+able to:</p>
+<ol>
+<li>
+<p>Explain the difference between the Super Admin and Manager analytics
+    dashboards and their respective scopes.</p>
+</li>
+<li>
+<p>Use the Period Selector to filter all dashboard data by Today, Week,
+    Month, Year, or a custom date range.</p>
+</li>
+<li>
+<p>Read and interpret the 4 Super Admin summary KPI cards and 6 Network
+    Performance cards.</p>
+</li>
+<li>
+<p>Understand the Agency Ranking sort logic, medal system, and how to
+    read each agency row element.</p>
+</li>
+<li>
+<p>Interpret the Manager's Median Wait and Processing Time circular
+    gauges, including the median vs average distinction.</p>
+</li>
+<li>
+<p>Use the Top/Flop Counter widget appropriately, understanding its
+    context and limitations.</p>
+</li>
+<li>
+<p>Read the Client Flow bar chart and Service Breakdown for both roles.</p>
+</li>
+<li>
+<p>Look up any KPI definition, formula, and access level using the
+    master reference table in Section 8.7.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

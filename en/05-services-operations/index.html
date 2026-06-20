@@ -1,0 +1,2061 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../04-counter-management/">
+      
+      
+        <link rel="next" href="../06-ticket-management/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Services & Operations - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#services-operations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Services & Operations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fr/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-service-vs-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Service vs Operations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Service vs Operations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-real-world-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.1 Real-World Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-planning-your-service-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Planning Your Service Catalogue
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Planning Your Service Catalogue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-catalogue-planning-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.1 Catalogue Planning Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.2 Naming Conventions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-creating-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Creating a Service
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Creating a Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-step-by-step-create-a-new-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Step-by-step: Create a new service
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#532-service-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.2 Service Form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-creating-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Creating Operation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4 Creating Operation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#541-step-by-step-add-an-operation-to-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.1 Step by step: Add an operation to a service
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#542-operation-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.2 Operation form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-activating-services-per-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Activating Services per Agency
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.5 Activating Services per Agency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#551-step-by-step-activate-a-service-for-an-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.1 Step-by-Step: Activate a Service for an Agency
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-managing-the-service-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Managing the Service Catalogue
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.6 Managing the Service Catalogue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#561-service-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.1 Service Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#562-operation-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.2 Operation Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#563-impact-matrix-action-vs-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.3 Impact Matrix: Action vs Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-service-catalogue-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Service Catalogue Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.8 Chapter summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fr/08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-service-vs-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Service vs Operations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Service vs Operations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-real-world-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.1 Real-World Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-planning-your-service-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Planning Your Service Catalogue
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Planning Your Service Catalogue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-catalogue-planning-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.1 Catalogue Planning Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.2 Naming Conventions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-creating-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Creating a Service
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Creating a Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-step-by-step-create-a-new-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Step-by-step: Create a new service
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#532-service-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.2 Service Form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-creating-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Creating Operation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4 Creating Operation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#541-step-by-step-add-an-operation-to-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.1 Step by step: Add an operation to a service
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#542-operation-form-field-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.2 Operation form Field Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-activating-services-per-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Activating Services per Agency
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.5 Activating Services per Agency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#551-step-by-step-activate-a-service-for-an-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.1 Step-by-Step: Activate a Service for an Agency
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-managing-the-service-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Managing the Service Catalogue
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.6 Managing the Service Catalogue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#561-service-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.1 Service Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#562-operation-management-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.2 Operation Management Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#563-impact-matrix-action-vs-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6.3 Impact Matrix: Action vs Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-service-catalogue-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Service Catalogue Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.8 Chapter summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="services-operations">Services &amp; Operations<a class="headerlink" href="#services-operations" title="Permanent link">&para;</a></h1>
+<p><em>How to build and manage the service catalogue defining what your agency
+offers, structuring operations within each service, and activating them
+per agency.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>In this chapter</strong></p>
+<ul>
+<li><p>5.1 Services vs. Operations</p></li>
+<li><p>5.2 Planning Your Service Catalogue</p></li>
+<li><p>5.3 Creating a Service</p></li>
+<li><p>5.4 Creating Operations</p></li>
+<li><p>5.5 Activating Services per Agency</p></li>
+<li><p>5.6 Managing the Service Catalogue</p></li>
+<li><p>5.7 Service Catalogue Best Practices</p></li>
+</ul></th>
+<th><p><strong>After this chapter you will be able to</strong></p>
+<ul>
+<li><p>Distinguish services from operations</p></li>
+<li><p>Plan a logical service catalogue</p></li>
+<li><p>Create services with all required fields</p></li>
+<li><p>Add operations to a service</p></li>
+<li><p>Activate services for specific agencies</p></li>
+<li><p>Edit, deactivate, and reorganize services</p></li>
+<li><p>Apply best practices for clean catalogue management</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="51-service-vs-operations">5.1 Service vs Operations<a class="headerlink" href="#51-service-vs-operations" title="Permanent link">&para;</a></h2>
+<p>Before building your service catalogue, it is essential to understand
+the distinction between a Service and an operation. These two works
+together to describe what your agency offers and how each customer
+request is categorized when a ticket is created.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Concept</strong></th>
+<th><strong>Definition</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Service</strong></td>
+<td>A broad category of work offered to customers by an agency.</td>
+<td>Account Management</td>
+</tr>
+<tr>
+<td><strong>Operation</strong></td>
+<td>A specific, discrete task performed within a service.</td>
+<td>Open Account, Close Account, Update Personal Info</td>
+</tr>
+<tr>
+<td><strong>Ticket</strong></td>
+<td>A customer request linked to exactly one Service and one Operation.</td>
+<td>Ticket for 'Account Management → Open Account'</td>
+</tr>
+</tbody>
+</table>
+<p>Think of a service as a folder and operation as a file inside it. When
+an agent creates a ticket, they select the service first then choose the
+specific operation being performed. These two-level structures allow
+Queco’s analytic to report not only on which services are most demanded,
+but specific task consume the most time.</p>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>A Service can contain as many Operations as needed. However, every Service must have at least one Operation before it can be activated for an agency.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="511-real-world-examples">5.1.1 Real-World Examples<a class="headerlink" href="#511-real-world-examples" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Industry</strong></th>
+<th><strong>Service Example</strong></th>
+<th><strong>Operations Inside It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Banking</strong></td>
+<td>Loan Services</td>
+<td>New Loan Application, Loan Repayment, Loan Balance Inquiry, Loan Pre-closure</td>
+</tr>
+<tr>
+<td><strong>Government</strong></td>
+<td>Civil Registration</td>
+<td>Birth Certificate, Death Certificate, Marriage Certificate, Name Change</td>
+</tr>
+<tr>
+<td><strong>Telecom</strong></td>
+<td>SIM Card Services</td>
+<td>New SIM Activation, SIM Replacement, SIM Blocking, Plan Upgrade</td>
+</tr>
+<tr>
+<td><strong>Health Clinic</strong></td>
+<td>Consultation Services</td>
+<td>General Consultation, Follow-up Visit, Lab Results Collection, Prescription Renewal</td>
+</tr>
+<tr>
+<td><strong>Post Office</strong></td>
+<td>Parcel Services</td>
+<td>Send Parcel, Track Parcel, Collect Parcel, Return Parcel</td>
+</tr>
+</tbody>
+</table>
+<h2 id="52-planning-your-service-catalogue">5.2 Planning Your Service Catalogue<a class="headerlink" href="#52-planning-your-service-catalogue" title="Permanent link">&para;</a></h2>
+<p>Taking time to plan your service catalogue before configuring it in
+Queco will save significant rework later. A well-structured catalogue
+improves ticket routing accuracy, makes analytics more meaningful, and
+reduces confusion for agents when creating tickets.</p>
+<h3 id="521-catalogue-planning-checklist">5.2.1 Catalogue Planning Checklist<a class="headerlink" href="#521-catalogue-planning-checklist" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>List all customer-facing services your organization provides.</p>
+</li>
+<li>
+<p>For each service, list every distinct task an agent might perform
+    for a customer.</p>
+</li>
+<li>
+<p>Group overlapping tasks if two tasks are essentially the same, merge
+    them into one operation.</p>
+</li>
+<li>
+<p>Estimate the average time needed to complete each operation. This
+    value feeds the wait time estimator.</p>
+</li>
+<li>
+<p>Identify which agencies offer which services not all agencies need
+    the full catalogue.</p>
+</li>
+<li>
+<p>Agree on consistent naming conventions before entering anything in
+    Queco (e.g., use verbs: 'Open Account', not 'Account Opening').</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>Prepare your service catalogue in a spreadsheet first (Service Name, Service Code, Operations, Estimated Duration, Agencies). Review it with your team before creating anything in Queco. Renaming services after tickets have been processed against them can affect historical reporting.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="522-naming-conventions">5.2.2 Naming Conventions<a class="headerlink" href="#522-naming-conventions" title="Permanent link">&para;</a></h3>
+<p>Consistent naming across your service catalogue makes the platform
+easier to use for every role. Follow these guidelines :</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Recommended Style</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Service Name</strong></td>
+<td>Title Case, noun-based</td>
+<td>Account Management, Loan Services</td>
+</tr>
+<tr>
+<td><strong>Service Code</strong></td>
+<td>Uppercase, hyphen-separated, 3–6 chars</td>
+<td>ACC-MGT, LOAN-SVC, REG-DOC</td>
+</tr>
+<tr>
+<td><strong>Operation Name</strong></td>
+<td>Title Case, action verb + object</td>
+<td>Open Account, Submit Application</td>
+</tr>
+<tr>
+<td><strong>Operation Code</strong></td>
+<td>Uppercase, short, no spaces</td>
+<td>OPEN-ACC, SUBMT-APP</td>
+</tr>
+</tbody>
+</table>
+<h2 id="53-creating-a-service">5.3 Creating a Service<a class="headerlink" href="#53-creating-a-service" title="Permanent link">&para;</a></h2>
+<p>Services are created at the platform level by the Super Admin or a
+Manger. Once created, they exist in the master catalogue can then be
+selectively activated for individual agencies. A service no operation
+cannot be activated.</p>
+<h3 id="531-step-by-step-create-a-new-service">5.3.1 Step-by-step: Create a new service<a class="headerlink" href="#531-step-by-step-create-a-new-service" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1</strong> From the left sidebar, click service,</p>
+<p><strong>Step 2</strong> Click Add service in the top-right corner of the service
+page.</p>
+<p><strong>Step 3</strong> Fill all require fields in the new service form</p>
+<p><em>And you can also set the appearance color of your choice</em></p>
+<p>| <img src="../images/en_image15.png"                                                    <br /> style="width:3.89583in;height:3.02778in" /><em>Figure 5.1 — New Service creation form</em>  |
+|-------------------------------------------------------------------------------------|</p>
+<p>| <img src="../images/en_image16.png"                                                       <br /> style="width:2.91667in;height:2.81746in" /><em>Figure 5.1 — New Service appearance color</em>  |
+|----------------------------------------------------------------------------------------|</p>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>A newly created service is invisible to all agents and counters until it is (1) given at least one operation, and (2) explicitly activated for an agency. See Sections 5.4 and 5.5.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="532-service-form-field-reference">5.3.2 Service Form Field Reference<a class="headerlink" href="#532-service-form-field-reference" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Service Name (FR)</strong></td>
+<td>Human-readable name displayed to agents and in reports in French</td>
+<td><strong>Required</strong></td>
+</tr>
+<tr>
+<td><strong>Service Name (EN)</strong></td>
+<td>Human-readable name displayed to agents and in reports in English</td>
+<td><strong>Required</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="54-creating-operation">5.4 Creating Operation<a class="headerlink" href="#54-creating-operation" title="Permanent link">&para;</a></h2>
+<p>Operations are the individual tasks within a service. They must be
+created after the parent service exists. You can add multiple operations
+to one service at any time even after the service is already active and
+being used.</p>
+<h3 id="541-step-by-step-add-an-operation-to-a-service">5.4.1 Step by step: Add an operation to a service<a class="headerlink" href="#541-step-by-step-add-an-operation-to-a-service" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1</strong> Click Services, click the name of the service you want to add
+operations to or identify the service u want to add operation to and
+click details button on the service card</p>
+<p><strong>Step 2:</strong> Create a new service by clicking the “+Add” button at the
+top right-hand corner and fill the required field.</p>
+<p>| <img src="../images/en_image17.png"                                                                                                      <br /> style="width:3.42865in;height:2.36458in" /><em>Figure 5.2 Service Detail page showing the Operations section and 'Add Operation' button</em>  |
+|---------------------------------------------------------------------------------------------------------------------------------------|</p>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>Add all operations for a service before activating it for agencies. Adding operations to an already-active service works fine, but agents using the service at that moment won't see the new operation until their next page refresh. Moreover, You can activate and deactivate and operation in a particular service</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="542-operation-form-field-reference">5.4.2 Operation form Field Reference<a class="headerlink" href="#542-operation-form-field-reference" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Operation Name</strong></td>
+<td>Action-verb name agents see when creating a ticket (e.g., 'Open Account'). For both English and French</td>
+<td><strong>Required</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><img src="../images/en_image18.png"
+style="width:4.08333in;height:4.43477in" /></p>
+<p><em>Figure 5.2 Operation form field</em></p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="55-activating-services-per-agency">5.5 Activating Services per Agency<a class="headerlink" href="#55-activating-services-per-agency" title="Permanent link">&para;</a></h2>
+<p>Creating a service in the master catalogue does not make it available to
+any agency automatically. Each service must be explicitly activated for
+each agency that needs it. This design allows different agencies to
+offer different service catalogues from the same master list for
+example, a main branch may offer all 12 services while a satellite
+office offers only 4.</p>
+<h3 id="551-step-by-step-activate-a-service-for-an-agency">5.5.1 Step-by-Step: Activate a Service for an Agency<a class="headerlink" href="#551-step-by-step-activate-a-service-for-an-agency" title="Permanent link">&para;</a></h3>
+<p><strong>Step 1:</strong> From side bar click Services</p>
+<p><strong>Step 2:</strong> On the top right-hand corner beside the button New Service,
+there is a search bar with a dropdown of all the agencies created, just
+select the agency you want to activate the service in</p>
+<p><strong>Step 3:</strong> After selecting it, the catalogue of all the Services will
+appear deactivated</p>
+<p><strong>Step 4:</strong> Click on the service in question and side bar from the right
+will appear</p>
+<p><strong>Step 5:</strong> In the side bar bellow click the green button <strong>“Enable for
+this agency”</strong> and after it will turn red</p>
+<p><strong>Step 6:</strong> Above you can also active the operation in that service for
+that agency is you wish</p>
+<p>| <img src="../images/en_image19.png"                                                                                                                                       <br /> style="width:7.51207in;height:3.98958in" /><em>Figure 5.4 Agency Services tab showing master catalogue with activated and deactivated service for an agency (ex. Mankon)</em>  |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|</p>
+<p>| <img src="../images/en_image20.png"                                                                                          <br /> style="width:3.0625in;height:4.72917in" /><em>Figure 5.4 — Detail page showing how to activate a service with its operation</em>  |
+|---------------------------------------------------------------------------------------------------------------------------|</p>
+<table>
+<thead>
+<tr>
+<th><strong>NOTE</strong></th>
+<th>If a service has no operations, or its operation is deactivated, simply activate the service first then activate the operation later respective. And if a service has no operation, you could create one later.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>TIP</strong></th>
+<th>After activating services for an agency, verify that at least one counter in that agency has been linked to each activated service. If no counter handles a service, tickets for that service will enter the queue but never be routed to an agent.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="56-managing-the-service-catalogue">5.6 Managing the Service Catalogue<a class="headerlink" href="#56-managing-the-service-catalogue" title="Permanent link">&para;</a></h2>
+<p>Services and operations can be edited, deactivated, or achieved at any
+time. Understanding the impact of each action on live data is important
+before making changes to an active service catalogue.</p>
+<h3 id="561-service-management-actions">5.6.1 Service Management Actions<a class="headerlink" href="#561-service-management-actions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>How To Perform It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Edit a Service</strong></td>
+<td>Go to Services → click the service name → click Edit → modify fields → Save.</td>
+</tr>
+<tr>
+<td><strong>Deactivate a Service</strong></td>
+<td>Go to Services → click the service name → click deactivated → click confirm</td>
+</tr>
+<tr>
+<td><strong>Reactivate a Service</strong></td>
+<td>Go to Services → click the service name → click activated → click confirm</td>
+</tr>
+<tr>
+<td><strong>Delete a Service</strong></td>
+<td>Go to Services → click the service name → click Archive service → type the name of the service, click Confirm delete</td>
+</tr>
+</tbody>
+</table>
+<h3 id="562-operation-management-actions">5.6.2 Operation Management Actions<a class="headerlink" href="#562-operation-management-actions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>How To Perform It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Edit an Operation</strong></td>
+<td>Open the service → click the operation → click Edit → modify → Save.</td>
+</tr>
+<tr>
+<td><strong>Deactivate an Operation</strong></td>
+<td>Open the service → toggle the operation's status Off. Agents no longer see it in the ticket creation form. Existing tickets are unaffected.</td>
+</tr>
+<tr>
+<td><strong>Reactivate an Operation</strong></td>
+<td>Toggle the operation's status back On. It reappears for agents immediately.</td>
+</tr>
+<tr>
+<td><strong>Delete an Operation</strong></td>
+<td>Open the service → click (⋮) on the operation → Delete → confirm. Permanent. Historical tickets retain a 'Deleted Operation' label.</td>
+</tr>
+<tr>
+<td><strong>Reorder Operations</strong></td>
+<td>Drag operation rows by the handle icon (☰) within a service. Controls the display order in the ticket form.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>WARNING</strong></th>
+<th>Deleting a service or operation that has associated open (unresolved) tickets will cause those tickets to display incomplete information. Always check for open tickets before deleting. Deactivate instead of deleting when in doubt.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="563-impact-matrix-action-vs-data">5.6.3 Impact Matrix: Action vs Data<a class="headerlink" href="#563-impact-matrix-action-vs-data" title="Permanent link">&para;</a></h3>
+<p>Use this table to understand the effect of each management action on
+live data before proceeding.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Open Tickets</strong></th>
+<th><strong>Historical Tickets</strong></th>
+<th><strong>Agency Availability</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Deactivate Service</strong></td>
+<td>No new tickets created</td>
+<td>Fully intact</td>
+<td>Removed from all agencies</td>
+</tr>
+<tr>
+<td><strong>Reactivate Service</strong></td>
+<td>Resumes normally</td>
+<td>Fully intact</td>
+<td>Restored to all previously active agencies</td>
+</tr>
+<tr>
+<td><strong>Delete Service</strong></td>
+<td>Marked as incomplete</td>
+<td>Labels show 'Deleted Service'</td>
+<td>Permanently removed</td>
+</tr>
+<tr>
+<td><strong>Deactivate Operation</strong></td>
+<td>No new tickets for this op</td>
+<td>Fully intact</td>
+<td>Operation hidden in ticket form</td>
+</tr>
+<tr>
+<td><strong>Delete Operation</strong></td>
+<td>Marked as incomplete</td>
+<td>Labels show 'Deleted Operation'</td>
+<td>Permanently removed</td>
+</tr>
+</tbody>
+</table>
+<h2 id="57-service-catalogue-best-practices">5.7 Service Catalogue Best Practices<a class="headerlink" href="#57-service-catalogue-best-practices" title="Permanent link">&para;</a></h2>
+<p>A well-maintained service catalogue is the foundation of accurate
+analytics and efficient queue management. Follow these practices to keep
+the catalogue clean and effective.</p>
+<p><strong>Catalogue Design</strong></p>
+<ul>
+<li>
+<p>Keep service broad and operation specific. Aim for 3 – 8 operation per
+  service. If a service has more than 10 operations, consider splitting
+  it into 2 services.</p>
+</li>
+<li>
+<p>Avoid creating duplicate operation across service category.</p>
+</li>
+</ul>
+<p><strong>Ongoing Maintenance</strong></p>
+<ul>
+<li>
+<p>Review the service catalogue once per quarter. Remove or deactivate
+  operation that are no longer operational.</p>
+</li>
+<li>
+<p>When a service changes significantly (e.g a new process introduced)
+  update the instruction field so that agent always have current
+  guidance at hand.</p>
+</li>
+<li>
+<p>Monitor the service usage report in analytics to identify operation
+  with very low volumes</p>
+</li>
+<li>
+<p>Never delete a service or an operation while an active initiative is
+  running. Schedule deletions during off-peak hours and announce them to
+  agent in advance</p>
+</li>
+</ul>
+<h2 id="58-chapter-summary">5.8 Chapter summary<a class="headerlink" href="#58-chapter-summary" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the complete service catalogue workflow in Queco,
+from planning and naming convections through creation, activation and
+ongoing management. By now you should be able to;</p>
+<ul>
+<li>
+<p>Distinguish service from operations and explain how they relate to
+  tickets.</p>
+</li>
+<li>
+<p>Plan and document a service catalogue before configuring it in Queco</p>
+</li>
+<li>
+<p>Create service with all required fields and consistent naming
+  conventions</p>
+</li>
+<li>
+<p>Add and manage operations within each service</p>
+</li>
+<li>
+<p>Activate service for individual agencies and specific operations
+  within them</p>
+</li>
+</ul>
+<p><em>Chapter 6</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

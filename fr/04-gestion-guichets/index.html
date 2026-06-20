@@ -1,0 +1,1913 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../03-configuration-super-admin/">
+      
+      
+        <link rel="next" href="../05-services-operations/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Gestion Des Guichets - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestion-des-guichets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestion Des Guichets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../en/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-quest-ce-quun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Qu'est-ce qu'un guichet ?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Qu&#39;est-ce qu&#39;un guichet ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-modele-de-statut-des-guichetss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Modèle de statut des guichetss
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-creation-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Création d'un guichet
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Création d&#39;un guichet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-etape-par-etape-creer-un-nouveau-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1 Étape par étape : Créer un nouveau guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-reference-des-champs-du-formulaire-de-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2 Référence des champs du formulaire de guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-assigner-des-guichets-aux-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Assigner des guichets aux agents
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 Assigner des guichets aux agents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431-assigner-ou-reassigner-un-agent-apres-la-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 Assigner ou réassigner un agent après la création
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432-assigner-ou-reassigner-un-agent-apres-la-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 Assigner ou réassigner un agent après la création
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433-desassigner-un-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 Désassigner un agent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-ouverture-et-fermeture-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Ouverture et fermeture d'un guichet
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Ouverture et fermeture d&#39;un guichet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#442-mise-en-pause-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2 Mise en pause d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443-fermeture-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3 Fermeture d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-gestion-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Gestion des guichets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Gestion des guichets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-actions-de-gestion-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 Actions de gestion des guichets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-mise-a-jour-des-services-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 Mise à jour des services d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-bonnes-pratiques-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Bonnes pratiques des guichets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-diffusion-ecran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-quest-ce-quun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Qu'est-ce qu'un guichet ?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Qu&#39;est-ce qu&#39;un guichet ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-modele-de-statut-des-guichetss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Modèle de statut des guichetss
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-creation-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Création d'un guichet
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Création d&#39;un guichet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-etape-par-etape-creer-un-nouveau-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1 Étape par étape : Créer un nouveau guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-reference-des-champs-du-formulaire-de-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2 Référence des champs du formulaire de guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-assigner-des-guichets-aux-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Assigner des guichets aux agents
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 Assigner des guichets aux agents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431-assigner-ou-reassigner-un-agent-apres-la-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 Assigner ou réassigner un agent après la création
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432-assigner-ou-reassigner-un-agent-apres-la-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 Assigner ou réassigner un agent après la création
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433-desassigner-un-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 Désassigner un agent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-ouverture-et-fermeture-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Ouverture et fermeture d'un guichet
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Ouverture et fermeture d&#39;un guichet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#442-mise-en-pause-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2 Mise en pause d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443-fermeture-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3 Fermeture d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-gestion-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Gestion des guichets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Gestion des guichets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-actions-de-gestion-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 Actions de gestion des guichets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-mise-a-jour-des-services-dun-guichet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 Mise à jour des services d'un guichet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-bonnes-pratiques-des-guichets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Bonnes pratiques des guichets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestion-des-guichets">Gestion Des Guichets<a class="headerlink" href="#gestion-des-guichets" title="Permanent link">&para;</a></h1>
+<p><em>Comment créer, configurer, attribuer et exploiter les guichets, les
+points de service de première ligne où les agents traitent les tickets
+des clients.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><h3 id="dans-ce-chapitre">Dans ce chapitre</h3>
+<p>• 4.1 Qu’est-ce qu’un guichet ?<br />
+• 4.2 Création d’un guichet<br />
+• 4.3 Attribution des guichets aux agents<br />
+• 4.4 Ouverture et fermeture d’un guichet<br />
+• 4.5 Gestion des guichets<br />
+• 4.6 Bonnes pratiques des guichets</p></td>
+<td><h3 id="après-ce-chapitre-vous-serez-en-mesure-de">Après ce
+chapitre, vous serez en mesure de :</h3>
+<p>• Comprendre le rôle du guichet dans Queco<br />
+• Créer un nouveau guichet dans une agence<br />
+• Attribuer un agent à un guichet<br />
+• Ouvrir et fermer un guichet pour les opérations quotidiennes<br />
+• Modifier, désactiver et supprimer des guichets<br />
+• Appliquer les bonnes pratiques pour optimiser le flux des files
+d’attente</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="41-quest-ce-quun-guichet">4.1 Qu'est-ce qu'un guichet ?<a class="headerlink" href="#41-quest-ce-quun-guichet" title="Permanent link">&para;</a></h2>
+<p>Un guichet est un point de service désigné au sein d'une agence où les
+tickets des clients sont reçus et traités. Dans un bureau physique, un
+guichet correspond à un bureau ou à une fenêtre de service. Dans un
+environnement virtuel ou hybride, il représente un canal de service
+numérique attribué à un agent spécifique.</p>
+<p>Les guichets constituent le cœur opérationnel de Queco. Chaque ticket
+qui entre dans le système est finalement acheminé vers un guichet, où il
+est appelé, traité et clôturé par l'agent assigné. Sans au moins un
+guichet ouvert, aucun ticket ne peut être pris en charge.</p>
+<h3 id="411-modele-de-statut-des-guichetss"><strong>4.1.1 Modèle de statut des guichetss</strong><a class="headerlink" href="#411-modele-de-statut-des-guichetss" title="Permanent link">&para;</a></h3>
+<p>Chaque guichet dans Queco possède l'un des quatre statuts à tout moment.
+Comprendre ces statuts est essentiel aussi bien pour les agents gérant
+leur poste de travail que pour les responsables supervisant le flux des
+files d'attente.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Statut</strong></th>
+<th><strong>Indicateur de couleur</strong></th>
+<th><strong>Signification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ouvert</strong></td>
+<td>Vert</td>
+<td>Le guichet est actif et disponible. Les tickets y sont acheminés. L'agent est connecté et prêt.</td>
+</tr>
+<tr>
+<td><strong>Pause</strong></td>
+<td>Amber</td>
+<td>Le guichet est temporairement en pause (ex. : déjeuner). Aucun nouveau ticket ne lui est acheminé. Il peut être rouvert par l'agent.</td>
+</tr>
+<tr>
+<td><strong>Close</strong></td>
+<td>Gris</td>
+<td>Le guichet est hors ligne. Aucun ticket ne peut lui être acheminé. Typique en fin de service ou lorsqu'un guichet est désaffecté.</td>
+</tr>
+</tbody>
+</table>
+<p>NB : <em>L'ouverture ou la fermeture de tous les guichets d'une agence est
+effectuée par le super administrateur ou par toute personne ayant le
+rôle de gestion des guichets.</em></p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image12.png"</td>
+</tr>
+<tr>
+<td>style="width:7.21057in;height:1.47986in" /&gt;<em>Figure 4.1 — Grille des statuts des guichets sur le tableau de bord du responsable (code couleur Ouvert / Fermé)</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="42-creation-dun-guichet">4.2 Création d'un guichet<a class="headerlink" href="#42-creation-dun-guichet" title="Permanent link">&para;</a></h2>
+<p>Les guichets doivent être créés avant que les agents puissent commencer
+à traiter les tickets. Seuls les super administrateurs et les
+responsables peuvent créer et attribuer des guichets à un utilisateur
+particulier dans une agence. Chaque guichet appartient à exactement une
+agence et un utilisateur, et peut prendre en charge un ou plusieurs
+services.</p>
+<h3 id="421-etape-par-etape-creer-un-nouveau-guichet">4.2.1 Étape par étape : Créer un nouveau guichet<a class="headerlink" href="#421-etape-par-etape-creer-un-nouveau-guichet" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Depuis la barre latérale gauche, cliquez sur « Agence »</p>
+<p><em>La liste des agences actives s'affichera.</em></p>
+<p><strong>Étape 2 :</strong> Choisissez l'agence spécifique dans laquelle vous
+souhaitez créer un guichet et cliquez dessus.</p>
+<p><strong>Étape 3 :</strong> Accédez à la gestion des guichets et cliquez sur le bouton
+vert « +Ajouter » situer dans le coin supérieur de la carte.</p>
+<p><strong>Étape 4 :</strong> Un formulaire contextuel apparaîtra, remplissez tous les
+champs requis.</p>
+<p><strong>Étape 5 :</strong> Dans la section Services, sélectionnez tous les services
+que ce guichet est autorisé à traiter.</p>
+<p><em>Un guichet doit être lié à au moins un service pour recevoir
+l'acheminement des tickets.</em></p>
+<p><strong>Étape 6 :</strong> Assignez éventuellement un agent dans le champ «
+Utilisateur assigné »</p>
+<p><em>Vous pouvez également assigner l'agent ultérieurement.</em></p>
+<p><strong>Étape 7 :</strong> Cliquez sur Enregistrer.</p>
+<p><em>Le guichet est créé avec le statut Fermé. Il ne recevra aucun ticket
+tant qu'un administrateur ne l'aura pas ouvert.</em></p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p><img src="../images/fr_image13.png"
+style="width:6.24931in;height:4.05208in" /></p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Nommez vos guichets de manière claire et cohérente (ex. : « Guichet A », « Fenêtre 3 », « Bureau Paiements »). Les agents voient le nom de leur guichet sur leur tableau de bord chaque jour un bon nommage réduit la confusion pendant les périodes chargées.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="422-reference-des-champs-du-formulaire-de-guichet">4.2.2 Référence des champs du formulaire de guichet<a class="headerlink" href="#422-reference-des-champs-du-formulaire-de-guichet" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Champ</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Statut</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nom du guichet</strong></td>
+<td>Nom affiché aux agents sur leur tableau de bord et sur les écrans d'affichage clients.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Utilisateur assigne</strong></td>
+<td>L'agent responsable de ce guichet. Peut être laissé vider et assigné ultérieurement.</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+<tr>
+<td><strong>Services</strong></td>
+<td>Un ou plusieurs services que ce guichet peut traiter. Seuls les services liés y acheminent les tickets.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WARNING</strong></td>
+<td>Si vous créez et assignez un guichet à la mauvaise agence, vous devez le supprimer et le recréer dans l'agence correcte.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="43-assigner-des-guichets-aux-agents">4.3 Assigner des guichets aux agents<a class="headerlink" href="#43-assigner-des-guichets-aux-agents" title="Permanent link">&para;</a></h2>
+<p>Chaque guichet doit être assigné à un agent. L'agent assigné voit le
+guichet sur son tableau de bord et est responsable de son ouverture au
+début de son service. Un agent ne peut être assigné qu'à un seul guichet
+à la fois.</p>
+<h3 id="431-assigner-ou-reassigner-un-agent-apres-la-creation">4.3.1 Assigner ou réassigner un agent après la création<a class="headerlink" href="#431-assigner-ou-reassigner-un-agent-apres-la-creation" title="Permanent link">&para;</a></h3>
+<p>Lors du processus de création du guichet (Section 4.2.1, Étape 6), vous
+pouvez sélectionner un agent dans le menu déroulant « Utilisateur
+assigné ». Seuls les utilisateurs ayant le rôle d'Agent dans la même
+agence apparaissent dans cette liste.</p>
+<h3 id="432-assigner-ou-reassigner-un-agent-apres-la-creation">4.3.2 Assigner ou réassigner un agent après la création<a class="headerlink" href="#432-assigner-ou-reassigner-un-agent-apres-la-creation" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Depuis la barre latérale, cliquez sur « Agences » et
+choisissez l'agence dans laquelle vous avez créé le guichet.</p>
+<p><strong>Étape 2 :</strong> Accédez à la gestion des guichets et localisez le guichet
+créé.</p>
+<p><strong>Étape 3 :</strong> Sur le guichet créé, cliquez sur le bouton « personnes
+vertes » et un formulaire apparaîtra avec un menu déroulant des
+utilisateurs assignés à cette même agence.</p>
+<p>Seuls les agents de la même agence sont affichés. Si aucun agent
+n'apparaît, vérifiez que des comptes agents ont été créés pour cette
+agence (Chapitre 3 Section 3.4).</p>
+<p><strong>Étape 4 :</strong> Cliquez sur Enregistrer.</p>
+<p>Les modifications prennent effet à la prochaine connexion de l'agent ou
+au prochain rafraîchissement du tableau de bord.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Si aucun agent n'est affecté à un guichet, celui-ci reste au statut « Fermé » et n'accepte aucun ticket. Assurez-vous toujours que chaque guichet actif dispose d'un agent affecté avant le début du service (ou du quart de travail).</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image14.png"
+style="width:3.89583in;height:2.88717in" /></p>
+<p><em>Figure 4.3 Vue d'édition du profil du guichet affichant le menu
+déroulant Utilisateur assigné</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="433-desassigner-un-agent">4.3.3 Désassigner un agent<a class="headerlink" href="#433-desassigner-un-agent" title="Permanent link">&para;</a></h3>
+<p>Pour retirer temporairement un agent d'un guichet sans supprimer le
+guichet :</p>
+<p><strong>Étape 1 :</strong> Accédez à la gestion des guichets, localisez le guichet
+créé et cliquez sur le bouton « icône personnes rouge ».</p>
+<p><strong>Étape 2 :</strong> Cliquez sur Supprimer. Les modifications prennent effet
+immédiatement.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Utilisez la désassignation plutôt que la désactivation lorsqu'un agent est temporairement absent (congé maladie, vacances). Cela permet de conserver le guichet intact et de le réassigner rapidement au retour de l'agent.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="44-ouverture-et-fermeture-dun-guichet">4.4 Ouverture et fermeture d'un guichet<a class="headerlink" href="#44-ouverture-et-fermeture-dun-guichet" title="Permanent link">&para;</a></h2>
+<p>L'ouverture d'un guichet marque le début d'une session de service. Les
+tickets commencent à être acheminés vers le guichet uniquement après son
+ouverture. La fermeture d'un guichet met fin à la session et arrête tout
+nouvel acheminement de tickets. Il s'agit d'un flux de travail quotidien
+effectué par l'agent assigné, bien que les responsables puissent
+également effectuer cette action à distance. Seul l'administrateur ayant
+le rôle d'ouverture ou de fermeture d'un guichet peut effectuer cette
+action.</p>
+<p><strong>4.4.1 Ouverture d'un guichet fermé (Agent)</strong></p>
+<p><strong>Étape 1 :</strong> Connectez-vous à Queco en tant que super administrateur.</p>
+<p><strong>Étape 2 :</strong> Sur votre tableau de bord administrateur, localisez le
+widget Agence et repérez le guichet fermé dans l'agence concernée.</p>
+<p>Il affiche le numéro du guichet avec la mention FERMÉ en surbrillance
+grise.</p>
+<p><strong>Étape 3 :</strong> Cliquez sur l'icône verte ressemblant à une icône d'écran
+pour Ouvrir le guichet.</p>
+<p><strong>Étape 4 :</strong> Une boîte de dialogue de confirmation apparaît, cliquez
+sur Ouvrir pour continuer.</p>
+<p>Le statut du guichet passe à Ouvert (vert). Les tickets de la file
+d'attente sont désormais acheminés vers votre guichet.</p>
+<h3 id="442-mise-en-pause-dun-guichet">4.4.2 Mise en pause d'un guichet<a class="headerlink" href="#442-mise-en-pause-dun-guichet" title="Permanent link">&para;</a></h3>
+<p>Utilisez la fonction pause pour les courtes pauses (ex. : déjeuner,
+etc.)</p>
+<p><strong>Étape 1 :</strong> Connectez-vous en tant qu'agent.</p>
+<p><strong>Étape 2 :</strong> Dans la barre supérieure du guichet, localisez le bouton
+pause/lecture et cliquez dessus. Le guichet sera mis en pause et le
+minuteur de pause s'activera automatiquement.</p>
+<p>Ceci est pratique pour les pauses.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Les guichets en pause sont exclus du calcul du temps d'attente moyen pendant la période de pause. Cela évite d'augmenter artificiellement les temps d'attente lorsqu'aucun agent n'est disponible.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="443-fermeture-dun-guichet">4.4.3 Fermeture d'un guichet<a class="headerlink" href="#443-fermeture-dun-guichet" title="Permanent link">&para;</a></h3>
+<p>Les responsables peuvent ouvrir ou fermer n'importe quel guichet de leur
+agence à distance, ce qui est utile lorsqu'un agent est absent de
+manière inattendue ou ne répond pas. Pour les étapes suivantes, veuillez
+consulter la section 4.4.1.</p>
+<p>Suivez les mêmes étapes, identifiez le guichet ouvert que vous souhaitez
+fermer, cliquez sur l'icône d'écran rouge sur la barre du guichet et
+confirmez la boîte de dialogue.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Lorsqu'un guichet est fermé, l'agent se connectera mais ne verra pas ses guichets et un message l'informera de contacter l'administrateur ou lui indiquera qu'une action administrative est requise.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-gestion-des-guichets">4.5 Gestion des guichets<a class="headerlink" href="#45-gestion-des-guichets" title="Permanent link">&para;</a></h2>
+<p>Toute la gestion des guichets est effectuée par le super administrateur
+et l'administrateur, ou par toute personne disposant du rôle et des
+permissions nécessaires. Tous les guichets sont gérés en correspondance
+avec leur agence spécifique, c'est-à-dire que chaque guichet appartient
+à une agence particulière. Ainsi, pour gérer un guichet ou effectuer
+toute action spécifique sur un guichet, vous devez d'abord localiser son
+agence avant le guichet.</p>
+<h3 id="451-actions-de-gestion-des-guichets">4.5.1 Actions de gestion des guichets<a class="headerlink" href="#451-actions-de-gestion-des-guichets" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Comment l'effectuer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modifier le nom du guichet</td>
+<td>Cliquez sur le nom du guichet → cliquez sur Modifier → modifiez les champs → cliquez sur Enregistrer.</td>
+</tr>
+<tr>
+<td>Réassigner un agent</td>
+<td>Ouvrez le guichet → Modifier → changez l'Utilisateur assigné → Enregistrer. Voir Section 4.3.2.</td>
+</tr>
+<tr>
+<td>Ajouter / Supprimer des services</td>
+<td>Localisez le guichet → cliquez sur le menu déroulant du guichet → cliquez sur Ajouter pour ajouter un service attribué à ce guichet.</td>
+</tr>
+<tr>
+<td>Désactiver</td>
+<td>Sur le guichet → cliquez sur le bouton icône d'écran rouge et confirmez la boîte de dialogue. Le guichet passe en statut Fermé et est masqué des tableaux de bord des agents. Réactivez de la même manière.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="452-mise-a-jour-des-services-dun-guichet">4.5.2 Mise à jour des services d'un guichet<a class="headerlink" href="#452-mise-a-jour-des-services-dun-guichet" title="Permanent link">&para;</a></h3>
+<p>Si votre agence élargit son offre de services, vous devrez peut-être
+ajouter de nouveaux services aux guichets existants. La suppression d'un
+service d'un guichet empêche les nouveaux tickets de ce type d'y être
+acheminés, mais n'affecte pas les tickets déjà en file d'attente.</p>
+<p><strong>Étape 1 :</strong> Localisez le guichet et cliquez sur le menu déroulant du
+guichet.</p>
+<p>L'administrateur devra assigner ou allouer un service particulier à un
+guichet avant de pouvoir l'ajouter et l'activer.</p>
+<p><strong>Étape 2 :</strong> Dans la section services, activez ou désactivez un service
+à l'aide de la case à cocher.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Un guichet peut traiter plusieurs services, qui ne peuvent être assignés que par le super administrateur.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="46-bonnes-pratiques-des-guichets">4.6 Bonnes pratiques des guichets<a class="headerlink" href="#46-bonnes-pratiques-des-guichets" title="Permanent link">&para;</a></h2>
+<p>Le respect de ces pratiques contribuera à garantir un fonctionnement
+quotidien fluide et une qualité de service cohérente dans toutes vos
+agences.</p>
+<blockquote>
+<p><strong>Pour les responsables</strong></p>
+</blockquote>
+<ul>
+<li>
+<p>Créez au moins deux guichets par service actif afin que si un agent
+  est absent, le service puisse continuer sans interruption.</p>
+</li>
+<li>
+<p>Consultez la grille des statuts des guichets sur le tableau de bord du
+  responsable au début de chaque journée pour vérifier que tous les
+  guichets sont correctement ouverts.</p>
+</li>
+<li>
+<p>Surveillez les guichets présentant des taux d'occupation élevés, car
+  cela peut indiquer la nécessité d'un guichet supplémentaire pour ce
+  service.</p>
+</li>
+<li>
+<p>Définissez une taille maximale de file d'attente sur les guichets pour
+  éviter les files d'attente incontrôlées pendant les heures de pointe.
+  Lorsque le plafond est atteint, les nouveaux tickets sont maintenus
+  dans un pool général jusqu'à ce que la capacité se libère.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Pour les agents</strong></p>
+</blockquote>
+<ul>
+<li>
+<p>Terminez toujours le ticket En cours du client actuel avant de mettre
+  en pause ou de vous déconnecter de votre guichet.</p>
+</li>
+<li>
+<p>Si vous constatez que votre file d'attente s'allonge plus vite que
+  vous ne pouvez la traiter, alertez votre responsable via la
+  notification de la plateforme ou par message direct n’ignorez pas
+  simplement la file d'attente.</p>
+</li>
+<li>
+<p>Déconnectez-vous toujours correctement ne fermez jamais simplement
+  l'onglet du navigateur. Le délai de fermeture automatique peut
+  entraîner des lacunes dans l'acheminement des tickets.</p>
+</li>
+</ul>
+<h2 id="47-resume-du-chapitre">4.7 Résumé du chapitre<a class="headerlink" href="#47-resume-du-chapitre" title="Permanent link">&para;</a></h2>
+<p>Ce chapitre a couvert le cycle de vie complet d'un guichet dans Queco,
+de la création à l'exploitation quotidienne jusqu'à la gestion à long
+terme. À présent, vous devriez être en mesure de :</p>
+<ol>
+<li>
+<p>Créer des guichets avec les valeurs de champs correctes et les
+    assignations de services appropriées.</p>
+</li>
+<li>
+<p>Assigner des agents aux guichet et les réassigner en fonction des
+    changements de personnel.</p>
+</li>
+<li>
+<p>Ouvrir, mettre en pause et fermer les guichets en suivant la
+    procédure correcte.</p>
+</li>
+<li>
+<p>Appliquer les bonnes pratiques pour maintenir les guichets en
+    fonctionnement efficace.</p>
+</li>
+</ol>
+<p><em>Chapter 5</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

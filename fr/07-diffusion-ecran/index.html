@@ -1,0 +1,2139 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Queco Queue Management System - User Manuals (English & Français)">
+      
+      
+      
+      
+        <link rel="prev" href="../06-gestion-tickets/">
+      
+      
+        <link rel="next" href="../08-analytique-reports/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Diffusion d'Ecran & Gestion des Affichages - Queco User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diffusion-decran-gestion-des-affichages" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Queco User Manuals" class="md-header__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Queco User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Diffusion d'Ecran & Gestion des Affichages
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../en/01-introduction/" class="md-tabs__link">
+          
+  
+  
+  English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduction/" class="md-tabs__link">
+          
+  
+  
+  Français
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Queco User Manuals" class="md-nav__button md-logo" aria-label="Queco User Manuals" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Queco User Manuals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/02-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/03-super-admin-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/04-counter-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter (Guichet) Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/06-ticket-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ticket Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/07-screen-diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Screen Diffusion & Display Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../en/08-analytics-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytics & Reporting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Français
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Français
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-prise-en-main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prise en main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-configuration-super-admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration du Super Admin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-gestion-guichets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Guichets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-services-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services & Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-gestion-tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestion Des Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion d'Ecran & Gestion des Affichages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#71-quest-ce-que-la-diffusion-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 Qu'est-ce que la Diffusion d'écran ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72-concepts-fondamentaux-ecrans-playlists-et-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 Concepts fondamentaux : Écrans, Playlists et Médias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 Concepts fondamentaux : Écrans, Playlists et Médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#721-la-hierarchie-a-trois-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.1 La hiérarchie à trois niveaux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#722-analogie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.2 Analogie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#723-planification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.3 Planification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73-gestion-des-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Gestion des écrans
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.3 Gestion des écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#742-reference-des-champs-du-formulaire-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4.2 Référence des champs du formulaire d'écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#733-actions-de-gestion-des-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3.3 Actions de gestion des écrans
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#734-signal-de-lecran-surveillance-de-letat-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3.4 Signal de l'écran Surveillance de l'état en ligne
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-gestion-des-playlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5 Gestion des playlists
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.5 Gestion des playlists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#751-etape-par-etape-creer-une-playlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.1 Étape par étape : Créer une playlist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#752-definir-la-playlist-active-dun-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.2 Définir la playlist active d'un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#753-reorganiser-les-playlists-sur-un-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.3 Réorganiser les playlists sur un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#754-detacher-ou-supprimer-une-playlist-dun-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.4 Détacher ou supprimer une playlist d'un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-gestion-des-elements-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6 Gestion des éléments médias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.6 Gestion des éléments médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#761-etape-par-etape-ajouter-un-element-media-a-une-playlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.1 Étape par étape : Ajouter un élément média à une playlist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#762-reference-des-champs-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.2 Référence des champs médias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#763-planifier-un-element-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.3 Planifier un élément média
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#764-gestion-du-statut-des-elements-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.4 Gestion du statut des éléments médias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#77-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-analytique-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytique & Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#71-quest-ce-que-la-diffusion-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 Qu'est-ce que la Diffusion d'écran ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72-concepts-fondamentaux-ecrans-playlists-et-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 Concepts fondamentaux : Écrans, Playlists et Médias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 Concepts fondamentaux : Écrans, Playlists et Médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#721-la-hierarchie-a-trois-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.1 La hiérarchie à trois niveaux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#722-analogie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.2 Analogie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#723-planification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2.3 Planification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73-gestion-des-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Gestion des écrans
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.3 Gestion des écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#742-reference-des-champs-du-formulaire-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4.2 Référence des champs du formulaire d'écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#733-actions-de-gestion-des-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3.3 Actions de gestion des écrans
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#734-signal-de-lecran-surveillance-de-letat-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3.4 Signal de l'écran Surveillance de l'état en ligne
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-gestion-des-playlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5 Gestion des playlists
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.5 Gestion des playlists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#751-etape-par-etape-creer-une-playlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.1 Étape par étape : Créer une playlist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#752-definir-la-playlist-active-dun-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.2 Définir la playlist active d'un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#753-reorganiser-les-playlists-sur-un-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.3 Réorganiser les playlists sur un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#754-detacher-ou-supprimer-une-playlist-dun-ecran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5.4 Détacher ou supprimer une playlist d'un écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-gestion-des-elements-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6 Gestion des éléments médias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.6 Gestion des éléments médias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#761-etape-par-etape-ajouter-un-element-media-a-une-playlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.1 Étape par étape : Ajouter un élément média à une playlist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#762-reference-des-champs-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.2 Référence des champs médias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#763-planifier-un-element-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.3 Planifier un élément média
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#764-gestion-du-statut-des-elements-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6.4 Gestion du statut des éléments médias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#77-resume-du-chapitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.7 Résumé du chapitre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="diffusion-decran-gestion-des-affichages">Diffusion d’Ecran &amp; Gestion des Affichages<a class="headerlink" href="#diffusion-decran-gestion-des-affichages" title="Permanent link">&para;</a></h1>
+<p><em>Comment configurer, gérer et exploiter les écrans d'affichage orientés
+clients de la création des écrans et des playlists à la planification du
+contenu média et à la surveillance de l'état des écrans.</em></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>Dans ce Chapitre</strong></p>
+<ul>
+<li><p>7.1 Qu'est-ce que la Diffusion d'écran ?</p></li>
+<li><p>7.2 Anatomie de l'écran de diffusion</p></li>
+<li><p>7.3 Concepts fondamentaux : Écrans, Playlists &amp;
+Médias</p></li>
+<li><p>7.4 Gestion des écrans</p></li>
+<li><p>7.5 Gestion des playlists</p></li>
+<li><p>7.6 Gestion des éléments médias</p></li>
+<li><p>7.7 Le Lecteur Comment tout s'assemble</p></li>
+<li><p>7.8 Résumé du chapitre</p></li>
+</ul></th>
+<th><p><strong>Apres ce chapitre vous serez en mesure de</strong></p>
+<ul>
+<li><p>Expliquer ce que fait la diffusion d'écran</p></li>
+<li><p>Identifier les deux zones de l'écran d'affichage</p></li>
+<li><p>Comprendre la hiérarchie Écran → Playlist → Média</p></li>
+<li><p>Créer et configurer des écrans d'affichage</p></li>
+<li><p>Créer des playlists et les attacher aux écrans</p></li>
+<li><p>Importer des éléments médias et définir des
+planifications</p></li>
+</ul>
+<ul>
+<li><p>Comprendre comment le lecteur récupère et affiche le
+contenu</p></li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<h2 id="71-quest-ce-que-la-diffusion-decran">7.1 Qu'est-ce que la Diffusion d'écran ?<a class="headerlink" href="#71-quest-ce-que-la-diffusion-decran" title="Permanent link">&para;</a></h2>
+<p>La Diffusion d'écran est le système intégré de gestion des affichages de
+Queco. Il contrôle les écrans orientés clients installés dans les salles
+d'attente de votre agence les écrans que les clients regardent en
+attendant que leur numéro de ticket soit appelé.</p>
+<p>Diffusion d'écran est le système intégré de gestion des affichages de
+Queco. Il contrôle les écrans orientés clients installés dans les salles
+d'attente de votre agence les écrans que les clients regardent en
+attendant que leur numéro de ticket soit appelé.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Fonction</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Visibilité de la file</strong></td>
+<td>Les clients peuvent voir quels numéros de tickets sont actuellement appelés et à quel guichet, réduisant l'anxiété et évitant les appels manqués.</td>
+</tr>
+<tr>
+<td><strong>Diffusion de contenu</strong></td>
+<td>L'agence peut afficher des images, vidéos, bannières promotionnelles et annonces sur le même écran sans aucune intervention manuelle.</td>
+</tr>
+<tr>
+<td><strong>Contrôle par zone</strong></td>
+<td>Plusieurs écrans peuvent être déployés dans différentes zones ou étages de l'agence, chacun affichant le contenu pertinent à son emplacement.</td>
+</tr>
+<tr>
+<td><strong>Mises à jour automatiques</strong></td>
+<td>Les écrans se mettent à jour automatiquement lorsqu'un agent appelle un nouveau ticket aucun rafraîchissement manuel n'est nécessaire.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOTE</strong></p>
+<p><strong>N</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>La Diffusion d'écran est entièrement gérée depuis la plateforme Queco. Les écrans physiques n'ont besoin que d'un navigateur et d'une connexion internet pour recevoir et afficher le contenu aucune installation de logiciel dédié n'est requise sur l'appareil d'affichage.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image25.png"</td>
+</tr>
+<tr>
+<td>style="width:5.33333in;height:2.75442in" /&gt;<em>Figure 7.1 — Écran d'affichage orienté client dans une salle d'attente (exemple de mise en page)</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Considérez la Zone 1 comme une chaîne TV que votre agence contrôle, diffusant le contenu que vous programmez. La Zone 2 est le tableau de file d'attente en direct elle fonctionne automatiquement au fur et à mesure que les agents traitent les tickets. La Zone 3 est la bannière contextuelle en direct en bas.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="72-concepts-fondamentaux-ecrans-playlists-et-medias">7.2 Concepts fondamentaux : Écrans, Playlists et Médias<a class="headerlink" href="#72-concepts-fondamentaux-ecrans-playlists-et-medias" title="Permanent link">&para;</a></h2>
+<p>Avant de configurer quoi que ce soit, il est important de comprendre la
+hiérarchie à trois niveaux qui alimente le système d'affichage de Queco.
+Chaque contenu visible sur un écran de diffusion passe par cette
+structure.</p>
+<h3 id="721-la-hierarchie-a-trois-niveaux">7.2.1 La hiérarchie à trois niveaux<a class="headerlink" href="#721-la-hierarchie-a-trois-niveaux" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Level</strong></th>
+<th><strong>Entité</strong></th>
+<th><strong>Role</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level 1</strong></td>
+<td>Écran</td>
+<td>Un appareil d'affichage physique enregistré dans l'agence. Chaque écran possède un code unique utilisé pour récupérer son contenu. Les écrans sont assignés à des zones au sein d'une agence.</td>
+</tr>
+<tr>
+<td><strong>Level 2</strong></td>
+<td>Playlist</td>
+<td>Une collection ordonnée d'éléments médias. Une playlist définit ce qui est diffusé sur un écran et dans quel ordre. Un écran peut avoir plusieurs playlists ; une seule est active à la fois.</td>
+</tr>
+<tr>
+<td><strong>Level 3</strong></td>
+<td>Élément média</td>
+<td>Un contenu individuel une image ou une vidéo avec une durée d'affichage définie. Les éléments médias peuvent avoir des planifications qui contrôlent quand ils apparaissent.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="722-analogie">7.2.2 Analogie<a class="headerlink" href="#722-analogie" title="Permanent link">&para;</a></h3>
+<p>Pensez-y comme un système de diffusion télévisée :</p>
+<ul>
+<li>
+<p>L'<strong>Écran</strong> est le téléviseur fixé au mur l'appareil physique que les
+  clients regardent.</p>
+</li>
+<li>
+<p>La <strong>Playlist</strong> est la chaîne TV un programme de contenu planifié qui
+  se diffuse dans l'ordre.</p>
+</li>
+<li>
+<p><strong>Élément média</strong> est une émission ou publicité individuelle une image
+  ou clip vidéo dans le programme.</p>
+</li>
+</ul>
+<p>Un écran peut avoir plusieurs playlists (comme un téléviseur avec
+plusieurs chaînes), mais une seule playlist est active à tout moment la
+playlist courante. Les administrateurs peuvent changer la playlist
+active à tout moment.</p>
+<h3 id="723-planification">7.2.3 Planification<a class="headerlink" href="#723-planification" title="Permanent link">&para;</a></h3>
+<p>Les éléments médias supportent une planification basée sur le temps. Une
+planification définit une fenêtre pendant laquelle un élément média
+spécifique est éligible à la diffusion. En dehors de cette fenêtre,
+l'élément est automatiquement ignoré. Cela vous permet d'afficher des
+annonces matinales le matin, des offres promotionnelles aux heures de
+pointe, et des avis de fermeture en fin de journée sans aucune
+intervention manuelle.</p>
+<h2 id="73-gestion-des-ecrans">7.3 Gestion des écrans<a class="headerlink" href="#73-gestion-des-ecrans" title="Permanent link">&para;</a></h2>
+<p>Les écrans représentent les appareils d'affichage physiques dans votre
+agence. Chaque écran doit être enregistré dans Queco avant de pouvoir
+recevoir et afficher du contenu. Seuls les Super Administrateurs et les
+Responsables peuvent créer et gérer les écrans.</p>
+<p><strong>7.3.1 Étape par étape : Créer un nouvel écran</strong></p>
+<p>Avant de créer un écran dans une agence, il doit exister un utilisateur
+déjà assigné à cette agence sur lequel on active l'option écran, avant
+de créer des écrans pour l'agence.</p>
+<p><strong>Étape 1 :</strong> Allez dans « Utilisateurs » et recherchez l'utilisateur
+dans l'agence concernée.</p>
+<p><strong>Étape 2 :</strong> Cliquez sur l'icône stylo sur l'utilisateur.</p>
+<p><strong>Étape 3 :</strong> Cochez la case « Utilisateur Écran d'appel » et
+enregistrez.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image26.png"</td>
+</tr>
+<tr>
+<td>style="width:2.72917in;height:3.96388in" /&gt;<em>Figure 7.3 — Activating the screen on a user in an Agency</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Étape 4 :</strong> Allez dans « Gestion des diffusions » dans la barre
+latérale.</p>
+<p><strong>Étape 5 :</strong> Filtrez l'agence dans laquelle vous souhaitez créer
+l'écran.</p>
+<p><strong>Étape 6 :</strong> Cliquez sur le bouton « + Nouvel écran » et remplissez les
+champs.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image27.png"</td>
+</tr>
+<tr>
+<td>style="width:3.21875in;height:4.69792in" /&gt;<em>Figure 7.3 New Screen</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Pour qu'une agence dispose de plusieurs écrans, elle doit avoir plusieurs utilisateurs, c'est-à-dire qu'un écran est attaché à un utilisateur.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="742-reference-des-champs-du-formulaire-decran">7.4.2 Référence des champs du formulaire d'écran<a class="headerlink" href="#742-reference-des-champs-du-formulaire-decran" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nom de l'écran</strong></td>
+<td>Nom descriptif de cet écran (ex. : « Écran Hall », « Étage 2 – Zone B »).</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Code de l'écran</strong></td>
+<td>Identifiant unique généré automatiquement utilisé par l'URL du lecteur. Non modifiable après création.</td>
+<td><strong>Automatique</strong></td>
+</tr>
+<tr>
+<td><strong>Agence</strong></td>
+<td>L'agence à laquelle appartient cet écran.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Zone / Emplacement</strong></td>
+<td>L'emplacement physique de l'écran dans l'agence (ex. : « Hall principal », « Couloir B »).</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+<tr>
+<td><strong>Résolution</strong></td>
+<td>L'utilisateur (Responsable ou Admin) chargé de gérer le contenu de cet écran.</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Notes internes sur cet écran (ex. : « Près de l'entrée, haute visibilité »).</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+<tr>
+<td><strong>Statut</strong></td>
+<td>Actif ou Inactif. Les écrans inactifs ne reçoivent pas de mises à jour de contenu.</td>
+<td><strong>Automatique</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="733-actions-de-gestion-des-ecrans">7.3.3 Actions de gestion des écrans<a class="headerlink" href="#733-actions-de-gestion-des-ecrans" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Comment l'effectuer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modifier un écran</td>
+<td>Cliquer sur le nom de l'écran → Modifier → modifier les champs → Enregistrer.</td>
+</tr>
+<tr>
+<td>Désactiver</td>
+<td>Basculer le statut de l'écran sur Inactif. L'URL du lecteur cesse de recevoir des mises à jour.</td>
+</tr>
+<tr>
+<td>Supprimer</td>
+<td>Cliquer sur (⋮) → Supprimer → confirmer. L'écran et toutes ses associations de playlists sont supprimés.</td>
+</tr>
+<tr>
+<td>Surveiller le signal</td>
+<td>Voir Section 7.4.4 le signal indique si l'écran est actuellement en ligne.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="734-signal-de-lecran-surveillance-de-letat-en-ligne">7.3.4 Signal de l'écran Surveillance de l'état en ligne<a class="headerlink" href="#734-signal-de-lecran-surveillance-de-letat-en-ligne" title="Permanent link">&para;</a></h3>
+<p>Chaque écran physique envoie périodiquement un signal à Queco pour
+confirmer qu'il est en ligne et fonctionnel. Cela permet aux
+administrateurs de surveiller l'état de tous les écrans en temps réel
+depuis le tableau de bord de gestion des affichages.</p>
+<table>
+<thead>
+<tr>
+<th><strong>État du signal</strong></th>
+<th><strong>Signification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>En ligne (Vert)</strong></td>
+<td>L'écran est actif, connecté et reçoit normalement les mises à jour.</td>
+</tr>
+<tr>
+<td><strong>Hors ligne (Gris)</strong></td>
+<td>L'écran n'a pas répondu depuis plus de 5 minutes.</td>
+</tr>
+<tr>
+<td><strong>Jamais connecté</strong></td>
+<td>L'écran a été créé mais l'URL du lecteur n'a jamais été ouverte sur un appareil.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../images/fr_image28.png" style="width:4.25in;height:2.07778in" /><em>Figure 7.5 — Liste des écrans avec indicateurs d'état du signal</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Le signal n'affecte pas l'appel des tickets si un écran se déconnecte, les agents peuvent toujours appeler les tickets normalement. Seul l'affichage est affecté. Les clients peuvent ne pas voir les numéros de tickets mis à jour jusqu'à la reconnexion de l'écran.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="75-gestion-des-playlists">7.5 Gestion des playlists<a class="headerlink" href="#75-gestion-des-playlists" title="Permanent link">&para;</a></h2>
+<p>Les playlists sont le lien entre votre contenu média et vos écrans
+physiques. Une playlist organise les éléments médias en une séquence
+ordonnée et détermine ce qui est diffusé sur un écran. Vous pouvez créer
+plusieurs playlists pour différentes campagnes, périodes ou zones
+d'écran, et basculer entre elles instantanément.</p>
+<h3 id="751-etape-par-etape-creer-une-playlist">7.5.1 Étape par étape : Créer une playlist<a class="headerlink" href="#751-etape-par-etape-creer-une-playlist" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Depuis la barre latérale, allez dans Gestion des
+diffusions → Playlists.</p>
+<p><strong>Étape 2 :</strong> Cliquez sur « Créer une playlist ».</p>
+<p><strong>Étape 3 :</strong> Saisissez un Nom de playlist et une Description
+optionnelle. Exemple : « Campagne Matinale – T1 2025 », « Boucle par
+défaut Hall ».</p>
+<p><strong>Étape 4 :</strong> Cliquez sur Enregistrer. La playlist est créée vide.
+Ajoutez-y des éléments médias à la Section 7.6</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image29.png"</td>
+</tr>
+<tr>
+<td>style="width:4.14583in;height:4.53249in" /&gt;<em>Figure 7.6 — Page de liste des playlists avec le bouton Ajouter une playlist</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="752-definir-la-playlist-active-dun-ecran">7.5.2 Définir la playlist active d'un écran<a class="headerlink" href="#752-definir-la-playlist-active-dun-ecran" title="Permanent link">&para;</a></h3>
+<p>Un écran peut avoir plusieurs playlists attachées, mais une seule est
+active (en cours de diffusion) à tout moment.</p>
+<p><strong>Étape 1 :</strong> Ouvrez le profil de l'écran et allez dans l'onglet
+Playlists.</p>
+<p><strong>Étape 2 :</strong> Trouvez la playlist que vous souhaitez activer et cliquez
+simplement dessus ; elle deviendra automatiquement la liste en cours de
+diffusion avec un bouton « en direct » dessus.</p>
+<p>L'écran bascule vers la nouvelle playlist lors de son prochain cycle de
+rafraîchissement de contenu (dans les 8 secondes).</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Changer la playlist active ne supprime ni ne détache la playlist précédente elle cesse simplement d'être diffusée. Vous pouvez revenir en arrière à tout moment.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="753-reorganiser-les-playlists-sur-un-ecran">7.5.3 Réorganiser les playlists sur un écran<a class="headerlink" href="#753-reorganiser-les-playlists-sur-un-ecran" title="Permanent link">&para;</a></h3>
+<p>Lorsque plusieurs playlists sont attachées à un écran, vous pouvez
+définir leur ordre de priorité. Cela détermine quelle playlist est
+diffusée lorsque la playlist courante se termine ou est désactivée.</p>
+<p><strong>Étape 1 :</strong> Ouvrez le profil de l’ecran → onglet Playlists.</p>
+<p><strong>Étape 2 :</strong> Un bouton fléché est présent sur chaque onglet. Cliquez
+sur la flèche vers le haut pour remonter et inversement.</p>
+<p><strong>Étape 3 :</strong> L'ordre est sauvegardé automatiquement.</p>
+<h3 id="754-detacher-ou-supprimer-une-playlist-dun-ecran">7.5.4 Détacher ou supprimer une playlist d'un écran<a class="headerlink" href="#754-detacher-ou-supprimer-une-playlist-dun-ecran" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Ouvrez le profil de l'écran → onglet Playlists, OU ouvrez
+la playlist → onglet Écrans.</p>
+<p><strong>Étape 2 :</strong> Trouvez l'icône de corbeille rouge et cliquez dessus pour
+la supprimer.</p>
+<p><strong>Étape 3 :</strong> La suppression s'effectue automatiquement. Si la playlist
+détachée était la playlist active, l'écran bascule vers la playlist
+suivante dans l'ordre. Si aucune playlist ne reste, l'écran affiche une
+zone de contenu vide.</p>
+<h2 id="76-gestion-des-elements-medias">7.6 Gestion des éléments médias<a class="headerlink" href="#76-gestion-des-elements-medias" title="Permanent link">&para;</a></h2>
+<p>Les éléments médias sont les contenus individuels images ou vidéos qui
+composent une playlist. Chaque élément possède une durée d'affichage,
+une planification optionnelle et un statut qui contrôle s'il est
+actuellement actif ou en pause.</p>
+<h3 id="761-etape-par-etape-ajouter-un-element-media-a-une-playlist">7.6.1 Étape par étape : Ajouter un élément média à une playlist<a class="headerlink" href="#761-etape-par-etape-ajouter-un-element-media-a-une-playlist" title="Permanent link">&para;</a></h3>
+<p><strong>Étape 1 :</strong> Ouvrez la playlist à laquelle vous souhaitez ajouter du
+contenu.</p>
+<p><strong>Étape 2 :</strong> Faites défiler jusqu'à la section Éléments médias et
+cliquez sur « Ajouter un média ».</p>
+<p><strong>Étape 3 :</strong> Remplissez les champs requis — vous pouvez également
+ajouter des photos et des vidéos.</p>
+<p><strong>Étape 4 :</strong> Cliquez sur « Créer l'élément média ». L'élément est
+ajouté à la playlist et commence à être diffusé immédiatement si la
+playlist est actuellement active sur un écran.</p>
+<p><strong>Étape 5 :</strong> Répétez pour tous les éléments médias nécessaires.
+Réorganisez-les si besoin.</p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><img src="../images/fr_image30.png"
+style="width:3.30355in;height:3.92014in" /></p>
+<p><em>Figure 7.7 — Formulaire d'importation d'élément média dans une
+playlist</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TIP</strong></td>
+<td>Gardez les fichiers images sous 2 Mo et les fichiers vidéo sous 50 Mo pour des performances optimales sur les écrans. Les fichiers volumineux causent des ralentissements et des temps de rafraîchissement lents.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="762-reference-des-champs-medias">7.6.2 Référence des champs médias<a class="headerlink" href="#762-reference-des-champs-medias" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Champs</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Statut</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Titre</strong></td>
+<td>Nom interne de cet élément média (ex. : « Bannière Ramadan 2025 »).</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Choisir entre texte, image ou vidéo.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fichier média</strong></td>
+<td>Le fichier image (JPG, PNG, GIF) ou vidéo (MP4) à afficher.</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Durée</strong></td>
+<td>Durée d'affichage de cet élément avant de passer au suivant. En secondes (images uniquement les vidéos jouent leur durée complète).</td>
+<td><strong>Obligatoire</strong></td>
+</tr>
+<tr>
+<td><strong>Contenu</strong></td>
+<td>Il s'agit du message publicitaire lorsque vous utilisez le type texte.</td>
+<td><strong>Automatique</strong></td>
+</tr>
+<tr>
+<td><strong>Statut</strong></td>
+<td>Choisir entre Brouillon, Actif, En pause, Planifié, Archivé.</td>
+<td><strong>Choix manuel</strong></td>
+</tr>
+<tr>
+<td><strong>Planification</strong></td>
+<td>Fenêtre de temps optionnelle pendant laquelle cet élément est éligible à la diffusion. Voir Section 7.6.3.</td>
+<td><strong>Optionnel</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="763-planifier-un-element-media">7.6.3 Planifier un élément média<a class="headerlink" href="#763-planifier-un-element-media" title="Permanent link">&para;</a></h3>
+<p>Les planifications permettent à un élément média d'être diffusé
+uniquement pendant des fenêtres horaires spécifiques. En dehors de la
+fenêtre planifiée, l'élément est automatiquement ignoré aucune
+intervention manuelle n'est nécessaire.</p>
+<p><strong>Étape 1 :</strong> Ouvrez l'élément média que vous souhaitez planifier.</p>
+<p><strong>Étape 2 :</strong> Faites défiler jusqu'à la section Planifications et
+cliquez sur « Ajouter une planification ».</p>
+<p><strong>Étape 3 :</strong> Définissez-la Date/Heure de début et là Date/Heure de fin
+de la fenêtre de planification.</p>
+<p><em>Exemple : Début - Lundi 09h00, Fin - Lundi 17h00. L'élément ne sera
+diffusé qu'entre 9h et 17h le lundi</em>.</p>
+<p><strong>Étape 4 :</strong> Cliquez sur Enregistrer la planification. Plusieurs
+planifications peuvent être ajoutées à un même élément média pour des
+fenêtres horaires récurrentes.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;img src="../images/fr_image31.png"</td>
+</tr>
+<tr>
+<td>style="width:3.79104in;height:4.67708in" /&gt;<em>Figure 7.8 — Configuration de la planification d'un élément média avec les sélecteurs de date/heure</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NOTE</strong></td>
+<td>Si un élément média n'a pas de planification, il est diffusé à tout moment lorsque la playlist est active. Les planifications ne font que restreindre la diffusion elles ne forcent pas un élément média à être diffusé en dehors de son ordre normal dans la playlist.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="764-gestion-du-statut-des-elements-medias">7.6.4 Gestion du statut des éléments médias<a class="headerlink" href="#764-gestion-du-statut-des-elements-medias" title="Permanent link">&para;</a></h3>
+<p>Vous pouvez activer ou désactiver des éléments médias individuels sans
+les retirer de la playlist. Cela est utile pour mettre temporairement en
+pause du contenu saisonnier sans le supprimer.</p>
+<p><strong>Étape 1 :</strong> Ouvrez la playlist et faites défiler jusqu'à la section
+Éléments médias.</p>
+<p><strong>Étape 2 :</strong> Sur chaque onglet d'un élément média, vous trouverez une
+flèche vers le haut ou vers le bas.</p>
+<p><strong>Étape 3 :</strong> Les modifications prennent effet au prochain cycle de
+contenu de l'écran.</p>
+<h2 id="77-resume-du-chapitre">7.7 Résumé du chapitre<a class="headerlink" href="#77-resume-du-chapitre" title="Permanent link">&para;</a></h2>
+<p>Ce chapitre a couvert l'ensemble du système de Diffusion d'écran dans
+Queco de la compréhension de la mise en page des affichages à la
+création des écrans, la construction des playlists, l'importation des
+médias et la surveillance du lecteur. À présent, vous devriez être en
+mesure de :</p>
+<ol>
+<li>
+<p>Expliquer le rôle des deux zones d'affichage le Panneau publicitaire
+    et le Panneau des tickets.</p>
+</li>
+<li>
+<p>Comprendre la hiérarchie Écran → Playlist → Élément média et leurs
+    relations.</p>
+</li>
+<li>
+<p>Créer et configurer des écrans physiques avec les assignations de
+    zones correctes.</p>
+</li>
+<li>
+<p>Créer des playlists, les attacher aux écrans et définir la playlist
+    active.</p>
+</li>
+<li>
+<p>Importer des éléments médias, définir les durées d'affichage et
+    configurer des planifications basées sur le temps.</p>
+</li>
+<li>
+<p>Utiliser la propagation pour diffuser une playlist sur tous les
+    écrans de l'agence.</p>
+</li>
+<li>
+<p>Surveiller l'état des écrans via le signal de connexion.</p>
+</li>
+</ol>
+<p><em>Chapter 8</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

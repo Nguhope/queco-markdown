@@ -91,7 +91,7 @@ that will help the create the ticket on the kiosk
 > *A unique ticket number is generated (e.g., ACC-0042) and the ticket
 > joins the queue immediately.*
 
-| <img src="../images/en_image21.png"                                                                     
+| <img src="images/image21.png"                                                                     
  style="width:7.08226in;height:2.63542in" />*Figure 6.2 — New Ticket creation form with all fields*  |
 |----------------------------------------------------------------------------------------------------|
 
@@ -130,7 +130,7 @@ IN_PROGRESS and counter time start immediately
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/en_image22.png"
+<th><p><img src="images/image22.png"
 style="width:5.23958in;height:2.69648in" /></p>
 <p><em>Figure 6.3 Agent Dashboard showing active ticket actions button
 and queue list with waiting ticket and Call Next button</em></p></th>
@@ -179,7 +179,7 @@ process the request.
 | **Action Buttons**      | Finish, Cancel, Downgrade — the three key actions available during processing |
 | **Phone**               | The customer's phone number (e.g., 652333666)                                 |
 
-| <img src="../images/en_image23.png"                                                                          
+| <img src="images/image23.png"                                                                          
  style="width:3.96875in;height:3.5193in" />*Figure 6.4 — Active Ticket panel with all elements labelled*  |
 |---------------------------------------------------------------------------------------------------------|
 
@@ -246,7 +246,7 @@ flip to the next interface where the history is located
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/en_image24.png"
+<th><p><img src="images/image24.png"
 style="width:5.78125in;height:2.71274in" /></p>
 <p><em>Figure 6.8 — Ticket History page with search bar and filter
 panel</em></p></th>

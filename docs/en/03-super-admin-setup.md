@@ -54,7 +54,7 @@ counts, active counts, active counters and real-time ticket volumes.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/en_image7.png"
+<td><p><img src="images/image7.png"
 style="width:6.5in;height:3.43125in" /></p>
 <p><em>Figure 3.1 — Super Admin Dashboard with platform summary cards
 and quick-action buttons</em></p></td>
@@ -101,7 +101,7 @@ field
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/en_image8.png"
+<td><p><img src="images/image8.png"
 style="width:3.78125in;height:3.90785in" /></p>
 <p><em>Figure 3.2 — New Agency form with all fields
 visible</em></p></td>
@@ -172,7 +172,7 @@ bar at the top of the list to quickly find agencies by name or code.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/en_image9.png"
+<td><p><img src="images/image9.png"
 style="width:6.5in;height:3.21806in" /></p>
 <p><em>Figure 3.3 — Agency list with action menu options</em></p></td>
 </tr>
@@ -212,7 +212,7 @@ click create & continue.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/en_image10.png"
+<td><p><img src="images/image10.png"
 style="width:3.27083in;height:2.60409in" /></p>
 <p><em>Figure 3.4 — New User creation form</em></p></td>
 </tr>
@@ -302,7 +302,7 @@ there will be a percentage bar
 
 |                                                                                                       |
 |-------------------------------------------------------------------------------------------------------|
-| <img src="../images/en_image11.png"                                                                        
+| <img src="images/image11.png"                                                                        
  style="width:5.22917in;height:2.70972in" />*Figure 3.6 — Role permissions panel with feature toggles*  |
 
 **Step 4**: Click assign on the permission you want to give the specific

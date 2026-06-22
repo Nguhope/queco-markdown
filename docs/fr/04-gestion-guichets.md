@@ -63,7 +63,7 @@ rôle de gestion des guichets.*
 
 |                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../images/fr_image12.png"                                                                                                                                
+| <img src="images/image12.png"                                                                                                                                
  style="width:7.21057in;height:1.47986in" />*Figure 4.1 — Grille des statuts des guichets sur le tableau de bord du responsable (code couleur Ouvert / Fermé)*  |
 
 ## 4.2 Création d'un guichet
@@ -113,7 +113,7 @@ tant qu'un administrateur ne l'aura pas ouvert.*
 <tbody>
 <tr class="odd">
 <td><blockquote>
-<p><img src="../images/fr_image13.png"
+<p><img src="images/image13.png"
 style="width:6.24931in;height:4.05208in" /></p>
 </blockquote></td>
 </tr>
@@ -181,7 +181,7 @@ au prochain rafraîchissement du tableau de bord.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/fr_image14.png"
+<td><p><img src="images/image14.png"
 style="width:3.89583in;height:2.88717in" /></p>
 <p><em>Figure 4.3 Vue d'édition du profil du guichet affichant le menu
 déroulant Utilisateur assigné</em></p></td>

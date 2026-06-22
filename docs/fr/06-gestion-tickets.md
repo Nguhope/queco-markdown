@@ -92,7 +92,7 @@ Passer ».
 *Un numéro de ticket unique est généré (ex. : ACC-0042) et le ticket
 rejoint immédiatement la file d'attente.*
 
-| <img src="../images/fr_image21.png"                                                                     
+| <img src="images/image21.png"                                                                     
  style="width:7.08226in;height:2.63542in" />*Figure 6.2 — New Ticket creation form with all fields*  |
 |----------------------------------------------------------------------------------------------------|
 
@@ -131,7 +131,7 @@ Le client est censé se présenter à votre guichet lorsqu'il est appelé.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/fr_image22.png"
+<th><p><img src="images/image22.png"
 style="width:5.23958in;height:2.69648in" /></p>
 <p><em>Figure 6.3 — Tableau de bord de l'agent affichant les boutons
 d'action du ticket actif, la liste d'attente avec les tickets en attente
@@ -178,7 +178,7 @@ nécessaires au traitement de la demande.
 | **Boutons d'action**    | Terminer, Annuler, Déclasser les trois actions clés disponibles pendant le traitement         |
 | **Téléphone**           | Le numéro de téléphone du client (ex. : 652333666)                                            |
 
-| <img src="../images/fr_image23.png"                                                                                    
+| <img src="images/image23.png"                                                                                    
  style="width:3.96875in;height:3.5193in" />*Figure 6.4 — Panneau du ticket actif avec tous les éléments étiquetés*  |
 |-------------------------------------------------------------------------------------------------------------------|
 
@@ -248,7 +248,7 @@ l'historique.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/fr_image24.png"
+<th><p><img src="images/image24.png"
 style="width:5.78125in;height:2.71274in" /></p>
 <p><em>Figure 6.8 — Page de l'historique des tickets avec barre de
 recherche et panneau de filtres</em></p></th>

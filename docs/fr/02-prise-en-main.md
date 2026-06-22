@@ -94,7 +94,7 @@ Entre votre adresse e-mail enregistrée exactement telle qu’elle vous a
 
 *Clique dans le champ mot de passe, puis entrez votre mot de passe.*
 
-| <img src="../images/fr_image2.png"                                                                                                                        
+| <img src="images/image2.png"                                                                                                                        
  style="width:2.96875in;height:3.93248in" /> *Figure 2.2 : Formulaire de connexion avec les champs nom d'utilisateur et mot de passe mis en évidence*  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 
@@ -117,7 +117,7 @@ Consultez la **section 2.5** pour une présentation détaillée des
 fonctionnalités et informations disponibles sur chaque type de tableau
 de bord.
 
-| <img src="../images/fr_image3.png"                                                                    
+| <img src="images/image3.png"                                                                    
  style="width:5.44792in;height:2.85259in" />*Figure 2.3 — Successful login redirect to Dashboard*  |
 |--------------------------------------------------------------------------------------------------|
 
@@ -282,7 +282,7 @@ d’accéder rapidement aux principales fonctions d’administration.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/fr_image4.png"
+<th><p><img src="images/image4.png"
 style="width:6.5in;height:3.41319in" /></p>
 <p><em>Figure 2.6 Super Admin Dashboard</em></p></th>
 </tr>
@@ -415,7 +415,7 @@ et de gestion.</td>
 Le tableau de bord du Gestionnaire est limité à l’agence ou aux agences
 dont il assure la supervision.
 
-| <img src="../images/fr_image5.png" style="width:6.5in;height:3.34653in" />*Figure 2.7 — Dashboard chef D’argence* |
+| <img src="images/image5.png" style="width:6.5in;height:3.34653in" />*Figure 2.7 — Dashboard chef D’argence* |
 |--------------------------------------------------------------------------------------------------------------|
 
 <table>
@@ -536,7 +536,7 @@ actuel de se déconnecter de manière sécurisée de la plateforme.</th>
 Le tableau de bord de l’Agent est ciblé et minimaliste ; il affiche
 exactement ce dont un agent a besoin pour commencer à travailler.
 
-| <img src="../images/fr_image6.png" style="width:6.5in;height:3.09375in" />*Figure 2.8: Agent Dashboard* |
+| <img src="images/image6.png" style="width:6.5in;height:3.09375in" />*Figure 2.8: Agent Dashboard* |
 |----------------------------------------------------------------------------------------------------|
 
 | **Widget / Section**          | **Ce qu’il affiche**                                                                                                                                                                                                                                       |

@@ -65,8 +65,7 @@ completely different views, scoped to their level of authority.
 |----------|---------------------------------------------------------------------------------------------------------------------------------------|
 | **NOTE** | The Manager dashboard is automatically scoped to the agency linked to their account. A Manager cannot view data from any other agency |
 
-| <img src="../images/image32.png"                                                                                       
- style="width:2.01042in;height:3.96565in" />
+| <img src="../images/image32.png" />
  *Figure 8.1 Analytics sidebar entry point and role-based dashboard title*  |
 |----------------------------------------------------------------------------------------------------------------------|
 
@@ -78,8 +77,7 @@ range used to calculate every widget, card, chart, and table on the page
 simultaneously. Changing the period updates all data at once; there is
 no need to refresh individual widgets.
 
-| <img src="../images/image33.png"                                                                   
- style="width:6.06335in;height:1.06265in" />*Figure 8.2 Period Selector with all options visible*  |
+| <img src="../images/image33.png" />*Figure 8.2 Period Selector with all options visible*  |
 |--------------------------------------------------------------------------------------------------|
 
 | **Period Option** | **What it Covers**                                         | **Typical Use**                                                                               |
@@ -108,8 +106,7 @@ picture of network health, volumes and performance at any moment.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/image34.png"
-style="width:6.5in;height:3.47986in" /></p>
+<th><p><img src="../images/image34.png" /></p>
 <p><em>Figure 8.3 Super Admin Analytics Dashboard (full
 view)</em></p></th>
 </tr>
@@ -144,7 +141,7 @@ performance cards showing deeper breakdown across the entire network
 | **Tickets Cancelled**   | Tickets voided before or during processing.                             |
 | **Active Agencies**     | Number of agencies with is_active = true. Gives volume figures context. |
 
-| <img src="../images/image35.png" style="width:6.5in;height:0.88958in" />*Figure 8.4 — Network Performance panel with 6 PerfCards* |
+| <img src="../images/image35.png" />*Figure 8.4 — Network Performance panel with 6 PerfCards* |
 |---------------------------------------------------------------------------------------------------------------------------------|
 
 | **TIP** | Monitor Waiting and In Progress together. High Waiting + Low In Progress = counters may be closed or understaffed. Both high = agency at peak capacity — consider opening additional counters. |
@@ -156,7 +153,7 @@ The Agency Ranking is the most powerful section of the super Admin
 dashboard. It shows every agency ranked by performance, giving an
 immediate view of which agencies are thriving and which need attention
 
-| <img src="../images/image36.png" style="width:6.5in;height:3.12083in" />*Figure 8.5 Agency Ranking with medal indicators, progress bars, and per-agency breakdowns* |
+| <img src="../images/image36.png" />*Figure 8.5 Agency Ranking with medal indicators, progress bars, and per-agency breakdowns* |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### 8.4.1 Ranking Sort Logic
@@ -215,7 +212,7 @@ depth over breadth.
 
 |                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../images/image37.png" style="width:6.5in;height:3.38264in" />*Figure 8.6 — Manager Analytics Dashboard (full view)* |
+| <img src="../images/image37.png" />*Figure 8.6 — Manager Analytics Dashboard (full view)* |
 
 ### 8.5.1 Card 1: Median Wait Time (Circular Gauge)
 

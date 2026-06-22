@@ -64,8 +64,7 @@ and informed.
 
 |                                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------|
-| <img src="../images/image25.png"                                                                                              
- style="width:5.33333in;height:2.75442in" />*Figure 7.1 — Customer-facing display screen in a waiting area (example layout)*  |
+| <img src="../images/image25.png" />*Figure 7.1 — Customer-facing display screen in a waiting area (example layout)*  |
 
 |         |                                                                                                                                                                                                                                 |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -148,8 +147,7 @@ then before creating screens for the agency.
 
 |                                                                                                        |
 |--------------------------------------------------------------------------------------------------------|
-| <img src="../images/image26.png"                                                                         
- style="width:2.72917in;height:3.96388in" />*Figure 7.3 — Activating the screen on a user in an Agency*  |
+| <img src="../images/image26.png" />*Figure 7.3 — Activating the screen on a user in an Agency*  |
 
 **Step 4:** Go to Broadcast management on the side bar
 
@@ -159,8 +157,7 @@ then before creating screens for the agency.
 
 |                                                                    |
 |--------------------------------------------------------------------|
-| <img src="../images/image27.png"                                     
- style="width:3.21875in;height:4.69792in" />*Figure 7.3 New Screen*  |
+| <img src="../images/image27.png" />*Figure 7.3 New Screen*  |
 
 |         |                                                                                                              |
 |---------|--------------------------------------------------------------------------------------------------------------|
@@ -202,7 +199,7 @@ Management dashboard
 
 |                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../images/image28.png" style="width:4.25in;height:2.07778in" />*Figure 7.5 — Screen list with heartbeat status indicators* |
+| <img src="../images/image28.png" />*Figure 7.5 — Screen list with heartbeat status indicators* |
 
 |          |                                                                                                                                                                                                                            |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,8 +229,7 @@ them instantly.
 
 |                                                                                                       |
 |-------------------------------------------------------------------------------------------------------|
-| <img src="../images/image29.png"                                                                        
- style="width:4.14583in;height:4.53249in" />*Figure 7.6 — Playlist list page with Add Playlist button*  |
+| <img src="../images/image29.png" />*Figure 7.6 — Playlist list page with Add Playlist button*  |
 
 ### 7.5.2 Setting the active Playlist screen
 
@@ -299,8 +295,7 @@ too
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image30.png"
-style="width:3.30355in;height:3.92014in" /></p>
+<td><p><img src="../images/image30.png" /></p>
 <p><em>Figure 7.7 Media Item upload form within a playlist</em></p></td>
 </tr>
 </tbody>
@@ -352,8 +347,7 @@ window.
 
 |                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------|
-| <img src="../images/image31.png"                                                                                   
- style="width:3.79104in;height:4.67708in" />*Figure 7.8 Media item schedule configuration with date/time pickers*  |
+| <img src="../images/image31.png" />*Figure 7.8 Media item schedule configuration with date/time pickers*  |
 
 |          |                                                                                                                                                                                                    |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

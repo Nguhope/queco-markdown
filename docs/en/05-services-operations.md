@@ -128,12 +128,10 @@ page.
 
 *And you can also set the appearance color of your choice*
 
-| <img src="../images/image15.png"                                                      
- style="width:3.89583in;height:3.02778in" />*Figure 5.1 — New Service creation form*  |
+| <img src="../images/image15.png" />*Figure 5.1 — New Service creation form*  |
 |-------------------------------------------------------------------------------------|
 
-| <img src="../images/image16.png"                                                         
- style="width:2.91667in;height:2.81746in" />*Figure 5.1 — New Service appearance color*  |
+| <img src="../images/image16.png" />*Figure 5.1 — New Service appearance color*  |
 |----------------------------------------------------------------------------------------|
 
 | **NOTE** | A newly created service is invisible to all agents and counters until it is (1) given at least one operation, and (2) explicitly activated for an agency. See Sections 5.4 and 5.5. |
@@ -162,8 +160,7 @@ click details button on the service card
 **Step 2:** Create a new service by clicking the “+Add” button at the
 top right-hand corner and fill the required field.
 
-| <img src="../images/image17.png"                                                                                                        
- style="width:3.42865in;height:2.36458in" />*Figure 5.2 Service Detail page showing the Operations section and 'Add Operation' button*  |
+| <img src="../images/image17.png" />*Figure 5.2 Service Detail page showing the Operations section and 'Add Operation' button*  |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 
 | **TIP** | Add all operations for a service before activating it for agencies. Adding operations to an already-active service works fine, but agents using the service at that moment won't see the new operation until their next page refresh. Moreover, You can activate and deactivate and operation in a particular service |
@@ -181,8 +178,7 @@ top right-hand corner and fill the required field.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/image18.png"
-style="width:4.08333in;height:4.43477in" /></p>
+<th><p><img src="../images/image18.png" /></p>
 <p><em>Figure 5.2 Operation form field</em></p></th>
 </tr>
 </thead>
@@ -219,12 +215,10 @@ this agency”** and after it will turn red
 **Step 6:** Above you can also active the operation in that service for
 that agency is you wish
 
-| <img src="../images/image19.png"                                                                                                                                         
- style="width:7.51207in;height:3.98958in" />*Figure 5.4 Agency Services tab showing master catalogue with activated and deactivated service for an agency (ex. Mankon)*  |
+| <img src="../images/image19.png" />*Figure 5.4 Agency Services tab showing master catalogue with activated and deactivated service for an agency (ex. Mankon)*  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| <img src="../images/image20.png"                                                                                            
- style="width:3.0625in;height:4.72917in" />*Figure 5.4 — Detail page showing how to activate a service with its operation*  |
+| <img src="../images/image20.png" />*Figure 5.4 — Detail page showing how to activate a service with its operation*  |
 |---------------------------------------------------------------------------------------------------------------------------|
 
 | **NOTE** | If a service has no operations, or its operation is deactivated, simply activate the service first then activate the operation later respective. And if a service has no operation, you could create one later. |

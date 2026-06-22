@@ -53,8 +53,7 @@ actifs, les guichets actifs et les volumes de tickets en temps réel.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image7.png"
-style="width:6.5in;height:3.43125in" /></p>
+<td><p><img src="../images/image7.png" /></p>
 <p><em>Figure 3.1 —</em> Tableau de bord Super Admin avec cartes
 récapitulatives de la plateforme et boutons d'action rapide</p></td>
 </tr>
@@ -118,8 +117,7 @@ de votre organisation.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image8.png"
-style="width:4.02083in;height:4.15546in" /></p>
+<td><p><img src="../images/image8.png" /></p>
 <p><em>Figure 3.2 — Formulaire de création d’une nouvelle agence avec
 tous les champs visibles</em></p></td>
 </tr>
@@ -175,8 +173,7 @@ pour trouver rapidement une agence par son nom ou son code.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image9.png"
-style="width:6.5in;height:3.21806in" /></p>
+<td><p><img src="../images/image9.png" /></p>
 <p><em>Figure 3.3 — Liste des agences avec les options du menu
 d’actions</em></p></td>
 </tr>
@@ -210,8 +207,7 @@ tous les champs obligatoires puis cliquez sur **Créer et continuer**.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image10.png"
-style="width:3.27083in;height:2.60409in" /></p>
+<td><p><img src="../images/image10.png" /></p>
 <p><em>Figure 3.4 — Formulaire de création d’un nouvel
 utilisateur</em></p></td>
 </tr>
@@ -320,8 +316,7 @@ lors de la création ou de la modification d’utilisateurs.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="../images/image11.png"
-style="width:5.06675in;height:2.69543in" /></p>
+<td><p><img src="../images/image11.png" /></p>
 <p><em>Figure 3.6 Panneau des permissions des rôles avec interrupteurs
 de fonctionnalités</em></p></td>
 </tr>

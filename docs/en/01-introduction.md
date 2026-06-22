@@ -68,8 +68,7 @@ and service delivery.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="../images/image1.png"
-style="width:6.5in;height:3.02292in" /></p>
+<th><p><img src="../images/image1.png" /></p>
 <p><em>Figure 1.1 — Queco platform overview / login screen</em></p></th>
 </tr>
 </thead>

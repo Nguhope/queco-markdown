@@ -72,7 +72,7 @@ performances des agents et la qualité du service.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="images/image1.png"
+<th><p><img src="../images/image1.png"
 style="width:6.5in;height:3.02292in" /></p>
 <p><em>Figure 1.1 Vue d'ensemble de la plateforme Queco / écran de
 connexion</em></p></th>

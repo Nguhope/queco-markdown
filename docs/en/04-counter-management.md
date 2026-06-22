@@ -62,7 +62,7 @@ the super admin or anyone that has the role of managing a counter***
 
 |                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image12.png"                                                                                                 
+| <img src="../images/image12.png"                                                                                                 
  style="width:7.21057in;height:1.47986in" />*Figure 4.1 — Counter status grid on Manager Dashboard (color-coded Open / Closed)*  |
 
 ## 4.2 Creating a Counter
@@ -107,7 +107,7 @@ authorized to handle.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/image13.png"
+<td><p><img src="../images/image13.png"
 style="width:3.81882in;height:4.33699in" /></p>
 <p><em>Figure 4.2 — New Counter creation form with all
 fields</em></p></td>
@@ -174,7 +174,7 @@ agency in which the counter was created
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/image14.png"
+<td><p><img src="../images/image14.png"
 style="width:3.89583in;height:2.88717in" /></p>
 <p><em>Figure 4.3 — Counter profile edit view showing the Assigned User
 dropdown</em></p></td>

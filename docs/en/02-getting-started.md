@@ -83,7 +83,7 @@ Follow these steps every time you need to access Queco.
 
 > Passwords are Not case-sensitive. It must start with a capital Letter
 
-| <img src="images/image2.png"                                                                                     
+| <img src="../images/image2.png"                                                                                     
  style="width:3.01042in;height:3.98768in" />*Figure 2.2: Login form with username and password fields highlighted*  |
 |-------------------------------------------------------------------------------------------------------------------|
 
@@ -99,7 +99,7 @@ your Dashboard.
 > Manager, or Agent.** See Section 2.5 for a breakdown of each
 > dashboard.
 
-| <img src="images/image3.png"                                                                    
+| <img src="../images/image3.png"                                                                    
  style="width:5.44792in;height:2.85259in" />*Figure 2.3 — Successful login redirect to Dashboard*  |
 |--------------------------------------------------------------------------------------------------|
 
@@ -227,7 +227,7 @@ The Super Admin dashboard provides a global view of the entire platform.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="images/image4.png"
+<th><p><img src="../images/image4.png"
 style="width:6.5in;height:3.41319in" /></p>
 <p><em>Figure 2.6 Super Admin Dashboard</em></p></th>
 </tr>
@@ -367,7 +367,7 @@ actions.</td>
 The Manager dashboard is scoped to the agency or agencies the manager
 oversees.
 
-| <img src="images/image5.png" style="width:6.5in;height:3.34653in" />*Figure 2.7 — Manager Dashboard* |
+| <img src="../images/image5.png" style="width:6.5in;height:3.34653in" />*Figure 2.7 — Manager Dashboard* |
 |-------------------------------------------------------------------------------------------------------|
 
 <table>
@@ -485,7 +485,7 @@ to securely disconnect from the platform.</th>
 The Agent dashboard is focused and minimal it shows exactly what an
 agent needs to start working.
 
-| <img src="images/image6.png" style="width:6.5in;height:3.09375in" />*Figure 2.8: Agent Dashboard* |
+| <img src="../images/image6.png" style="width:6.5in;height:3.09375in" />*Figure 2.8: Agent Dashboard* |
 |----------------------------------------------------------------------------------------------------|
 
 | **Widget / Section**     | **What It Shows**                                                                                                                                                             |

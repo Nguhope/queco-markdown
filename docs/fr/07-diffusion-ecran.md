@@ -72,7 +72,7 @@ attendant que leur numéro de ticket soit appelé.
 
 |                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image25.png"                                                                                                                
+| <img src="../images/image25.png"                                                                                                                
  style="width:5.33333in;height:2.75442in" />*Figure 7.1 — Écran d'affichage orienté client dans une salle d'attente (exemple de mise en page)*  |
 
 |         |                                                                                                                                                                                                                                                                                                                     |
@@ -145,7 +145,7 @@ enregistrez.
 
 |                                                                                                        |
 |--------------------------------------------------------------------------------------------------------|
-| <img src="images/image26.png"                                                                         
+| <img src="../images/image26.png"                                                                         
  style="width:2.72917in;height:3.96388in" />*Figure 7.3 — Activating the screen on a user in an Agency*  |
 
 **Étape 4 :** Allez dans « Gestion des diffusions » dans la barre
@@ -159,7 +159,7 @@ champs.
 
 |                                                                    |
 |--------------------------------------------------------------------|
-| <img src="images/image27.png"                                     
+| <img src="../images/image27.png"                                     
  style="width:3.21875in;height:4.69792in" />*Figure 7.3 New Screen*  |
 
 |         |                                                                                                                                                |
@@ -202,7 +202,7 @@ depuis le tableau de bord de gestion des affichages.
 
 |                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image28.png" style="width:4.25in;height:2.07778in" />*Figure 7.5 — Liste des écrans avec indicateurs d'état du signal* |
+| <img src="../images/image28.png" style="width:4.25in;height:2.07778in" />*Figure 7.5 — Liste des écrans avec indicateurs d'état du signal* |
 
 |          |                                                                                                                                                                                                                                                                        |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Ajoutez-y des éléments médias à la Section 7.6
 
 |                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image29.png"                                                                                            
+| <img src="../images/image29.png"                                                                                            
  style="width:4.14583in;height:4.53249in" />*Figure 7.6 — Page de liste des playlists avec le bouton Ajouter une playlist*  |
 
 ### 7.5.2 Définir la playlist active d'un écran
@@ -311,7 +311,7 @@ Réorganisez-les si besoin.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/image30.png"
+<td><p><img src="../images/image30.png"
 style="width:3.30355in;height:3.92014in" /></p>
 <p><em>Figure 7.7 — Formulaire d'importation d'élément média dans une
 playlist</em></p></td>
@@ -359,7 +359,7 @@ fenêtres horaires récurrentes.
 
 |                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image31.png"                                                                                                                   
+| <img src="../images/image31.png"                                                                                                                   
  style="width:3.79104in;height:4.67708in" />*Figure 7.8 — Configuration de la planification d'un élément média avec les sélecteurs de date/heure*  |
 
 |          |                                                                                                                                                                                                                                                                         |

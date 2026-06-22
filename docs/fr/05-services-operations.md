@@ -140,11 +140,11 @@ du nouveau service.
 
 Vous pouvez également définir la couleur d'apparence de votre choix.
 
-| <img src="images/image15.png"                                                          
+| <img src="../images/image15.png"                                                          
  style="width:2.6875in;height:2.59609in" />*Figure 5.1 — Couleur d'apparence du service*  |
 |-----------------------------------------------------------------------------------------|
 
-| <img src="images/image16.png"                                                                        
+| <img src="../images/image16.png"                                                                        
  style="width:3.51042in;height:2.72824in" />*Figure 5.1 — Formulaire de création d'un nouveau service*  |
 |-------------------------------------------------------------------------------------------------------|
 
@@ -174,7 +174,7 @@ et cliquez sur le bouton « Détails » de la carte du service.
 **Étape 2 :** Créez une nouvelle opération en cliquant sur le bouton «
 +Ajouter » dans le coin supérieur droit et remplissez les champs requis.
 
-| <img src="images/image17.png"                                                                                                        
+| <img src="../images/image17.png"                                                                                                        
  style="width:6.05163in;height:3.15625in" />*Figure 5.2 Service Detail page showing the Operations section and 'Add Operation' button*  |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 
@@ -193,7 +193,7 @@ et cliquez sur le bouton « Détails » de la carte du service.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="images/image18.png"
+<th><p><img src="../images/image18.png"
 style="width:4.08333in;height:4.43477in" /></p>
 <p><em>Figure 5.2 Operation form field</em></p></th>
 </tr>
@@ -230,14 +230,14 @@ apparaîtra depuis la droite.
 **Étape 5 :** Dans la barre latérale, cliquez sur le bouton vert «
 Activer pour cette agence » qui deviendra ensuite rouge.
 
-| <img src="images/image19.png"                                                                                                  
+| <img src="../images/image19.png"                                                                                                  
  style="width:2.62296in;height:2.88542in" />*Figure 5.4 — Page de détail montrant comment activer un service avec son opération*  |
 |---------------------------------------------------------------------------------------------------------------------------------|
 
 **Étape 6 :** En haut, vous pouvez également activer l'opération dans ce
 service pour cette agence si vous le souhaitez.
 
-| <img src="images/image20.png" style="width:5.25in;height:2.78822in" />*Figure 5.4 Agency Services tab showing master catalogue with activated and deactivated service for an agency (ex. Mankon)* |
+| <img src="../images/image20.png" style="width:5.25in;height:2.78822in" />*Figure 5.4 Agency Services tab showing master catalogue with activated and deactivated service for an agency (ex. Mankon)* |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | **NOTE** | Si un service n'a pas d'opérations, ou si son opération est désactivée, activez d'abord le service puis activez l'opération ultérieurement. Et si un service n'a pas d'opération, vous pourrez en créer une plus tard. |

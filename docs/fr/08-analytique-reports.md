@@ -70,7 +70,7 @@ leur niveau d'autorité.
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **NOTE** | Le tableau de bord du Responsable est automatiquement limité à l'agence liée à son compte. Un Responsable ne peut pas consulter les données d'une autre agence. |
 
-| <img src="images/image32.png"                                                                                                                            
+| <img src="../images/image32.png"                                                                                                                            
  style="width:2.01042in;height:3.96565in" />*Figure 8.1 — Point d'entrée de l'Analytique dans la barre latérale et titre du tableau de bord selon le rôle*  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 
@@ -83,7 +83,7 @@ widgets, cartes, graphiques et tableaux de la page simultanément.
 Modifier la période met à jour toutes les données en une seule fois ; il
 n'est pas nécessaire d'actualiser les widgets individuellement.
 
-| <img src="images/image33.png"                                                                                  
+| <img src="../images/image33.png"                                                                                  
  style="width:6.06335in;height:1.06265in" />*Figure 8.2 — Sélecteur de Période avec toutes les options visibles*  |
 |-----------------------------------------------------------------------------------------------------------------|
 
@@ -120,7 +120,7 @@ tout moment.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><img src="images/image34.png"
+<th><p><img src="../images/image34.png"
 style="width:6.5in;height:3.47986in" /></p>
 <p><em>Figure 8.3 — Tableau de bord Analytique Super Admin (vue
 complète)</em></p></th>
@@ -158,7 +158,7 @@ approfondie de l'ensemble du réseau.
 | **Tickets Annules**    | Tickets annulés avant ou pendant le traitement.                                 |
 | **Agences actives**    | Nombre d'agences avec is_active = true. Met en contexte les chiffres de volume. |
 
-| <img src="images/image35.png" style="width:6.5in;height:0.88958in" />*Figure 8.4 — Panneau de performance réseau avec 6 cartes de performance* |
+| <img src="../images/image35.png" style="width:6.5in;height:0.88958in" />*Figure 8.4 — Panneau de performance réseau avec 6 cartes de performance* |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | **TIP** | Surveillez *En attente* et *En cours* ensemble. Beaucoup En attente + Peu En cours = les guichets sont peut-être fermés ou en sous-effectif. Les deux élevés = agence à capacité maximale — envisagez d'ouvrir des guichets supplémentaires. |
@@ -171,7 +171,7 @@ bord Super Admin. Il présente chaque agence classée par performance,
 offrant une vue immédiate des agences qui excellent et de celles qui
 nécessitent une attention particulière.
 
-| <img src="images/image36.png" style="width:6.5in;height:3.12083in" />*Figure 8.5 — Classement des agences avec indicateurs de médailles, barres de progression et détails par agence* |
+| <img src="../images/image36.png" style="width:6.5in;height:3.12083in" />*Figure 8.5 — Classement des agences avec indicateurs de médailles, barres de progression et détails par agence* |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### 8.4.1 logique de tri du classement 
@@ -231,7 +231,7 @@ largeur.
 
 |                                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image37.png" style="width:6.5in;height:3.38264in" />*Figure 8.6 — Tableau de bord Analytique Responsable (vue complète)* |
+| <img src="../images/image37.png" style="width:6.5in;height:3.38264in" />*Figure 8.6 — Tableau de bord Analytique Responsable (vue complète)* |
 
 ### 8.5.1 Carte 1 : Temps d'attente médian (jauge circulaire)
 
@@ -323,7 +323,7 @@ Comment lire le graphique en barres :
 
 |                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image38.jpg"                                                                                                                    
+| <img src="../images/image38.jpg"                                                                                                                    
  style="width:7.26806in;height:4.59097in" />*Figure 8.8 — Graphique en barres du Flux Clients (vue Responsable — détail horaire pour Aujourd'hui)*  |
 
 |         |                                                                                                                                                                                               |
@@ -352,7 +352,7 @@ Comment lire la répartition par service :
 
 |                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images/image39.png"                                                                                                                          
+| <img src="../images/image39.png"                                                                                                                          
  style="width:7.26806in;height:3.98194in" />*Figure 8.9 — Répartition par service affichant la distribution proportionnelle entre les types de services*  |
 
 |          |                                                                                                                                                                                                       |
